@@ -1,0 +1,35 @@
+name: Fetch closing prices
+
+on:
+  schedule:
+    - cron: "40 5 * * 1-5"   # 05:40 UTC on weekdays, before the 06:30 brief
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prices
+  cancel-in-progress: false
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch prices
+        run: |
+          python3 tools/prices.py > /tmp/prices.json
+          mv /tmp/prices.json data/prices.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/prices.json
+          if git diff --cached --quiet; then echo "No change"; exit 0; fi
+          git commit -m "Prices $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          exit 1

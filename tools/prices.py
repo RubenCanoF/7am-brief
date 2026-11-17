@@ -1,6 +1,8 @@
 """Fetch closing prices and 20-session history for every asset in The 7am Brief.
 
-Usage: python3 tools/prices.py > /tmp/prices.json
+Usage: python3 tools/prices.py > data/prices.json
+Runs every weekday at 05:40 UTC in GitHub Actions (.github/workflows/prices.yml), because
+the Claude cloud sandbox cannot reach this data source; the 06:30 routine reads data/prices.json.
 Source: Yahoo Finance chart data (the same data behind the live-quote links on the site).
 Only completed sessions are used: if a market is still trading, its in-progress bar is dropped.
 An asset that fails to load is left out of the output (the brief then omits it).
@@ -88,7 +90,11 @@ def main():
             out.append(item)
         except Exception as e:  # leave the asset out rather than guess
             print(f"skip {name}: {e}", file=sys.stderr)
-    json.dump(out, sys.stdout, ensure_ascii=False, indent=1)
+    if len(out) < 10:  # don't replace a good file with a mostly empty one
+        print(f"only {len(out)} assets loaded; refusing to write", file=sys.stderr)
+        sys.exit(1)
+    doc = {"generatedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "assets": out}
+    json.dump(doc, sys.stdout, ensure_ascii=False, indent=1)
     print()
 
 
