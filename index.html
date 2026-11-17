@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The 7am Brief</title>
+<meta name="description" content="A weekday morning brief on financial markets and geopolitics: today in 60 seconds, markets, stories at three depths, a story tracker and a quiz.">
+<meta name="theme-color" content="#FAF9F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="The 7am Brief">
+<meta property="og:description" content="Markets and geopolitics, every weekday at 06:30.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23161616'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%237A2E2E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+/* Swiss grid in house Oxblood: masthead · sticky price strip · numbered sections · hairline rules, no cards · mobile tab bar */
+:root{
+  --paper:#FAF9F7; --raised:#FFFFFF; --ink:#161616; --muted:#6B6762; --line:#E4E0DB; --line-strong:#161616;
+  --ox:#7A2E2E; --ox-soft:#F3E9E7; --camel:#8A7051; --camel-soft:#EFE8DF;
+  --up:#4D6B4A; --down:#9B3B33;
+  --f:"Inter Tight","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#141312; --raised:#1C1A19; --ink:#ECE8E3; --muted:#A39D96; --line:#2E2B29; --line-strong:#ECE8E3;
+  --ox:#C98078; --ox-soft:#2C1D1B; --camel:#C9AE8C; --camel-soft:#26211B;
+  --up:#93B78F; --down:#DB8A80; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#141312; --raised:#1C1A19; --ink:#ECE8E3; --muted:#A39D96; --line:#2E2B29; --line-strong:#ECE8E3;
+  --ox:#C98078; --ox-soft:#2C1D1B; --camel:#C9AE8C; --camel-soft:#26211B;
+  --up:#93B78F; --down:#DB8A80; color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{padding-top:env(safe-area-inset-top,0px)}
+.live{font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--ox);margin-left:4px}
+.live::before{content:"● "}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f);font-size:16px;line-height:1.55;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:20;background:var(--paper)}
+a{color:inherit}
+button,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ox);outline-offset:2px}
+h1,h2,h3{margin:0;font-weight:700;letter-spacing:-.025em;text-wrap:balance}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-size:11.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--camel)}
+.muted{color:var(--muted)}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
+.dot{color:var(--ox)}
+
+/* masthead */
+.mast{padding-block:28px 0}
+.mast-row{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;padding-bottom:12px;border-bottom:4px solid var(--line-strong)}
+.mast h1{font-size:clamp(38px,8vw,72px);line-height:.92;letter-spacing:-.045em}
+.mast-meta{text-align:right;font-size:13px;line-height:1.35}
+.mast-meta b{display:block;font-size:13px;font-weight:700;letter-spacing:.04em}
+@media (max-width:560px){
+  .mast-meta{text-align:left;width:100%;display:flex;gap:8px;align-items:baseline}
+  .mast-meta b{display:inline}
+  .ctrls label{display:none}
+}
+.mast-sub{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-block:10px;border-bottom:1px solid var(--line)}
+.ctrls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.seg{display:inline-flex;border:1px solid var(--line-strong)}
+.seg button{border:0;background:transparent;padding:5px 11px;font-size:13px;font-weight:500;cursor:pointer}
+.seg button+button{border-left:1px solid var(--line-strong)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+select{font-size:13px;padding:5px 8px;border:1px solid var(--line);background:var(--paper);border-radius:0}
+
+/* price strip */
+.strip{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--paper);border-bottom:1px solid var(--line)}
+.strip .rail{display:flex;gap:22px;overflow-x:auto;padding-block:9px;scrollbar-width:none;scroll-snap-type:x proximity}
+.strip .rail::-webkit-scrollbar{display:none}
+.tk{flex:0 0 auto;display:flex;gap:7px;align-items:baseline;font-size:13px;white-space:nowrap;text-decoration:none;scroll-snap-align:start}
+.tk span:first-child{font-weight:600}
+
+/* sections */
+section{padding-block:36px 8px;scroll-margin-top:48px}
+.sh{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:baseline;border-top:1px solid var(--line-strong);padding-top:10px;margin-bottom:18px}
+.sh .n{font-size:13px;font-weight:700;color:var(--ox)}
+.sh h2{font-size:22px}
+.sh p{margin:0;font-size:13px;color:var(--muted);text-align:right}
+@media (max-width:560px){.sh{grid-template-columns:auto 1fr}.sh p{grid-column:1/-1;text-align:left}}
+
+.sixty{list-style:none;margin:0;padding:0;display:grid;gap:14px;max-width:70ch}
+.sixty li{display:grid;grid-template-columns:34px 1fr;gap:6px;font-size:clamp(18px,2.2vw,21px);line-height:1.45;letter-spacing:-.01em}
+.sixty li b{font-size:15px;color:var(--ox);padding-top:4px}
+
+/* markets */
+.mk{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:8px 36px}
+.mg h3{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding-bottom:6px;border-bottom:2px solid var(--line-strong)}
+.row{display:grid;grid-template-columns:minmax(0,1fr) 64px auto;gap:2px 12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.row a{font-weight:600;text-decoration:none}
+.row a:hover{text-decoration:underline;text-decoration-color:var(--ox)}
+.row .val{text-align:right;font-weight:500}
+.row .chg{font-size:13px;font-weight:600}
+.row .note{grid-column:1/-1;font-size:13px;color:var(--muted);line-height:1.4}
+.row .mine{grid-column:1/-1;font-size:12px;font-weight:600;color:var(--ox)}
+.spark{width:64px;height:22px;display:block}
+.fine{font-size:12.5px;color:var(--muted);margin-top:12px}
+
+/* layout */
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:48px;align-items:start}
+@media (max-width:900px){.cols{grid-template-columns:minmax(0,1fr);gap:8px}}
+
+/* stories */
+.story{border-bottom:1px solid var(--line);padding-block:18px}
+.story:first-child{padding-top:4px}
+.st-head{display:grid;grid-template-columns:40px minmax(0,1fr);gap:8px;cursor:pointer;background:none;border:0;padding:0;text-align:left;width:100%}
+.st-n{font-size:26px;font-weight:700;color:var(--ox);line-height:1;letter-spacing:-.03em}
+.st-k{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.yours{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ox)}
+.yours::before{content:"■ "}
+.st-t{font-size:clamp(20px,2.6vw,26px);font-weight:700;line-height:1.14;letter-spacing:-.025em;margin-top:4px}
+.st-toggle{font-size:13px;font-weight:600;color:var(--muted);margin-top:8px;display:inline-flex;gap:6px;align-items:center}
+.st-toggle::after{content:"+";font-size:16px;line-height:1}
+.story.open .st-toggle::after{content:"−"}
+.st-body{padding-left:48px;display:grid;gap:14px;margin-top:14px}
+@media (max-width:560px){.st-body{padding-left:0}}
+.chain{list-style:none;margin:0;padding:0;display:grid;gap:0;border-left:2px solid var(--ox);counter-reset:c}
+.chain li{padding:4px 0 4px 14px;font-size:14px;line-height:1.4;position:relative}
+.chain li:last-child{font-weight:700}
+.chain li::before{content:"";position:absolute;left:-6px;top:11px;width:10px;height:2px;background:var(--ox)}
+.depthrow{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.body{margin:0;max-width:68ch;font-size:16.5px;line-height:1.62}
+.tags{display:flex;gap:6px 14px;flex-wrap:wrap;font-size:13px;font-weight:500}
+.tag::before{content:"● ";font-size:10px;vertical-align:1px}
+.tag.ft::before,.tag.port::before{color:var(--ox)} .tag.eu::before{color:var(--camel)}
+.disc{margin:0;font-size:13px;font-style:italic;color:var(--muted);border-left:2px solid var(--camel);padding-left:10px}
+.src{font-size:12.5px;color:var(--muted);display:flex;gap:4px 12px;flex-wrap:wrap}
+.src a{color:var(--muted)}
+
+/* side column */
+.side{display:grid;gap:0}
+.blk{border-top:2px solid var(--line-strong);padding-block:12px 26px;display:grid;gap:8px}
+.big{font-size:64px;font-weight:700;line-height:.95;letter-spacing:-.05em;color:var(--ox)}
+.blk p{margin:0;font-size:14.5px;line-height:1.5}
+.term{font-size:22px;font-weight:700;letter-spacing:-.02em}
+.intoday{background:var(--camel-soft);padding:9px 11px;font-size:14px}
+.meter{position:relative;height:24px;margin-top:4px}
+.meter .track{position:absolute;left:0;right:0;top:11px;height:2px;background:var(--line-strong)}
+.meter .tick{position:absolute;top:6px;width:1px;height:12px;background:var(--muted)}
+.meter .needle{position:absolute;top:0;width:3px;height:24px;background:var(--ox);transform:translateX(-50%)}
+.ends{display:flex;justify-content:space-between;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.ev{margin:0;padding-left:16px;font-size:13.5px;line-height:1.45;display:grid;gap:3px}
+.evh{font-size:12px;font-weight:700;margin-top:4px}
+.cal .cd{display:grid;grid-template-columns:56px 1fr;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+.cal .cd:first-child{border-top:0}
+.cal .d{font-size:13px;font-weight:700}
+.cal .cd.today .d{color:var(--ox)}
+.ci{font-size:14px;line-height:1.35;margin-bottom:6px}
+.ci b{font-weight:600}
+.ci span{display:block;font-size:12.5px;color:var(--muted)}
+
+/* tracker */
+.threads{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:8px 32px}
+.th{border-top:2px solid var(--line-strong);padding-top:10px;min-width:0}
+.th-h{display:flex;justify-content:space-between;gap:8px;align-items:baseline;margin-bottom:12px}
+.th-h h3{font-size:17px}
+.status{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+.status.hot{color:var(--ox)}
+.tl{list-style:none;margin:0;padding:0 0 0 14px;border-left:1px solid var(--line);display:grid;gap:10px}
+.tl li{position:relative;font-size:14px;line-height:1.4}
+.tl li::before{content:"";position:absolute;left:-18px;top:6px;width:7px;height:7px;background:var(--paper);border:1px solid var(--muted)}
+.tl li.today::before{background:var(--ox);border-color:var(--ox)}
+.tl li.next{color:var(--muted)}
+.tl .td{display:block;font-size:12px;font-weight:600;color:var(--muted)}
+.tl li.today .td{color:var(--ox)}
+
+/* practice */
+.prac{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:48px;align-items:start}
+@media (max-width:900px){.prac{grid-template-columns:minmax(0,1fr);gap:8px}}
+.q{display:grid;gap:8px;padding-block:14px;border-top:1px solid var(--line)}
+.q:first-of-type{border-top:0;padding-top:0}
+.qt{font-weight:600;font-size:16px;line-height:1.4}
+.from{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--camel)}
+.opts{display:grid;gap:6px}
+.opt{text-align:left;border:1px solid var(--line);background:var(--raised);padding:9px 12px;cursor:pointer;font-size:14.5px}
+.opt:hover:not(:disabled){border-color:var(--line-strong)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--up);color:var(--up);font-weight:600}
+.opt.right::after{content:"  ✓"}
+.opt.wrong{border-color:var(--down);color:var(--down)}
+.why{font-size:14px;color:var(--muted);line-height:1.45}
+.score{font-size:13px;color:var(--muted)}
+.callbtns{display:flex;gap:0}
+.callbtns button{flex:1;padding:10px;border:1px solid var(--line-strong);background:transparent;cursor:pointer;font-weight:600}
+.callbtns button+button{border-left:0}
+.callbtns button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.coffee{font-size:19px;line-height:1.5;margin:0;font-style:italic;letter-spacing:-.01em}
+.copy{justify-self:start;border:1px solid var(--line-strong);background:transparent;padding:6px 12px;cursor:pointer;font-size:13px;font-weight:600}
+
+footer{margin-top:40px;border-top:4px solid var(--line-strong);padding-block:14px 40px}
+footer ul{list-style:none;padding:0;margin:8px 0 14px;display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px}
+footer p{font-size:12.5px;color:var(--muted);max-width:80ch;margin:0}
+
+/* mobile tab bar */
+.tabs{display:none}
+@media (max-width:900px){
+  body{padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+  .tabs{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:15;background:var(--paper);border-top:1px solid var(--line-strong);padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+  .tabs button{border:0;background:none;padding:10px 2px 12px;font-size:12px;font-weight:600;cursor:pointer;color:var(--muted);border-top:2px solid transparent;margin-top:-1px}
+  .tabs button.on{color:var(--ink);border-top-color:var(--ox)}
+}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+
+<header class="wrap mast">
+  <div class="mast-row">
+    <h1>The 7am Brief<span class="dot">.</span></h1>
+    <div class="mast-meta"><b id="edNo">No. 001</b><span id="edDate"></span></div>
+  </div>
+  <div class="mast-sub">
+    <span class="eyebrow">Markets and geopolitics, every weekday</span>
+    <div class="ctrls">
+      <div class="seg" role="group" aria-label="Reading depth" id="globalDepth">
+        <button type="button" data-d="simple">Simple</button>
+        <button type="button" data-d="standard">Standard</button>
+        <button type="button" data-d="pro">Pro</button>
+      </div>
+      <label class="eyebrow" for="archive" style="color:var(--muted)">Edition</label>
+      <select id="archive"></select>
+    </div>
+  </div>
+</header>
+<div class="strip"><div class="wrap"><div class="rail" id="strip"></div></div></div>
+
+<main id="app"></main>
+
+<nav class="tabs" aria-label="Sections">
+  <button type="button" data-go="today">Today</button>
+  <button type="button" data-go="markets">Markets</button>
+  <button type="button" data-go="stories">Stories</button>
+  <button type="button" data-go="tracker">Tracker</button>
+  <button type="button" data-go="practice">Quiz</button>
+</nav>
+
+<script>
+let DAYS = [];
+
+const START = "2026-11-16";
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem("fb."+k); return v===null? d : JSON.parse(v);}catch(e){ return d; } },
+  set(k, v){ try{ localStorage.setItem("fb."+k, JSON.stringify(v)); }catch(e){} }
+};
+function el(tag, attrs, ...kids){
+  const n = document.createElement(tag);
+  if(attrs) for(const [k,v] of Object.entries(attrs)){
+    if(v==null || v===false) continue;
+    if(k==="class") n.className=v; else if(k==="text") n.textContent=v;
+    else if(k.startsWith("on")) n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v===true? "": v);
+  }
+  for(const c of kids.flat()){ if(c==null||c===false) continue; n.append(c.nodeType? c : document.createTextNode(c)); }
+  return n;
+}
+const SVGNS="http://www.w3.org/2000/svg";
+function pct(v){ return (v>0?"+":v<0?"−":"")+Math.abs(v).toFixed(Math.abs(v)<1?2:1)+"%"; }
+function cls(v){ return v>0?"up":v<0?"down":"flat"; }
+function num(s){ const m=String(s).replace(/,/g,"").match(/-?\d+(\.\d+)?/); return m? parseFloat(m[0]) : null; }
+function editionNo(date){
+  const a=new Date(START+"T12:00:00Z"), b=new Date(date+"T12:00:00Z"); let n=0;
+  for(let d=new Date(a); d<=b; d.setUTCDate(d.getUTCDate()+1)){ const w=d.getUTCDay(); if(w!==0&&w!==6) n++; }
+  return Math.max(n,1);
+}
+function changeOf(it){
+  if(typeof it.chg==="number") return {t:pct(it.chg), c:cls(it.chg)};
+  if(it.chgText) return {t:it.chgText, c:it.dir>0?"up":it.dir<0?"down":"flat"};
+  return {t:"n/a", c:"flat"};
+}
+function trend(name, fromIdx){
+  const pts=[];
+  for(let k=Math.min(DAYS.length-1, fromIdx+19); k>=fromIdx; k--){
+    for(const g of DAYS[k].markets||[]) for(const it of g.items) if(it.name===name){ const v=num(it.value); if(v!=null) pts.push(v); }
+  }
+  return pts;
+}
+function spark(pts){
+  const s=document.createElementNS(SVGNS,"svg"); s.setAttribute("viewBox","0 0 64 22"); s.setAttribute("class","spark"); s.setAttribute("aria-hidden","true");
+  if(pts.length<2){
+    const l=document.createElementNS(SVGNS,"line"); l.setAttribute("x1","2"); l.setAttribute("x2","62"); l.setAttribute("y1","11"); l.setAttribute("y2","11");
+    l.setAttribute("stroke","var(--line)"); l.setAttribute("stroke-width","1"); l.setAttribute("stroke-dasharray","2 3"); s.append(l); return s;
+  }
+  const mn=Math.min(...pts), mx=Math.max(...pts), r=(mx-mn)||1;
+  const xy=pts.map((v,i)=>[2+i*(60/(pts.length-1)), 19-((v-mn)/r)*16]);
+  const p=document.createElementNS(SVGNS,"polyline"); p.setAttribute("points", xy.map(a=>a.map(n=>n.toFixed(1)).join(",")).join(" "));
+  const col = pts[pts.length-1]>=pts[0]? "var(--up)":"var(--down)";
+  p.setAttribute("fill","none"); p.setAttribute("stroke",col); p.setAttribute("stroke-width","1.5"); p.setAttribute("stroke-linejoin","round");
+  const c=document.createElementNS(SVGNS,"circle"); const e=xy[xy.length-1]; c.setAttribute("cx",e[0].toFixed(1)); c.setAttribute("cy",e[1].toFixed(1)); c.setAttribute("r","2"); c.setAttribute("fill",col);
+  s.append(p,c); return s;
+}
+
+let globalDepth = store.get("depth","standard");
+const cardDepth = {}, openCards = {};
+
+function dayIndexFromHash(){
+  const m = location.hash.match(/^#d-(\d{4}-\d{2}-\d{2})$/);
+  if(m){ const i = DAYS.findIndex(d=>d.date===m[1]); if(i>=0) return i; }
+  return 0;
+}
+function sec(id, n, title, note, ...body){
+  return el("section",{class:"wrap", id},
+    el("div",{class:"sh"}, el("span",{class:"n", text:n}), el("h2",{text:title}), note? el("p",{text:note}):null),
+    ...body);
+}
+
+function render(){
+  const i = dayIndexFromHash();
+  const D = DAYS[i];
+  const app = document.getElementById("app");
+  app.replaceChildren();
+  const strip = document.getElementById("strip"); strip.replaceChildren();
+  if(!D){ app.append(el("div",{class:"wrap"}, el("p",{text:"No edition yet. The first brief appears at 06:30 on the next weekday."}))); return; }
+
+  document.getElementById("edNo").textContent = "No. "+String(editionNo(D.date)).padStart(3,"0");
+  document.getElementById("edDate").textContent = D.dateLabel;
+  document.querySelectorAll("#globalDepth button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.d===globalDepth)));
+
+  // price strip
+  D.markets.forEach(g=>g.items.forEach(it=>{
+    const ch=changeOf(it);
+    strip.append(el("a",{class:"tk", "data-n":it.name, href:"https://finance.yahoo.com/quote/"+it.sym, target:"_blank", rel:"noopener"},
+      el("span",{text:it.name}), el("span",{text:it.value}), el("span",{class:ch.c, text:ch.t})));
+  }));
+
+  // 01 today
+  app.append(sec("today","01","Today in 60 seconds", D.readMins+" min read · "+D.asOf,
+    el("ol",{class:"sixty"}, D.sixty.map((s,k)=>el("li",{}, el("b",{text:String(k+1).padStart(2,"0")}), el("span",{text:s}))))));
+
+  // 02 markets
+  app.append(sec("markets","02","Markets","Tap a name for its live quote",
+    el("div",{class:"mk"}, D.markets.map(g=>el("div",{class:"mg"}, el("h3",{text:g.group}),
+      g.items.map(it=>{ const ch=changeOf(it);
+        return el("div",{class:"row", "data-n":it.name},
+          el("a",{href:"https://finance.yahoo.com/quote/"+it.sym, target:"_blank", rel:"noopener", text:it.name}),
+          spark(trend(it.name, i)),
+          el("div",{class:"val"}, it.value, " ", el("span",{class:"chg "+ch.c, text:ch.t}), typeof it.wk==="number"? el("span",{class:"muted", style:"font-size:12px", text:" · wk "+pct(it.wk)}):null),
+          el("div",{class:"note", text:it.note}),
+          it.mine? el("div",{class:"mine", text:"■ "+it.mine}):null);
+      })))),
+    el("p",{class:"fine", text:"Bitcoin updates live while the page is open (marked LIVE). Other prices are the 06:30 snapshot. Trend lines show the value across recent editions. \"n/a\" means sources disagreed on the daily change."})
+  ));
+
+  // 03 stories + side
+  const stories = el("div",{}, D.stories.map((s,k)=>storyEl(s,k)));
+  const side = el("aside",{class:"side"},
+    el("div",{class:"blk"}, el("span",{class:"eyebrow", text:"Number of the day"}), el("div",{class:"big", text:D.number.value}), el("p",{}, el("b",{text:D.number.label})), el("p",{class:"muted", text:D.number.context})),
+    el("div",{class:"blk"}, el("span",{class:"eyebrow", text:"Word of the day"}), el("div",{class:"term", text:D.word.term}), el("p",{text:D.word.def}), el("p",{class:"intoday"}, el("b",{text:"In today's news: "}), D.word.inToday)),
+    meterEl(D.meter),
+    el("div",{class:"blk"}, el("span",{class:"eyebrow", text:"Coming up"}),
+      el("div",{class:"cal"}, D.calendar.map(c=>el("div",{class:"cd"+(c.date===D.date?" today":"")}, el("div",{class:"d", text:c.day}),
+        el("div",{}, c.items.map(x=>el("div",{class:"ci"}, el("b",{text:x.what}), el("span",{text:x.why}))))))))
+  );
+  app.append(sec("stories","03","The stories","Tap a story to read it",
+    el("div",{class:"cols"}, stories, side)));
+
+  // 04 tracker
+  app.append(sec("tracker","04","Story tracker","How each saga got here, and what's next",
+    el("div",{class:"threads"}, D.threads.map(t=>el("div",{class:"th"},
+      el("div",{class:"th-h"}, el("h3",{text:t.name}), el("span",{class:"status"+(/escalat/i.test(t.status)?" hot":""), text:t.status})),
+      el("ol",{class:"tl"}, t.events.map(e=>el("li",{class:e.today?"today":e.next?"next":null}, el("span",{class:"td", text:e.d}), e.t))))))));
+
+  // 05 practice
+  app.append(sec("practice","05","Make it stick","Answer from memory: that's what makes it stay",
+    el("div",{class:"prac"}, quizEl(D,i),
+      el("div",{class:"side"}, callEl(D),
+        el("div",{class:"blk"}, el("span",{class:"eyebrow", text:"Say it in one line"}), el("p",{class:"coffee", text:"“"+D.coffee+"”"}), copyBtn(D.coffee))))));
+
+  app.append(el("footer",{class:"wrap"},
+    el("span",{class:"eyebrow", text:"Sources"}),
+    el("ul",{}, D.sources.map(s=>el("li",{}, el("a",{href:s.u, target:"_blank", rel:"noopener", text:s.l})))),
+    el("p",{text:"The 7am Brief is written by Claude, an AI model made by Anthropic, from public reporting every weekday at 06:30. Figures from different providers can differ slightly. A news brief, not investment advice."})));
+}
+
+function storyEl(s,k){
+  const names={simple:"Simple",standard:"Standard",pro:"Pro"};
+  const depth=()=>cardDepth[s.id]||globalDepth;
+  const isOpen = s.id in openCards ? openCards[s.id] : k===0;
+  const yours = (s.tags||[]).some(t=>t.k==="ft"||t.k==="port");
+  const art = el("article",{class:"story"+(isOpen?" open":""), id:"s-"+s.id});
+  const bodyText = el("p",{class:"body"});
+  const seg = el("div",{class:"seg", role:"group", "aria-label":"Depth for this story"});
+  const paint=()=>{ const d=depth(); bodyText.textContent=s.depth[d]; seg.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.d===d))); };
+  ["simple","standard","pro"].forEach(d=>seg.append(el("button",{type:"button","data-d":d,text:names[d],onclick:()=>{cardDepth[s.id]=d;paint();}})));
+  const body = el("div",{class:"st-body", id:"b-"+s.id},
+    el("ol",{class:"chain","aria-label":"Cause and effect"}, s.chain.map(c=>el("li",{text:c}))),
+    el("div",{class:"depthrow"}, el("span",{class:"eyebrow", style:"color:var(--muted)", text:"Reading depth"}), seg),
+    bodyText,
+    s.disclosure? el("p",{class:"disc", text:s.disclosure}):null,
+    s.tags&&s.tags.length? el("div",{class:"tags"}, s.tags.map(t=>el("span",{class:"tag "+t.k, text:t.t}))):null,
+    el("div",{class:"src"}, el("span",{text:"Sources:"}), s.sources.map(x=>el("a",{href:x.u,target:"_blank",rel:"noopener",text:x.l}))));
+  body.hidden = !isOpen;
+  const head = el("button",{type:"button", class:"st-head", "aria-expanded":String(isOpen), "aria-controls":"b-"+s.id, onclick:()=>{
+      const o=body.hidden; body.hidden=!o; openCards[s.id]=o; art.classList.toggle("open",o); head.setAttribute("aria-expanded",String(o)); }},
+    el("span",{class:"st-n", text:String(k+1).padStart(2,"0")}),
+    el("span",{}, el("span",{class:"st-k"}, el("span",{class:"eyebrow", text:s.kicker}), yours? el("span",{class:"yours", text:"Yours"}):null),
+      el("span",{class:"st-t", style:"display:block", text:s.title}),
+      el("span",{class:"st-toggle", text:"Read"})));
+  paint();
+  art.append(head, body);
+  return art;
+}
+
+function meterEl(m){
+  const v=Math.max(2,Math.min(98,m.value));
+  return el("div",{class:"blk"},
+    el("span",{class:"eyebrow", text:"AI bubble meter"}),
+    el("div",{class:"term", text:m.label}),
+    el("div",{class:"meter", role:"img", "aria-label":`AI bubble meter at ${m.value} out of 100, where 100 is fully deflating`},
+      el("div",{class:"track"}), [0,25,50,75,100].map(x=>el("div",{class:"tick", style:`left:${x}%`})), el("div",{class:"needle", style:`left:${v}%`})),
+    el("div",{class:"ends"}, el("span",{text:"Inflating"}), el("span",{text:"Deflating"})),
+    el("p",{text:m.summary}),
+    el("div",{class:"evh down", text:"Air coming out"}), el("ul",{class:"ev"}, m.deflating.map(x=>el("li",{text:x}))),
+    el("div",{class:"evh up", text:"Still inflating"}), el("ul",{class:"ev"}, m.inflating.map(x=>el("li",{text:x}))));
+}
+
+function quizEl(D,i){
+  const qs = D.quiz.map((q,k)=>({q, key:D.date+"#"+k, from:null}));
+  [[3,"From 3 briefs ago"],[7,"From 7 briefs ago"]].forEach(([back,lab])=>{
+    const old=DAYS[i+back]; if(old&&old.quiz&&old.quiz.length){ const k=(i+back)%old.quiz.length; qs.push({q:old.quiz[k], key:old.date+"#"+k+"@r"+D.date, from:lab}); }
+  });
+  const scoreEl = el("span",{class:"score"});
+  const upd=()=>{ const a=store.get("quiz",{}); let done=0,right=0; qs.forEach(x=>{ if(x.key in a){done++; if(a[x.key]===x.q.a) right++;} }); scoreEl.textContent=`${right}/${done} correct · ${qs.length-done} left`; };
+  const box = el("div",{class:"blk"}, el("div",{style:"display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap"}, el("span",{class:"eyebrow", text:"Quick quiz"}), scoreEl));
+  const answers = store.get("quiz",{});
+  qs.forEach(x=>{
+    const why=el("div",{class:"why"});
+    const btns=x.q.o.map((o,j)=>el("button",{type:"button",class:"opt",text:o,onclick:()=>{const a=store.get("quiz",{}); a[x.key]=j; store.set("quiz",a); show(j); upd();}}));
+    function show(p){ btns.forEach((b,j)=>{ b.disabled=true; if(j===x.q.a) b.classList.add("right"); else if(j===p) b.classList.add("wrong"); }); why.textContent=x.q.why; }
+    box.append(el("div",{class:"q"}, x.from? el("div",{class:"from",text:x.from}):null, el("div",{class:"qt",text:x.q.q}), el("div",{class:"opts"},btns), why));
+    if(x.key in answers) show(answers[x.key]);
+  });
+  if(qs.length===D.quiz.length) box.append(el("p",{class:"why", text:"From the fourth edition on, questions from earlier briefs come back here so they stick."}));
+  upd(); return box;
+}
+
+function callEl(D){
+  const c=D.call, picks=store.get("calls",{}), resolved={};
+  DAYS.forEach(d=>(d.resolutions||[]).forEach(r=>resolved[r.id]=r));
+  let hits=0,total=0; Object.entries(picks).forEach(([id,p])=>{ if(resolved[id]){ total++; if(resolved[id].answer===p) hits++; } });
+  const box=el("div",{class:"blk"}, el("span",{class:"eyebrow", text:"Make a call"}));
+  (D.resolutions||[]).forEach(r=>{ const p=picks[r.id];
+    box.append(el("p",{class:"intoday"}, el("b",{text:"Result: "}), `${r.question||""} Answer: ${r.answer}. `, p?(p===r.answer?"You called it. ":`You said ${p}. `):"", r.note||"")); });
+  if(c){
+    const wrapB=el("div",{class:"callbtns"}), status=el("p",{class:"score"});
+    const paint=()=>{ const p=store.get("calls",{})[c.id]; wrapB.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.v===p))); status.textContent=p?`Locked in: ${p}. Scored in ${c.resolvesLabel}.`:`Pick one. Scored in ${c.resolvesLabel}.`; };
+    c.options.forEach(o=>wrapB.append(el("button",{type:"button","data-v":o,text:o,onclick:()=>{const a=store.get("calls",{}); a[c.id]=o; store.set("calls",a); paint();}})));
+    box.append(el("p",{style:"font-weight:600", text:c.question}), wrapB, status); paint();
+  }
+  box.append(el("p",{class:"score", text: total?`Your record: ${hits}/${total} calls right`:"Your record starts with the first scored call."}));
+  return box;
+}
+
+function copyBtn(text){
+  const b=el("button",{type:"button",class:"copy",text:"Copy line"});
+  b.addEventListener("click",()=>{ const done=()=>{b.textContent="Copied";setTimeout(()=>b.textContent="Copy line",1500);};
+    try{ navigator.clipboard.writeText(text).then(done).catch(()=>{b.textContent="Select the text to copy";}); }catch(e){ b.textContent="Select the text to copy"; } });
+  return b;
+}
+
+// live prices (only on the latest edition)
+const LIVE = [
+  {name:"Bitcoin", url:"https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true",
+   read:j=>({v:"$"+Math.round(j.bitcoin.usd).toLocaleString("en-US"), c:j.bitcoin.usd_24h_change})}
+];
+async function refreshLive(){
+  if(dayIndexFromHash()!==0) return;
+  for(const L of LIVE){
+    try{
+      const r = await fetch(L.url, {cache:"no-store"}); if(!r.ok) continue;
+      const {v,c} = L.read(await r.json());
+      const t = typeof c==="number"? pct(c) : "n/a", k = typeof c==="number"? cls(c) : "flat";
+      document.querySelectorAll(`[data-n="${L.name}"]`).forEach(n=>{
+        if(n.classList.contains("tk")){ n.replaceChildren(el("span",{text:L.name}), el("span",{text:v}), el("span",{class:k, text:t}), el("span",{class:"live", text:"LIVE"})); }
+        else { const val=n.querySelector(".val"); if(val) val.replaceChildren(v," ", el("span",{class:"chg "+k, text:t+" 24h"}), el("span",{class:"live", text:"LIVE"})); }
+      });
+    }catch(e){ /* keep the morning snapshot */ }
+  }
+}
+
+// controls
+const sel=document.getElementById("archive");
+const tabs=[...document.querySelectorAll(".tabs button")];
+function markTab(){ let cur="today"; for(const b of tabs){ const t=document.getElementById(b.dataset.go); if(t && t.getBoundingClientRect().top < window.innerHeight*0.35) cur=b.dataset.go; } tabs.forEach(b=>b.classList.toggle("on", b.dataset.go===cur)); }
+function show(){ render(); markTab(); refreshLive(); }
+document.querySelectorAll("#globalDepth button").forEach(b=>b.addEventListener("click",()=>{
+  globalDepth=b.dataset.d; store.set("depth",globalDepth); for(const k in cardDepth) delete cardDepth[k]; show();
+}));
+sel.addEventListener("change",()=>{ if(sel.selectedIndex===0){ history.replaceState(null,"",location.pathname+location.search); show(); } else location.hash="d-"+sel.value; window.scrollTo(0,0); });
+window.addEventListener("hashchange",()=>{ sel.selectedIndex=dayIndexFromHash(); show(); });
+tabs.forEach(b=>b.addEventListener("click",()=>{ const t=document.getElementById(b.dataset.go); if(t) t.scrollIntoView({block:"start"}); }));
+window.addEventListener("scroll", markTab, {passive:true});
+
+document.getElementById("app").append(el("div",{class:"wrap", style:"padding-block:40px"}, el("p",{class:"muted", text:"Loading today's edition…"})));
+fetch("data/days.json", {cache:"no-store"})
+  .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d=>{
+    DAYS = d;
+    DAYS.forEach((x,k)=>sel.append(el("option",{value:x.date, text:(k===0?"Latest · ":"")+x.dateLabel.replace(/ \d{4}$/,"")})));
+    sel.selectedIndex = dayIndexFromHash();
+    show();
+    setInterval(refreshLive, 60000);
+  })
+  .catch(()=>{ document.getElementById("app").replaceChildren(el("div",{class:"wrap", style:"padding-block:40px"}, el("p",{text:"Today's edition couldn't load. Check your connection and refresh the page."}))); });
+</script>
+</body>
+</html>

@@ -1,0 +1,1287 @@
+[
+ {
+  "date": "2026-11-17",
+  "dateLabel": "Tuesday 17 November 2026",
+  "readMins": 6,
+  "asOf": "US & Europe: Monday 16 Nov close · Asia: Tuesday 17 Nov morning (intraday) · Brent/WTI: Monday settlement · Rates, FX, gold, Bitcoin: Tuesday morning levels",
+  "sixty": [
+   "Wall Street had its worst day in weeks: the Nasdaq fell 2.5% and the S&P 500 1.9% as Nvidia's leadership crisis and new US limits on AI-chip exports hit tech stocks.",
+   "Asia fell again this morning, the US 10-year yield sits near 5.1%, and a December Fed hike is seen as close to certain, while oil dropped 3.6% as Gulf shipping flows recovered.",
+   "Tonight Nvidia reports its first results without Jensen Huang, and Anthropic prices its record IPO tomorrow, with reports of an order book about six times the shares on offer."
+  ],
+  "markets": [
+   {
+    "group": "United States",
+    "items": [
+     {
+      "name": "S&P 500",
+      "sym": "%5EGSPC",
+      "value": "7,416.59",
+      "chg": -1.92,
+      "note": "Tech-led selloff; third losing day in a row"
+     },
+     {
+      "name": "Nasdaq Composite",
+      "sym": "%5EIXIC",
+      "value": "24,509.76",
+      "chg": -2.49,
+      "note": "Nvidia and chip stocks fell on leadership turmoil and new export curbs"
+     },
+     {
+      "name": "Dow Jones",
+      "sym": "%5EDJI",
+      "value": "51,608.17",
+      "chg": -1.41,
+      "note": "Dragged down too; the VIX fear gauge jumped about 19%"
+     }
+    ]
+   },
+   {
+    "group": "Europe",
+    "items": [
+     {
+      "name": "Stoxx Europe 600",
+      "sym": "%5ESTOXX",
+      "value": "662.31",
+      "chg": -0.28,
+      "note": "Ended a five-day winning run before Nvidia's results; lower oil and yields limited the fall"
+     },
+     {
+      "name": "IBEX 35",
+      "sym": "%5EIBEX",
+      "value": "n/a",
+      "chg": null,
+      "note": "We could not confirm Monday's close; the figures found matched Friday's"
+     },
+     {
+      "name": "DAX",
+      "sym": "%5EGDAXI",
+      "value": "n/a",
+      "chg": null,
+      "note": "Sources disagree: −0.06% to −0.57%"
+     },
+     {
+      "name": "Euro Stoxx 50",
+      "sym": "%5ESTOXX50E",
+      "value": "n/a",
+      "chg": null,
+      "note": "No reliable Monday close found"
+     }
+    ]
+   },
+   {
+    "group": "Asia · this morning",
+    "items": [
+     {
+      "name": "Nikkei 225",
+      "sym": "%5EN225",
+      "value": "≈59,000",
+      "chg": null,
+      "note": "Down about 1% in early trade; intraday readings differ (−0.9% to −1.2%)"
+     },
+     {
+      "name": "Kospi",
+      "sym": "%5EKS11",
+      "value": "≈5,000",
+      "chg": null,
+      "note": "Down roughly 1–2% in early trade; chipmakers weak, sources differ"
+     },
+     {
+      "name": "Hang Seng",
+      "sym": "%5EHSI",
+      "value": "n/a",
+      "chg": null,
+      "note": "Down about 0.8% in early trade; no reliable level found"
+     }
+    ]
+   },
+   {
+    "group": "Rates & currencies",
+    "items": [
+     {
+      "name": "US 10-year yield",
+      "sym": "%5ETNX",
+      "value": "≈5.13%",
+      "chg": null,
+      "note": "Sources show 5.12–5.14%; a December hike is seen as near-certain"
+     },
+     {
+      "name": "EUR/USD",
+      "sym": "EURUSD%3DX",
+      "value": "≈1.10",
+      "chg": null,
+      "note": "Sources show about 1.10; euro slipped just below it"
+     },
+     {
+      "name": "Dollar index",
+      "sym": "DX-Y.NYB",
+      "value": "≈103.5",
+      "chg": null,
+      "note": "Sources show 103.5–103.6, near its recent highs"
+     }
+    ]
+   },
+   {
+    "group": "Commodities & crypto",
+    "items": [
+     {
+      "name": "Brent crude",
+      "sym": "BZ%3DF",
+      "value": "$92.44",
+      "chg": -3.6,
+      "note": "Hormuz flows recovering and the IEA sees a surplus in Q4"
+     },
+     {
+      "name": "WTI crude",
+      "sym": "CL%3DF",
+      "value": "$85.72",
+      "chg": -3.2,
+      "note": "Same drivers as Brent"
+     },
+     {
+      "name": "Gold",
+      "sym": "GC%3DF",
+      "value": "≈$3,855",
+      "chg": null,
+      "note": "Near $3,850 on Tuesday; yields above 5% and a firm dollar weigh on it"
+     },
+     {
+      "name": "Bitcoin",
+      "sym": "BTC-USD",
+      "value": "≈$64,850",
+      "chg": null,
+      "note": "Near three-month lows with tech; quotes differ by exchange"
+     }
+    ]
+   }
+  ],
+  "stories": [
+   {
+    "id": "selloff",
+    "kicker": "US markets",
+    "title": "Nasdaq drops 2.5% as Nvidia turmoil and chip curbs hit tech",
+    "chain": [
+     "Nvidia leaderless, new US chip-export rules",
+     "Nvidia −4.1%, chip stocks sold",
+     "Nasdaq −2.5%, S&P 500 −1.9%, VIX +19%",
+     "Tonight's Nvidia earnings carry even more weight"
+    ],
+    "depth": {
+     "simple": "US stocks had a bad Monday, with the Nasdaq (heavy in tech) down 2.5%. Investors are nervous about Nvidia, the chipmaker at the centre of the AI boom. It lost its founder-CEO last week and Washington added new limits on selling advanced chips abroad. Nvidia reports its results tonight, so many investors sold first and waited for answers.",
+     "standard": "The S&P 500 closed at 7,416.59 (−1.92%), the Nasdaq at 24,509.76 (−2.49%) and the Dow at 51,608.17 (−1.41%), a third straight losing day. The VIX, Wall Street's fear gauge, rose about 19%. Nvidia fell about 4.1%. Nvidia has guided to revenue of about $108 billion for the quarter, plus or minus 2%. Analysts will focus less on that number than on the outlook and on how interim CEO Colette Kress handles questions about leadership.",
+     "pro": "The selloff combines three overlapping risks: key-person risk at the sector's bellwether, a regulatory shock to the addressable market (new licensing in five countries plus remote-access limits), and a rate backdrop above 5% on the 10-year that compresses long-duration multiples. Rising VIX into a binary event means options are expensive, so the post-earnings move may be large either way. Positioning matters: after a three-day drop, a clean guide could trigger a sharp relief rally, while any cut to the roadmap or China commentary would confirm the de-rating."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "Kiplinger: Nasdaq falls 626 points",
+      "u": "https://www.kiplinger.com/investing/stocks/nasdaq-falls-626-points-to-start-nvidia-anthropic-week-stock-market-today"
+     },
+     {
+      "l": "CNN: stocks slide",
+      "u": "https://www.cnn.com/2026/11/16/business/stocks-nvidia-ai-anthropic"
+     },
+     {
+      "l": "Yahoo Finance UK live",
+      "u": "https://uk.finance.yahoo.com/news/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html"
+     }
+    ]
+   },
+   {
+    "id": "chipcurbs",
+    "kicker": "AI & geopolitics",
+    "title": "Washington tightens AI-chip export rules, closing the cloud loophole",
+    "chain": [
+     "Commerce issues interim rule",
+     "Licences needed for chips to five more countries",
+     "Remote access for Chinese firms also covered",
+     "Nvidia's China-linked demand faces more uncertainty"
+    ],
+    "depth": {
+     "simple": "The US government said companies now need a licence to send advanced AI chips to Brazil, Indonesia, Malaysia, Singapore and Thailand. It also limits Chinese firms from renting that computing power remotely through foreign data centres. The aim is to stop China getting chips through the back door. For Nvidia, it adds another worry on top of its leadership crisis.",
+     "standard": "The Commerce Department's interim rule covers exports and re-exports of advanced semiconductors to the five countries, and overseas data centres that give Chinese firms access to such chips now need federal licences. Operators already providing that capacity get 90 days after the rule takes effect to apply. Coverage links the move to the Nvidia scandal and to an upcoming meeting between Trump and Xi. Nvidia shares fell on the news. Some details of the Huang story rest on a few outlets and are still unsettled.",
+     "pro": "The significant change is the remote-access provision: it targets compute-as-a-service, not just hardware shipments, which is how a lot of China-linked demand had been routed through Southeast Asian data centres. Watch for how Nvidia sizes the revenue at risk on tonight's call, how Singapore- and Malaysia-based operators apply for licences, and whether Beijing retaliates around the Trump–Xi talks. Second-order effects hit server makers and memory suppliers in Asia, which fits this week's weakness in Kospi chip names."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "CBS News: remote access curbs",
+      "u": "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/"
+     },
+     {
+      "l": "TipRanks",
+      "u": "https://www.tipranks.com/news/nvidia-stock-falls-as-u-s-expands-ai-chip-export-restrictions-to-five-more-countries"
+     },
+     {
+      "l": "Outlook India",
+      "u": "https://www.outlookindia.com/international/us-china-ai-chip-export-curbs-nvidia-trump-xi-meeting-overseas-data-centres"
+     }
+    ]
+   },
+   {
+    "id": "anthropic",
+    "kicker": "IPOs",
+    "title": "Anthropic IPO book reported about 6× covered, Nvidia to invest $10B",
+    "chain": [
+     "825M shares at $70–78",
+     "Order book reportedly ~6× the shares",
+     "Banks expect pricing could exceed the range",
+     "Day-one trading tests AI appetite after the selloff"
+    ],
+    "disclosure": "This brief is written by Claude, which is made by Anthropic. It covers Anthropic like any other company and takes no view on buying the shares.",
+    "depth": {
+     "simple": "Anthropic plans to sell 825 million shares at $70–78 each. Reports say investors have asked for about six times as many shares as are on offer. That means many buyers will get less than they wanted, and the price could be set above the range. Nvidia has also agreed to buy about $10 billion of the shares. The company is expected to start trading Thursday, right after a rough day for tech stocks.",
+     "standard": "Pricing is expected Wednesday 18 November and trading from Thursday 19 November under the ticker ANT. At the top of the range the base deal raises about $64 billion. If priced higher and counting a private placement of about $26 billion across chip and cloud suppliers, reports say it could pass $100 billion and beat SpaceX's $85.7 billion IPO from June. The order book comes from Bloomberg via Reuters; banks have warned buyers of smaller allocations. Sources differ on the final timing, and no final price exists yet.",
+     "pro": "Oversubscription is not a guarantee of a first-day pop: heavily covered deals have a history of weak debuts, and one investor warned of that this week. A private placement from suppliers such as Nvidia and Google is also circular financing, since the money may flow back to them as chip and cloud spending. If shares trade below the IPO price, those investors hold paper losses. Beyond day one, the share count, lock-up expiries and the supply of new stock for funds to absorb will matter more for the medium-term price."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "Coinpaper: ~6× oversubscribed",
+      "u": "https://coinpaper.com/38800/anthropic-ipo-reportedly-six-times-oversubscribed-as-1-4-t-valuation-faces-nvidia-crisis"
+     },
+     {
+      "l": "ZeroHedge",
+      "u": "https://www.zerohedge.com/markets/anthropic-bankers-push-higher-ipo-valuation-thiel-capitals-jack-selby-warns-weak-debut"
+     },
+     {
+      "l": "Startup Fortune",
+      "u": "https://startupfortune.com/anthropics-64-billion-ipo-lands-in-the-middle-of-an-ai-selloff/"
+     }
+    ]
+   },
+   {
+    "id": "fed",
+    "kicker": "Rates & the Fed",
+    "title": "Warsh talks about an AI bubble, a December hike stays on the table",
+    "chain": [
+     "Warsh: Fed staff studying AI-bubble risk",
+     "No hint on rates",
+     "10-year yield ~5.1%, hike seen near-certain",
+     "Higher yields keep pressure on tech valuations"
+    ],
+    "depth": {
+     "simple": "Fed Chair Kevin Warsh spoke at an event on AI and the economy. He said Fed economists are studying whether an AI bubble could burst and how AI affects jobs. He did not comment on interest rates. Markets still expect the Fed to raise rates in December, which keeps the US 10-year yield near 5.1%. When safe bonds pay that much, expensive stocks look riskier.",
+     "standard": "Warsh said productivity growth is reasonably strong but has not broken out yet, which implies AI's big payoff is still ahead. He gave no comment on recent price moves or the near-term inflation path. Futures see a December hike as close to certain, and the Fed's October minutes come out Wednesday. The 10-year yield is around 5.12–5.14% across sources, and yields eased a little Monday after a bruising week.",
+     "pro": "The notable signal is that the Fed chair is publicly framing AI-bubble risk as a research topic, which markets could read as the Fed adding financial stability to its list of worries. For rates, the debate is whether the hiking cycle extends past December: core inflation is running near 3.7% annualised. Watch the minutes for how many officials wanted a hike in October and the term premium, since falling equity prices alone will not stop the Fed if inflation stays hot."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: a strong dollar changes the € value of US assets"
+     }
+    ],
+    "sources": [
+     {
+      "l": "TheStreet: Warsh and AI",
+      "u": "https://www.thestreet.com/fed/fed-warsh-ai-task-force-nvidia-earnings"
+     },
+     {
+      "l": "Schwab: market update",
+      "u": "https://www.schwab.com/learn/story/stock-market-update-open"
+     },
+     {
+      "l": "Yahoo Finance: week ahead",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/nvidia-results-ahead-week-fed-093249400.html"
+     }
+    ]
+   },
+   {
+    "id": "oil",
+    "kicker": "Geopolitics & energy",
+    "title": "Oil falls 3.6% as Hormuz flows recover, despite new tanker reports",
+    "chain": [
+     "Hormuz shipping flows recover",
+     "IEA sees a Q4 supply surplus",
+     "Brent −3.6% to $92.44",
+     "Lower energy costs ease inflation pressure at the margin"
+    ],
+    "depth": {
+     "simple": "Oil fell on Monday even though Iran's Revolutionary Guards said two more tankers hit mines in the Strait of Hormuz, the narrow channel that carries about a fifth of the world's oil. Reuters could not verify that claim. Traders focused on oil flowing again and on a forecast that the world will have more oil than it needs this quarter. Cheaper oil is good news for inflation.",
+     "standard": "Brent settled at $92.44 (−3.6%) and WTI at $85.72 (−3.2%), per Reuters. The IEA said the market should return to surplus in the fourth quarter. Vice President Vance said President Trump would not let the Iran conflict turn into a prolonged war. Intraday prices earlier in the day were in the mid-$90s, so we use the settlement price.",
+     "pro": "The market is pricing flow data over headlines: recovering Gulf exports and an IEA surplus call outweigh unverified mine reports. A durable move lower in Brent would take pressure off headline CPI in the US and the euro area, where October inflation hit 4.0% on energy. The risk is asymmetry: if a confirmed incident closes the strait again, the curve would flip quickly back to steep backwardation."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: cheaper oil eases the energy-led inflation the ECB is fighting"
+     }
+    ],
+    "sources": [
+     {
+      "l": "CNBC: oil falls",
+      "u": "https://cnbc.com/2026/11/16/oil-prices-brent-wti-latest.html"
+     },
+     {
+      "l": "RTÉ",
+      "u": "https://www.rte.ie/news/business/2026/1116/1599343-oil-prices/"
+     },
+     {
+      "l": "Iran International live",
+      "u": "https://www.iranintl.com/en/liveblog/202611143682"
+     }
+    ]
+   }
+  ],
+  "number": {
+   "value": "2.49%",
+   "label": "Nasdaq Composite's fall on Monday",
+   "context": "The Nasdaq lost about 626 points in one session. It is the steepest daily drop among the three main US indexes, and it came before Nvidia reports."
+  },
+  "word": {
+   "term": "Oversubscribed",
+   "def": "When investors ask to buy more shares in an IPO than are on offer. If an order book is 6× covered, each buyer gets only a fraction of what they requested. It signals strong demand, but it does not guarantee that the shares rise once trading starts.",
+   "inToday": "Anthropic's IPO order book is reportedly about six times the shares on offer, so many buyers will get smaller allocations."
+  },
+  "threads": [
+   {
+    "id": "nvidia-ceo",
+    "name": "Nvidia leadership crisis",
+    "status": "Escalating",
+    "events": [
+     {
+      "d": "Early Nov",
+      "t": "Board opens an independent probe after reports Huang was the target of a foreign intelligence effort"
+     },
+     {
+      "d": "11 Nov",
+      "t": "Huang resigns as CEO and director; CFO Colette Kress named interim CEO, Harvey Jones board chair"
+     },
+     {
+      "d": "13 Nov",
+      "t": "Nasdaq −0.9%; Nvidia ends its worst week since April 2025"
+     },
+     {
+      "d": "16 Nov",
+      "t": "CNBC: board not considering a return; Asian chipmakers slide (SK Hynix −7.9%)"
+     },
+     {
+      "d": "17 Nov",
+      "t": "Nasdaq −2.5% on Monday; Nvidia −4.1% as Washington tightens AI chip export rules",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Q3 earnings tonight after the US close; Nvidia guided revenue of $108B ±2%",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "fed-hikes",
+    "name": "Fed hiking again",
+    "status": "Building",
+    "events": [
+     {
+      "d": "28 Oct",
+      "t": "Hold at 3.75–4.00%; two members vote to hike"
+     },
+     {
+      "d": "Nov",
+      "t": "October CPI +0.4% m/m, above the 0.3% forecast"
+     },
+     {
+      "d": "13 Nov",
+      "t": "US 10-year yield closes around 5.15%"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Warsh speaks; December hike odds near 92%"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Warsh says Fed staff is studying AI-bubble risk; gives no hint on rates; December hike seen as near-certain",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Minutes Wed 18 Nov · Decision 8–9 Dec",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "hormuz",
+    "name": "Iran and the Strait of Hormuz",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "Earlier",
+      "t": "Iran restricts passage through Hormuz and attacks ships it says break its rules"
+     },
+     {
+      "d": "13 Nov",
+      "t": "Shipping risk lifts oil; Brent around $96"
+     },
+     {
+      "d": "15 Nov",
+      "t": "Tanker strikes begin; Iran says six hit since Sunday (one confirmed by UKMTO)"
+     },
+     {
+      "d": "16 Nov",
+      "t": "IRGC drones at a US radar site in Bahrain, all intercepted; Trump reportedly weighing restraint"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Brent −3.6% to $92.44 as Hormuz flows recover and IEA sees a Q4 surplus; IRGC says two more tankers hit mines (unverified); Vance: no 'forever war'",
+      "today": true
+     }
+    ]
+   },
+   {
+    "id": "ai-ipo",
+    "name": "Anthropic IPO",
+    "status": "This week",
+    "events": [
+     {
+      "d": "Summer",
+      "t": "Bullish investors talk of a ~$2T valuation"
+     },
+     {
+      "d": "10 Nov",
+      "t": "Price range set at $70–78, up to ~$1.4T fully diluted"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Reports say banks are weighing a higher price; demand reportedly strong"
+     },
+     {
+      "d": "17 Nov",
+      "t": "Order book reported ~6× covered; Nvidia to buy ~$10B of shares at the IPO price",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Prices Wed 18 Nov, trades Thu 19 Nov as ANT",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "chip-curbs",
+    "name": "US AI-chip export curbs",
+    "status": "Building",
+    "events": [
+     {
+      "d": "11 Nov",
+      "t": "Huang resigns; probe linked to a suspected Chinese intelligence effort"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Commerce interim rule: licences needed to ship advanced AI chips to Brazil, Indonesia, Malaysia, Singapore, Thailand; remote access by Chinese firms also covered",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Operators have 90 days after the rule takes effect to get licences",
+      "next": true
+     }
+    ]
+   }
+  ],
+  "meter": {
+   "value": 66,
+   "label": "Leaking air",
+   "summary": "Monday added more air-out evidence, but demand for the biggest AI IPO is still very strong.",
+   "deflating": [
+    "Nasdaq −2.5% and Nvidia −4.1% on Monday",
+    "New US limits on AI-chip exports to five countries",
+    "Nvidia lost its CEO days before earnings",
+    "Part of Anthropic's private placement comes from its own suppliers, a circular-funding concern"
+   ],
+   "inflating": [
+    "Anthropic's IPO book is reportedly about 6× covered",
+    "Nvidia guided to about $108B quarterly revenue",
+    "Warsh says AI productivity gains are still ahead"
+   ]
+  },
+  "calendar": [
+   {
+    "day": "Tue 17",
+    "date": "2026-11-17",
+    "items": [
+     {
+      "what": "US retail sales (Oct), 8:30 ET",
+      "why": "Consensus 0.0%, ex-autos +0.4%: is the consumer holding up?"
+     },
+     {
+      "what": "Nvidia Q3 earnings, after US close",
+      "why": "First report without Huang; guidance and China commentary count most"
+     }
+    ]
+   },
+   {
+    "day": "Wed 18",
+    "date": "2026-11-18",
+    "items": [
+     {
+      "what": "Fed minutes (October meeting)",
+      "why": "How many officials already wanted to hike"
+     },
+     {
+      "what": "UK inflation (Oct)",
+      "why": "Sets the tone for the Bank of England"
+     },
+     {
+      "what": "Anthropic prices its IPO",
+      "why": "Above $78 would signal strong demand"
+     }
+    ]
+   },
+   {
+    "day": "Thu 19",
+    "date": "2026-11-19",
+    "items": [
+     {
+      "what": "Anthropic starts trading (ANT)",
+      "why": "Day-one move is a vote on AI valuations"
+     },
+     {
+      "what": "US jobless claims · Philly Fed",
+      "why": "Expected 200k and 19.2: labour market still tight?"
+     }
+    ]
+   },
+   {
+    "day": "Fri 20",
+    "date": "2026-11-20",
+    "items": [
+     {
+      "what": "UMich consumer sentiment (final)",
+      "why": "Inflation expectations feed straight into Fed thinking"
+     }
+    ]
+   },
+   {
+    "day": "All week",
+    "date": "",
+    "items": [
+     {
+      "what": "Walmart, Home Depot, TJX earnings",
+      "why": "Read-through on US consumer spending"
+     }
+    ]
+   }
+  ],
+  "call": {
+   "id": "2026-11-17-ant-debut",
+   "question": "Anthropic (ANT) starts trading Thursday. Will it close its first day above its IPO price?",
+   "options": [
+    "Above the IPO price",
+    "At or below the IPO price"
+   ],
+   "resolvesLabel": "Friday's brief"
+  },
+  "resolutions": [],
+  "quiz": [
+   {
+    "q": "What does it mean that Anthropic's IPO book is about 6× oversubscribed?",
+    "o": [
+     "Investors asked for about six times the shares on offer",
+     "The company will raise six times more money",
+     "The shares will rise six times",
+     "Six banks lead the deal"
+    ],
+    "a": 0,
+    "why": "Oversubscribed means more demand than supply. Each buyer is allocated only part of what they asked for. It does not guarantee a first-day gain."
+   },
+   {
+    "q": "Why does the new US rule on remote access to AI chips matter?",
+    "o": [
+     "It stops Chinese firms renting chips in foreign data centres without a licence",
+     "It bans Nvidia from selling chips in the US",
+     "It lowers chip prices",
+     "It only affects memory chips"
+    ],
+    "a": 0,
+    "why": "The old rules focused on shipping chips. The new rule also covers renting compute abroad, which closes a route for China-linked demand."
+   },
+   {
+    "q": "Oil fell 3.6% on Monday despite reports of tanker incidents. What was the main reason?",
+    "o": [
+     "Gulf shipping flows were recovering and the IEA expects a surplus",
+     "Iran lifted all restrictions",
+     "OPEC raised prices",
+     "The dollar fell sharply"
+    ],
+    "a": 0,
+    "why": "Markets traded on actual supply and the IEA's surplus forecast. The mine reports were unverified."
+   }
+  ],
+  "coffee": "What I'm watching is the stack of AI stress tests: Nvidia reports without its founder tonight, then Anthropic's record IPO prices tomorrow, while the US 10-year sits above 5% and Washington tightens chip exports.",
+  "sources": [
+   {
+    "l": "Kiplinger: Nasdaq falls 626 points",
+    "u": "https://www.kiplinger.com/investing/stocks/nasdaq-falls-626-points-to-start-nvidia-anthropic-week-stock-market-today"
+   },
+   {
+    "l": "CNN: stocks slide",
+    "u": "https://www.cnn.com/2026/11/16/business/stocks-nvidia-ai-anthropic"
+   },
+   {
+    "l": "Yahoo Finance: European close",
+    "u": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-weak-cautious-190339591.html"
+   },
+   {
+    "l": "FXStreet: Asian stocks",
+    "u": "https://www.fxstreet.com/news/asian-stocks-slide-as-us-tech-curbs-weigh-on-sentiment-nvidia-earnings-awaited-202611170501"
+   },
+   {
+    "l": "CNBC: oil",
+    "u": "https://cnbc.com/2026/11/16/oil-prices-brent-wti-latest.html"
+   },
+   {
+    "l": "Mitrade: gold analysis",
+    "u": "https://mitrade.com/insights/commodity-analysis/gold/gold-pressured-dollar-tech-selloff-hormuz"
+   },
+   {
+    "l": "TraderFactor: forex today",
+    "u": "https://traderfactor.com/us-retail-sales-and-nvidia-earnings-in-focus/"
+   },
+   {
+    "l": "CBS News: chip curbs",
+    "u": "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/"
+   },
+   {
+    "l": "InvestingLive: week ahead",
+    "u": "https://investinglive.com/news/earnings-week-ahead-nvidia-without-jensen-anthropic-s-ipo-and-the-consumer-meets-a-hiking-fed/"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-16",
+  "dateLabel": "Monday 16 November 2026",
+  "readMins": 6,
+  "asOf": "US & Europe: Friday 13 Nov close · Asia: Monday 16 Nov close · Rates, FX, oil, gold, Bitcoin: Monday morning levels",
+  "sixty": [
+   "Nvidia lost its founder-CEO Jensen Huang last week, and the AI selloff spread to Asia today (Korea −3.6%, Japan −2.4%), with US stock futures and Bitcoin also lower.",
+   "Hot US inflation has markets pricing a December Fed hike at about 92%. The 10-year US yield sits near 5.14%, up from 4.86% a week earlier.",
+   "Iran fired drones at Bahrain and says tankers were hit in Hormuz. The big tests are Nvidia's earnings on Tuesday and Anthropic's IPO pricing on Wednesday."
+  ],
+  "markets": [
+   {
+    "group": "United States",
+    "items": [
+     {
+      "name": "S&P 500",
+      "sym": "%5EGSPC",
+      "value": "7,561.67",
+      "chg": -0.4,
+      "wk": 2.5,
+      "note": "Tech dragged; still the first winning week since early October"
+     },
+     {
+      "name": "Nasdaq Composite",
+      "sym": "%5EIXIC",
+      "value": "25,136.27",
+      "chg": -0.91,
+      "wk": 2.3,
+      "note": "Chipmakers sold on the Nvidia turmoil"
+     },
+     {
+      "name": "Dow Jones",
+      "sym": "%5EDJI",
+      "value": "52,347.55",
+      "chg": 0.1,
+      "note": "Only major US index up: it holds less tech"
+     }
+    ]
+   },
+   {
+    "group": "Europe",
+    "items": [
+     {
+      "name": "Stoxx Europe 600",
+      "sym": "%5ESTOXX",
+      "value": "664.14",
+      "chg": 0.02,
+      "wk": 2.5,
+      "note": "Another record close, best week since June"
+     },
+     {
+      "name": "IBEX 35",
+      "sym": "%5EIBEX",
+      "value": "20,020.10",
+      "chg": 0.27,
+      "note": "Holding above 20,000"
+     },
+     {
+      "name": "DAX",
+      "sym": "%5EGDAXI",
+      "value": "26,749.95",
+      "chg": -0.08,
+      "note": "Infineon −4.3% weighed on Germany"
+     },
+     {
+      "name": "Euro Stoxx 50",
+      "sym": "%5ESTOXX50E",
+      "value": "6,386.86",
+      "chg": -0.2,
+      "note": "Slipped slightly Friday; best week in months",
+      "wk": 3.8
+     }
+    ]
+   },
+   {
+    "group": "Asia · today",
+    "items": [
+     {
+      "name": "Nikkei 225",
+      "sym": "%5EN225",
+      "value": "59,662.02",
+      "chg": -2.4,
+      "note": "Japan's economy contracted in Q3 on energy costs"
+     },
+     {
+      "name": "Kospi",
+      "sym": "%5EKS11",
+      "value": "5,100",
+      "chg": -3.6,
+      "note": "SK Hynix −7.9%: Nvidia's suppliers hit hardest"
+     },
+     {
+      "name": "Hang Seng",
+      "sym": "%5EHSI",
+      "value": "23,750",
+      "chg": 0.5,
+      "note": "Less chip exposure, so it held up"
+     }
+    ]
+   },
+   {
+    "group": "Rates & currencies",
+    "items": [
+     {
+      "name": "US 10-year yield",
+      "sym": "%5ETNX",
+      "value": "5.14%",
+      "chgText": "+0.29 pts wk",
+      "dir": 1,
+      "note": "Above 5% as a December Fed hike gets priced in; sources show 5.13–5.15%"
+     },
+     {
+      "name": "EUR/USD",
+      "sym": "EURUSD%3DX",
+      "value": "≈1.10",
+      "chg": null,
+      "note": "Sources show 1.1008–1.1059; euro lost about 1.1% last week"
+     },
+     {
+      "name": "Dollar index",
+      "sym": "DX-Y.NYB",
+      "value": "≈103.4",
+      "chg": null,
+      "note": "Near a 19-month high as traders bet on a longer Fed hiking cycle"
+     }
+    ]
+   },
+   {
+    "group": "Commodities & crypto",
+    "items": [
+     {
+      "name": "Brent crude",
+      "sym": "BZ%3DF",
+      "value": "≈$95",
+      "chg": null,
+      "note": "Sources show $93.70–96.70; Hormuz risk vs. global supply-surplus fears"
+     },
+     {
+      "name": "WTI crude",
+      "sym": "CL%3DF",
+      "value": "≈$88",
+      "chg": null,
+      "note": "US benchmark; quotes cluster around $88"
+     },
+     {
+      "name": "Gold",
+      "sym": "GC%3DF",
+      "value": "≈$3,860",
+      "chg": null,
+      "note": "Sources show $3,852–3,865 Monday, near a one-year low; yields above 5% weigh on it"
+     },
+     {
+      "name": "Bitcoin",
+      "sym": "BTC-USD",
+      "value": "≈$64,300",
+      "chg": null,
+      "note": "Fell below $65k, under its 200-week average; quotes differ by exchange and time"
+     }
+    ]
+   }
+  ],
+  "stories": [
+   {
+    "id": "nvidia",
+    "kicker": "AI & tech",
+    "title": "Nvidia loses its founder-CEO days before earnings",
+    "chain": [
+     "Huang exits after a board probe",
+     "Leadership and China-security questions",
+     "Chip stocks sold worldwide",
+     "This week's earnings become a confidence test"
+    ],
+    "depth": {
+     "simple": "Jensen Huang, who founded Nvidia and ran it for over 30 years, left as CEO last week after a board investigation into his personal conduct, which included reports that he was the target of a foreign intelligence effort. Nvidia makes the chips behind most of the world's AI, so investors treat it as the barometer for the whole AI trade. Losing its leader just before it reports results pushed investors to sell chip stocks from New York to Seoul.",
+     "standard": "The board named CFO Colette Kress interim CEO and created an independent chair role, filled by Harvey Jones. The official wording is a resignation; CNBC's sources say the board pushed him out, and today report that the board is not considering bringing him back despite a petition and allies lobbying for it. Congressional committees may call him to testify. Nvidia had its worst week since the April 2025 tariff selloff, and the selling hit its Asian suppliers this morning: SK Hynix −7.9%, Kospi −3.6%. Monday's US session opened lower again, with Nasdaq 100 futures down; closing levels were still provisional in the sources we checked.",
+     "pro": "Two things drive the valuation question. First, key-person risk: Huang personally anchored the hyperscaler relationships and the credibility of the product roadmap. Second, a possible national-security angle that could tighten scrutiny of China-linked sales. Q3 consensus EPS is about $2.47–2.49. The quarter itself is largely locked in by orders already placed, so the market will trade the guidance and whether Kress can reassure on roadmap and customer commitments. A beat with soft guidance would likely be read as the start of a de-rating."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "Nvidia board statement",
+      "u": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+     },
+     {
+      "l": "CNBC, 16 Nov",
+      "u": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html"
+     },
+     {
+      "l": "AP via WSLS",
+      "u": "https://www.wsls.com/business/2026/11/16/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/"
+     }
+    ]
+   },
+   {
+    "id": "rates",
+    "kicker": "Rates & the Fed",
+    "title": "The US 10-year yield breaks 5% as a December hike gets priced in",
+    "chain": [
+     "October inflation runs hot (+0.4% m/m)",
+     "~92% odds of a Fed hike on 9 Dec",
+     "10-year yield: 4.86% → 5.15% in a week",
+     "Costlier borrowing, pressure on stock valuations"
+    ],
+    "depth": {
+     "simple": "US inflation came in higher than expected in October, mostly because of energy. That makes it very likely the Federal Reserve raises interest rates again in December, after already raising them in September. When investors expect higher rates, government bond yields rise too. The 10-year US yield is the reference rate for mortgages and company borrowing around the world, and it is now above 5%. At that level, safe bonds become a serious alternative to stocks.",
+     "standard": "The Fed's range is 3.75–4.00% after a September hike under Chair Kevin Warsh and a hold on 28 October, when two members voted to hike. Futures price about 92% odds of +0.25 pts at the 8–9 December meeting and 8% odds of +0.50. Governor Waller has floated the bigger move. Warsh speaks today and the October minutes come out Wednesday. Stocks still rose on the week (S&P +2.5%), but fast-growing tech stocks are the most exposed if yields keep climbing, because more of their value sits in profits far in the future.",
+     "pro": "The 10-year added roughly 30bp in a week to about 5.15%. Core CPI has printed +0.3% m/m three months running, about 3.7% annualised, so the debate is the terminal rate, not the timing. Watch the term premium: if long yields keep rising after hikes are already priced, the driver is fiscal and supply worries rather than Fed expectations, which is worse for equity multiples. Note that the BLS did not publish a 12-month CPI rate because October 2025 data were never collected during the shutdown."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: a strong dollar lifts the € value of US assets"
+     }
+    ],
+    "sources": [
+     {
+      "l": "TheStreet: Waller on December",
+      "u": "https://www.thestreet.com/fed/fed-waller-jumbo-interest-rate-hike-december-inflation"
+     },
+     {
+      "l": "FXCM briefing, 16 Nov",
+      "u": "https://www.fxcm.com/au/insights/global-macro-and-markets-briefing-16-november-2026/"
+     },
+     {
+      "l": "The Glass Desk weekly",
+      "u": "https://theglassdesk.substack.com/p/weekly-market-review-nov-13-2026"
+     }
+    ]
+   },
+   {
+    "id": "iran",
+    "kicker": "Geopolitics",
+    "title": "Iran escalates in the Gulf: drones at Bahrain, tankers hit in Hormuz",
+    "chain": [
+     "IRGC drones at a US radar site in Bahrain",
+     "Iran says 6 tankers hit since Sunday",
+     "Shipping risk up, but glut fears cap oil",
+     "Expensive energy keeps inflation sticky"
+    ],
+    "depth": {
+     "simple": "Iran launched drones at a US military site in Bahrain over the weekend; Bahrain says it shot them all down. Iran also says several oil tankers were hit by mines or projectiles in the Strait of Hormuz, the narrow channel that normally carries about a fifth of the world's oil. Oil is already expensive, with Brent around $96 a barrel, and that feeds the inflation pushing central banks to raise rates.",
+     "standard": "Iran has restricted passage through Hormuz and attacks ships it says break its rules. The UK's maritime agency (UKMTO) confirmed one vessel was hit, with all crew safe; Iran's claim that a supertanker sank is unverified. Reuters reports President Trump is weighing holding off on strikes unless there are new provocations. Oil actually eased this morning because the IEA's outlook revived worries about a global supply surplus, so the market is weighing disruption against weak demand.",
+     "pro": "Watch the oil futures curve and tanker rates rather than headline Brent: a real disruption shows up as steeper backwardation and a spike in freight. The second-order effect matters more. European gas has risen and Japan's Q3 contraction was blamed on energy costs, so energy is now a growth problem for importers (Europe, Japan, Korea) and an inflation problem for the Fed and the ECB at once. That stagflationary mix is the worst backdrop for long-duration equities."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: energy prices feed straight into European inflation"
+     }
+    ],
+    "sources": [
+     {
+      "l": "The National",
+      "u": "https://www.thenationalnews.com/news/gulf/2026/11/16/iran-attacks-bahrain-in-blatant-challenge-to-peace-push/"
+     },
+     {
+      "l": "CBS live updates",
+      "u": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
+     },
+     {
+      "l": "OilPrice: glut fears",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
+     }
+    ]
+   },
+   {
+    "id": "anthropic",
+    "kicker": "IPOs",
+    "title": "Anthropic lists this week: the biggest test yet of AI appetite",
+    "chain": [
+     "825M shares at $70–78",
+     "Raises up to ~$64B, the largest IPO ever",
+     "Prices Wed 18, trades Thu 19 (ANT)",
+     "The first-day move is a vote on AI valuations"
+    ],
+    "disclosure": "This brief is written by Claude, which is made by Anthropic. It covers Anthropic like any other company and takes no view on buying the shares.",
+    "depth": {
+     "simple": "Anthropic, the company behind the Claude AI models, plans to list its shares on the Nasdaq this week. It wants to raise around $61–64 billion, which would make it by far the largest stock market debut ever. How the shares trade on day one will show how much investors still want to pay for AI right after the Nvidia shock.",
+     "standard": "Pricing is expected Wednesday 18 November, with trading from Thursday 19 November under the ticker ANT. The range values the company at up to about $1.4 trillion fully diluted, below the roughly $2 trillion some investors talked about over the summer. Reports say the banks are weighing a higher price, which would push the valuation to $1.5 trillion or more. Some analysts read the lower range as a deliberate choice to leave room for a first-day jump. Reports also say demand is strong (one outlet says the book is several times covered) and that Nvidia plans to invest up to $10 billion in Anthropic ahead of the listing; sources differ on the raise size ($64B to $80B) and valuation ($1.3–1.5T).",
+     "pro": "Mind the share count. On about 13.1B basic shares the market cap is roughly $0.92–1.02T; the $1.3–1.4T headline includes options and restricted stock. A $60B+ raise is also a liquidity event: funds may trim other mega-cap AI holdings to make room, a supply overhang for the sector in the week it lists. For the medium-term price, lock-up expiries matter more than day one."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "CNBC: price range",
+      "u": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+     },
+     {
+      "l": "Motley Fool",
+      "u": "https://www.fool.com/investing/2026/11/13/anthropic-set-its-ipo-price-range-at-70-to-78-valuing-it-at-up-to-1405-trillion/"
+     },
+     {
+      "l": "FourWeekMBA: share count",
+      "u": "https://fourweekmba.com/anthropic-ipo-valuation-buyers-risks/"
+     }
+    ]
+   },
+   {
+    "id": "regions",
+    "kicker": "Europe & Asia",
+    "title": "Europe at records while Asia slides: the AI selloff is uneven",
+    "chain": [
+     "Stoxx 600 record close, best week since June",
+     "Led by insurers and oil majors, not tech",
+     "Asia today: Kospi −3.6%, Nikkei −2.4%",
+     "Europe's low AI exposure works as a shelter"
+    ],
+    "depth": {
+     "simple": "European stocks closed at another record on Friday and the IBEX 35 stayed above 20,000, while Asian markets fell hard this morning. The difference is what each market is made of. Korea and Taiwan are full of chipmakers that sell to Nvidia. Europe's indexes are heavy in banks, insurers and energy companies, which do fine when rates are high and oil is expensive.",
+     "standard": "The Stoxx 600 closed at 664.14, up 2.4% on the week, led by insurers and oil producers while chipmakers lagged (Infineon −4.3%). In Japan, data showed the economy contracted in the third quarter as energy costs bit, pulling the Nikkei down 2.4%. Euro-area inflation reached 4.0% in October, and most economists expect the ECB to raise its deposit rate in December as well.",
+     "pro": "Sector mix explains most of the gap. Europe is overweight financials, which earn more from lending when rates rise, and energy, and it is underweight semiconductors. The cushion has limits: an ECB hike into slowing growth and energy-led inflation is a stagflation setup, and the IBEX's heavy bank weighting makes it sensitive to any credit wobble. Korea and Taiwan's concentration in SK Hynix, Samsung and TSMC makes their indexes leveraged bets on AI spending."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: ECB hike likely in December"
+     }
+    ],
+    "sources": [
+     {
+      "l": "MLQ: European close",
+      "u": "https://mlq.ai/news/european-stocks-close-at-another-record-as-insurers-and-oil-majors-offset-a-chip-selloff-capping-the-stoxx-600s-best-week-since-june/"
+     },
+     {
+      "l": "Eurasia Business News",
+      "u": "https://eurasiabusinessnews.com/2026/11/16/european-and-asian-stock-markets-today-november-16-2026-europe-holds-steady-as-asian-tech-slides/"
+     },
+     {
+      "l": "Armenpress: European stocks",
+      "u": "https://armenpress.am/en/article/1265648"
+     }
+    ]
+   }
+  ],
+  "number": {
+   "value": "5.15%",
+   "label": "US 10-year Treasury yield, Friday close",
+   "context": "Up from 4.86% a week earlier: almost 0.3 points in five days. This is the rate the world uses to price mortgages, company loans and, indirectly, every stock."
+  },
+  "word": {
+   "term": "Basis point (bp)",
+   "def": "One hundredth of a percentage point, so 0.01%. 25bp = 0.25%, 100bp = 1%. Professionals use it because \"rates rose 1%\" is ambiguous: it could mean from 5% to 6%, or from 5% to 5.05%.",
+   "inToday": "Futures price about 92% odds of a 25bp Fed hike in December, and the 10-year yield rose about 29bp last week (4.86% → 5.15%)."
+  },
+  "threads": [
+   {
+    "id": "nvidia-ceo",
+    "name": "Nvidia leadership crisis",
+    "status": "Escalating",
+    "events": [
+     {
+      "d": "Early Nov",
+      "t": "Board opens an independent probe after reports Huang was the target of a foreign intelligence effort"
+     },
+     {
+      "d": "11 Nov",
+      "t": "Huang resigns as CEO and director; CFO Colette Kress named interim CEO, Harvey Jones board chair"
+     },
+     {
+      "d": "13 Nov",
+      "t": "Nasdaq −0.9%; Nvidia ends its worst week since April 2025"
+     },
+     {
+      "d": "16 Nov",
+      "t": "CNBC: board not considering a return; Asian chipmakers slide (SK Hynix −7.9%)",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Q3 earnings Tuesday after the US close",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "fed-hikes",
+    "name": "Fed hiking again",
+    "status": "Building",
+    "events": [
+     {
+      "d": "Sep",
+      "t": "Fed raises rates under Chair Kevin Warsh"
+     },
+     {
+      "d": "28 Oct",
+      "t": "Hold at 3.75–4.00%; two members vote to hike"
+     },
+     {
+      "d": "Nov",
+      "t": "October CPI +0.4% m/m, above the 0.3% forecast"
+     },
+     {
+      "d": "13 Nov",
+      "t": "US 10-year yield closes around 5.15%"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Warsh speaks; December hike odds near 92%",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Minutes Wed 18 Nov · Decision 8–9 Dec",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "hormuz",
+    "name": "Iran and the Strait of Hormuz",
+    "status": "Escalating",
+    "events": [
+     {
+      "d": "Earlier",
+      "t": "Iran restricts passage through Hormuz and attacks ships it says break its rules"
+     },
+     {
+      "d": "13 Nov",
+      "t": "Shipping risk lifts oil; Brent around $96"
+     },
+     {
+      "d": "15 Nov",
+      "t": "Tanker strikes begin; Iran says six hit since Sunday (one confirmed by UKMTO)"
+     },
+     {
+      "d": "16 Nov",
+      "t": "IRGC drones at a US radar site in Bahrain, all intercepted; Trump reportedly weighing restraint",
+      "today": true
+     }
+    ]
+   },
+   {
+    "id": "ai-ipo",
+    "name": "Anthropic IPO",
+    "status": "This week",
+    "events": [
+     {
+      "d": "Summer",
+      "t": "Bullish investors talk of a ~$2T valuation"
+     },
+     {
+      "d": "10 Nov",
+      "t": "Price range set at $70–78, up to ~$1.4T fully diluted"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Reports say banks are weighing a higher price; demand reportedly strong",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Prices Wed 18 Nov, trades Thu 19 Nov as ANT",
+      "next": true
+     }
+    ]
+   }
+  ],
+  "meter": {
+   "value": 62,
+   "label": "Leaking air",
+   "summary": "More evidence of deflation than inflation this week, but the two big tests are still ahead.",
+   "deflating": [
+    "Nvidia lost its CEO before earnings; worst week since April 2025",
+    "Asian chip stocks sold hard today (SK Hynix −7.9%)",
+    "Anthropic's range sits well below the ~$2T talked about in summer",
+    "A 5% risk-free yield raises the bar for expensive growth stocks"
+   ],
+   "inflating": [
+    "S&P 500 still gained 2.5% last week",
+    "Anthropic is set to be the largest IPO ever; banks may raise the price",
+    "Nvidia's order book for the quarter is largely already booked"
+   ]
+  },
+  "calendar": [
+   {
+    "day": "Mon 16",
+    "date": "2026-11-16",
+    "items": [
+     {
+      "what": "Fed Chair Warsh speaks",
+      "why": "Any hint at a 0.50-point hike would push yields higher"
+     }
+    ]
+   },
+   {
+    "day": "Tue 17",
+    "date": "2026-11-17",
+    "items": [
+     {
+      "what": "US retail sales (Oct)",
+      "why": "Consensus 0.0%, ex-autos +0.4%: is the consumer holding up?"
+     },
+     {
+      "what": "Nvidia Q3 earnings, after US close",
+      "why": "First report without Huang; guidance is what counts"
+     }
+    ]
+   },
+   {
+    "day": "Wed 18",
+    "date": "2026-11-18",
+    "items": [
+     {
+      "what": "Fed minutes (October meeting)",
+      "why": "How many officials already wanted to hike"
+     },
+     {
+      "what": "UK inflation (Oct)",
+      "why": "Sets the tone for the Bank of England"
+     },
+     {
+      "what": "Anthropic prices its IPO",
+      "why": "Above $78 would signal strong demand"
+     }
+    ]
+   },
+   {
+    "day": "Thu 19",
+    "date": "2026-11-19",
+    "items": [
+     {
+      "what": "Anthropic starts trading (ANT)",
+      "why": "Day-one move is a vote on AI valuations"
+     },
+     {
+      "what": "US jobless claims · Philly Fed",
+      "why": "Expected 200k and 19.2: labour market still tight?"
+     }
+    ]
+   },
+   {
+    "day": "Fri 20",
+    "date": "2026-11-20",
+    "items": [
+     {
+      "what": "UMich consumer sentiment (final)",
+      "why": "Inflation expectations feed straight into Fed thinking"
+     }
+    ]
+   },
+   {
+    "day": "All week",
+    "date": "",
+    "items": [
+     {
+      "what": "Walmart, Home Depot, TJX earnings",
+      "why": "Read-through on US consumer spending"
+     }
+    ]
+   }
+  ],
+  "call": {
+   "id": "2026-11-16-nvda",
+   "question": "Nvidia reports Tuesday after the US close. On Wednesday, will NVDA close higher or lower than Tuesday's close?",
+   "options": [
+    "Higher",
+    "Lower"
+   ],
+   "resolvesLabel": "Thursday's brief"
+  },
+  "resolutions": [],
+  "quiz": [
+   {
+    "q": "Why did Korea's market fall far more than Europe's this morning?",
+    "o": [
+     "Its index is packed with chipmakers that supply Nvidia",
+     "Korea raised interest rates overnight",
+     "European markets were closed",
+     "Oil prices collapsed"
+    ],
+    "a": 0,
+    "why": "Korea's Kospi is dominated by SK Hynix and Samsung. Europe's indexes lean on banks, insurers and energy, which is why the Stoxx 600 hit a record."
+   },
+   {
+    "q": "The 10-year yield went from 4.86% to 5.15%. How many basis points is that?",
+    "o": [
+     "0.29bp",
+     "2.9bp",
+     "29bp",
+     "290bp"
+    ],
+    "a": 2,
+    "why": "5.15 − 4.86 = 0.29 percentage points, and 1 point = 100bp, so 29bp."
+   },
+   {
+    "q": "Why did gold fall on Friday despite war risk in the Gulf?",
+    "o": [
+     "Central banks sold their reserves",
+     "Higher bond yields make a non-paying asset less attractive",
+     "Iran is a major gold producer",
+     "The euro weakened"
+    ],
+    "a": 1,
+    "why": "Gold pays no interest. When safe bonds pay over 5%, the cost of holding gold instead rises, which can outweigh its safe-haven appeal."
+   }
+  ],
+  "coffee": "What makes this week interesting is that Nvidia reports and Anthropic lists within 48 hours of each other, with the US 10-year above 5%. It's a live test of whether investors will still pay up for AI when risk-free money pays 5%.",
+  "sources": [
+   {
+    "l": "Yahoo Finance: markets 13 Nov",
+    "u": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-tick-133734502.html"
+   },
+   {
+    "l": "Washington Post: US indexes 13 Nov",
+    "u": "https://www.washingtonpost.com/business/2026/11/13/wall-street-stocks-dow-nasdaq/f15a10e2-dfa7-11f1-912c-4fbb80d73f7f_story.html"
+   },
+   {
+    "l": "Bloomberg: European shares 13 Nov",
+    "u": "https://www.bloomberg.com/news/articles/2026-11-13/european-shares-pull-back-from-record-high-after-four-day-rally"
+   },
+   {
+    "l": "IC Markets: analysis 13 Nov",
+    "u": "https://www.ic.com/blog/general-market-analysis-13-november-2026-ic/"
+   },
+   {
+    "l": "NordFX: market pulse 13 Nov",
+    "u": "https://nordfx.com/market-news/market-pulse-november-13-2026"
+   },
+   {
+    "l": "Rio Times: global briefing 13 Nov",
+    "u": "https://www.riotimesonline.com/global-economy-briefing-november-13-2026/"
+   },
+   {
+    "l": "HeyGoTrade: week ahead",
+    "u": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-11-16/"
+   },
+   {
+    "l": "TradingKey: week ahead",
+    "u": "https://www.tradingkey.com/analysis/stocks/us-stocks/262305825-week-ahead-nvidia-q3-earnings-us-october-retail-sales-fomc-minutes-walmart-tradingkey"
+   },
+   {
+    "l": "MarketScreener: Nvidia and Anthropic tests",
+    "u": "https://marketscreener.com/news/stocks-falter-ahead-of-nvidia-and-anthropic-tests-ce785edfda80f12d"
+   }
+  ]
+ }
+]
