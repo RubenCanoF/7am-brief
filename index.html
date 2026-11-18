@@ -151,6 +151,10 @@ section{padding-block:36px 8px;scroll-margin-top:48px}
 .cal .cd.today .d{color:var(--ox)}
 .ci{font-size:14px;line-height:1.35;margin-bottom:6px}
 .ci b{font-weight:600}
+.ci i{display:block;font-style:normal;font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--ox);font-variant-numeric:tabular-nums}
+.ci a{color:inherit;text-decoration:none}
+.ci a:hover b{text-decoration:underline;text-decoration-color:var(--ox)}
+.ci a small{color:var(--ox);font-size:12px}
 .ci span{display:block;font-size:12.5px;color:var(--muted)}
 
 /* tracker */
@@ -280,7 +284,8 @@ function spark(it){
   const W=80,H=26,P=2, mn=Math.min(...pts), mx=Math.max(...pts), r=(mx-mn)||1;
   const x=i=>P+i*((W-2*P)/(pts.length-1)), y=v=>H-P-((v-mn)/r)*(H-2*P);
   const line=pts.map((v,i)=>`${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(" ");
-  const ch=(pts[pts.length-1]/pts[0]-1)*100, col=ch>=0?"var(--up)":"var(--down)";
+  // colour follows today's move (same as the % next to it); the shape shows the 20-session trend
+  const ch=(pts[pts.length-1]/pts[0]-1)*100, d=changeOf(it), col=d? (d.c==="up"?"var(--up)":d.c==="down"?"var(--down)":"var(--muted)") : "var(--muted)";
   const s=svg("svg",{viewBox:`0 0 ${W} ${H}`,class:"spark",role:"img","aria-label":`${it.name}, last ${pts.length} sessions: ${pct(ch)}`});
   const t=document.createElementNS(SVGNS,"title"); t.textContent=`Last ${pts.length} sessions: ${pct(ch)}`; s.append(t);
   s.append(svg("polygon",{points:`${x(0).toFixed(1)},${H} ${line} ${x(pts.length-1).toFixed(1)},${H}`,fill:col,"fill-opacity":"0.10"}));
@@ -337,7 +342,7 @@ function render(){
           el("div",{class:"val"}, it.value, ch? " ":null, ch? el("span",{class:"chg "+ch.c, text:ch.t}):null, typeof it.wk==="number"? el("span",{class:"muted", style:"font-size:12px", text:" · wk "+pct(it.wk)}):null),
           el("div",{class:"note", text:it.note}));
       })))),
-    el("p",{class:"fine", text:"Closing prices from the last completed session. Trend lines show the last 20 sessions, with the dashed line at the starting level. Bitcoin updates live while the page is open."})
+    el("p",{class:"fine", text:"Closing prices from the last completed session. Trend lines show the last 20 sessions, with the dashed line at the starting level; their colour follows the day's move. Bitcoin updates live while the page is open."})
   ));
 
   // 03 stories + side
@@ -348,7 +353,10 @@ function render(){
     meterEl(D.meter),
     el("div",{class:"blk"}, el("span",{class:"eyebrow", text:"Coming up"}),
       el("div",{class:"cal"}, D.calendar.map(c=>el("div",{class:"cd"+(c.date===D.date?" today":"")}, el("div",{class:"d", text:c.day}),
-        el("div",{}, c.items.map(x=>el("div",{class:"ci"}, el("b",{text:x.what}), el("span",{text:x.why}))))))))
+        el("div",{}, c.items.map(x=>el("div",{class:"ci"},
+          x.time? el("i",{text:x.time}):null,
+          x.link? el("a",{href:x.link, target:"_blank", rel:"noopener"}, el("b",{text:x.what}), el("small",{text:" ↗"})) : el("b",{text:x.what}),
+          el("span",{text:x.why}))))))))
   );
   app.append(sec("stories","03","The stories","Tap a story to read it",
     el("div",{class:"cols"}, stories, side)));
