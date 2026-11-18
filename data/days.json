@@ -1,5 +1,537 @@
 [
  {
+  "date": "2026-11-18",
+  "dateLabel": "Wednesday 18 November 2026",
+  "readMins": 6,
+  "asOf": "US: Tuesday 17 Nov close · Europe, Asia, rates and commodities not shown: closes could not be verified this morning",
+  "sixty": [
+   "US stocks fell for a fourth day on Tuesday: the S&P 500 lost 1.03% to its lowest close since late July and the Dow dropped 848 points, led by software stocks.",
+   "After the close Nvidia beat forecasts and guided to about $130 billion of sales next quarter, and its shares rose after hours despite the CEO's exit.",
+   "Today the Fed publishes minutes of its October meeting, with a December hike seen as near-certain, and Anthropic prices its IPO ahead of Thursday's debut."
+  ],
+  "markets": [
+   {
+    "group": "United States",
+    "items": [
+     {
+      "name": "S&P 500",
+      "sym": "%5EGSPC",
+      "value": "7,340.53",
+      "chg": -1.03,
+      "note": "Fourth straight loss; lowest close since late July"
+     },
+     {
+      "name": "Nasdaq Composite",
+      "sym": "%5EIXIC",
+      "value": "24,328.38",
+      "chg": -0.74,
+      "note": "Fell as much as 2.1% before recovering ahead of Nvidia"
+     },
+     {
+      "name": "Dow Jones",
+      "sym": "%5EDJI",
+      "value": "50,759.42",
+      "chg": -1.64,
+      "note": "Biggest drag: financials and Salesforce (-9.45%)"
+     }
+    ]
+   }
+  ],
+  "stories": [
+   {
+    "id": "selloff",
+    "kicker": "US markets",
+    "title": "Dow falls 848 points as software stocks lead a fourth losing day",
+    "chain": [
+     "Software and tech stocks sold off before Nvidia reported",
+     "Salesforce -9.45%; every S&P 500 sector fell",
+     "S&P 500 -1.03%, its lowest close since late July",
+     "Investors waited for Nvidia before deciding what comes next"
+    ],
+    "depth": {
+     "simple": "US stocks fell for a fourth day. The Dow lost 848 points, or 1.6%. Software companies were hit hardest: Salesforce dropped almost 10%. Many investors did not want to hold risky tech shares before Nvidia, the chipmaker at the centre of the AI boom, reported its results after the close.",
+     "standard": "The S&P 500 closed at 7,340.53 (-1.03%), its lowest close since late July. The Dow fell 848.75 points (-1.64%) to 50,759.42 and the Nasdaq Composite lost 0.74% to 24,328.38 after sliding as much as 2.1% during the day. All sectors fell; financials were weakest. Salesforce closed down 9.45% at $194.52. Nvidia itself barely moved in regular trading (about -0.4%).",
+     "pro": "The move was broader than Monday's chip-led drop: software and financials led, which points to de-grossing and a higher discount rate rather than a single-name story. The Nasdaq's recovery from a 2.1% intraday low shows dip buyers into the print. With the 10-year already above 5% and a December Fed hike priced as near-certain, long-duration equity multiples stay under pressure. Watch whether the Nvidia beat lifts the wider tape or only chipmakers."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "Yahoo Finance: Dow sinks 850 points",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+     },
+     {
+      "l": "Motley Fool: Stock Market Today, Nov. 17",
+      "u": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-stocks-slide-on-ai-chip-and-tech-pressures-salesforce-plummets-9/"
+     },
+     {
+      "l": "BBN Times: Dow Jones sinks to 50,759.42",
+      "u": "https://www.bbntimes.com/global-economy/dow-jones-sinks-to-50-759-42-as-home-depot-and-cyclicals-weigh-before-nvidia-s-earnings-beat-estimates"
+     }
+    ]
+   },
+   {
+    "id": "nvidia",
+    "kicker": "AI & chips",
+    "title": "Nvidia beats and guides to $130 billion, shares rise after hours",
+    "chain": [
+     "Nvidia reports its first quarter without Jensen Huang",
+     "Revenue $115.8B vs about $109B expected",
+     "Q4 guidance near $130B vs about $125B expected",
+     "Shares rise 3-5% after hours; Asian chip stocks react this morning"
+    ],
+    "depth": {
+     "simple": "Nvidia reported its first results since its founder-CEO Jensen Huang resigned. Sales were about $115.8 billion, double a year earlier and well above forecasts. It also said sales next quarter should be about $130 billion. That calmed investors, and the shares rose in after-hours trading.",
+     "standard": "Revenue for the quarter to 25 October was $115.84B (+103% year on year) against about $109B expected. Adjusted EPS was $2.68 vs $2.47-2.48. Fourth-quarter revenue guidance is about $130B versus a $125.1B consensus (LSEG). Reports say the company raised its fiscal 2028 growth outlook to 75% from 70%. The board does not plan to bring Huang back. After-hours gains were reported at roughly 3-5%; sources differ on the exact figure.",
+     "pro": "The beat answers the fundamental question, but the stock has fallen about 16% since the scandal broke, so the debate is now governance and key-person risk rather than demand. Gross margin guidance (reported at 71-72%) and the Rubin ramp are the watch items. Asia's muted reaction, with the leadership and spy-affair headlines still in focus, shows that a strong print does not remove the overhang. Whether Wednesday's session holds the after-hours gain is the open question."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "NBC News: Nvidia enters the post-Jensen Huang era",
+      "u": "https://nbcnews.com/business/corporations/nvidia-post-jensen-huang-kress-earnings-rcna609782"
+     },
+     {
+      "l": "TipRanks: Nvidia up nearly 5% after strong Q3",
+      "u": "https://www.tipranks.com/news/the-fly/closing-bell-movers-nvidia-up-nearly-5-after-strong-q3-results-guidance-raise-thefly-news"
+     },
+     {
+      "l": "CNBC: live updates, Nvidia beat",
+      "u": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+     }
+    ]
+   },
+   {
+    "id": "anthropic",
+    "kicker": "AI IPO",
+    "title": "Anthropic prices its IPO today; trading starts Thursday",
+    "chain": [
+     "Price range set at $70-78 for 825M shares",
+     "Orders reported about six times the shares on offer",
+     "Pricing tonight, possibly above the range",
+     "ANT starts trading on Nasdaq on Thursday 19 Nov"
+    ],
+    "depth": {
+     "simple": "Anthropic is selling shares to the public for the first time. It sets the final price tonight and trading starts Thursday under the ticker ANT. Reports say investors asked for about six times the shares available, so some may price above the planned range of $70 to $78.",
+     "standard": "The range is $70-78 for 825 million Class A shares on the Nasdaq Global Select Market. At the top end that implies about $1.4 trillion fully diluted; on shares outstanding, estimates are about $0.9-1.0 trillion. CNBC cited sources saying the deal may price above range. Final pricing is expected on 18 Nov. Nothing has been confirmed at the time of writing.",
+     "pro": "Strong demand into a falling tape makes this a test of risk appetite for AI paper. Pricing above range would signal that supply, not demand, is scarce; it also raises first-day expectations, which the call below tests. Watch allocation behaviour, the circular-funding concern from supplier investors, and whether a rebounding Nvidia helps the debut."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "CNBC: Anthropic IPO guide",
+      "u": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
+     },
+     {
+      "l": "TechCrunch: price range $70-78",
+      "u": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+     },
+     {
+      "l": "TradingKey: orders six times the shares",
+      "u": "https://www.tradingkey.com/analysis/stocks/us-stocks/262304476-anthropic-ipo-ant-price-above-78-orders-six-times-november-14-2026-tradingkey"
+     }
+    ],
+    "disclosure": "This brief is written by Claude, which is made by Anthropic. It covers Anthropic like any other company and takes no view on buying the shares."
+   },
+   {
+    "id": "fed",
+    "kicker": "Central banks",
+    "title": "Fed minutes today; ECB also leans towards a December hike",
+    "chain": [
+     "October CPI came in hotter than forecast",
+     "Fed held rates but two members voted to hike (10-2)",
+     "Markets price about 92-96% odds of a December hike",
+     "Minutes at 2pm ET show how broad the hawkish camp is"
+    ],
+    "depth": {
+     "simple": "Central banks are leaning towards raising interest rates again because inflation is stubborn. The Fed releases notes from its October meeting at 2pm New York time. Two officials already wanted a hike then, and traders think a hike in December is almost certain. In Europe, the ECB's president has also said a hike is possible.",
+     "standard": "The Fed held its target range at 3.75-4.00% on 28 Oct in a 10-2 vote; Lisa Cook and Beth Hammack dissented in favour of a quarter-point rise. The next meeting is 8-9 Dec, with CME FedWatch showing roughly 92-96% odds of a 25bp hike. Waller has backed a December hike. In the euro area, Lagarde said on 7-8 Nov that inflation will stay high and driven by energy, and that a December hike could follow.",
+     "pro": "The minutes matter for breadth and pace: how many officials see a hike as warranted, and whether anyone talks about a series rather than one move. With a December hike priced in, the surprise risk is on the terminal-rate path, not December. A more hawkish read would pressure long-duration assets and support the dollar. For the ECB the energy pass-through is the mechanism; oil staying lower would ease the case."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: ECB signals a December hike is possible as energy keeps inflation high"
+     }
+    ],
+    "sources": [
+     {
+      "l": "Admiral Markets: FOMC minutes 18 Nov",
+      "u": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-november-2026"
+     },
+     {
+      "l": "Lovguiden: Lagarde, ECB hike possible in December",
+      "u": "https://www.lovguiden.dk/en/det-offentlige/den-europaeiske-centralbank/2026-11-07-lagarde-4-inflation-driven-by-energy-ecb-rate-hike-possible-in-december"
+     }
+    ]
+   },
+   {
+    "id": "iran",
+    "kicker": "Geopolitics",
+    "title": "Oil steadies as US-Iran talks stall and Gulf attacks continue",
+    "chain": [
+     "On-and-off US-Iran talks fail to settle the conflict",
+     "Attacks on Gulf shipping continue",
+     "Oil swings in a $3 range but holds near Monday's level",
+     "A forecast Q4 supply surplus caps the rally"
+    ],
+    "depth": {
+     "simple": "Oil prices were steady on Tuesday after Monday's big drop. Talks between the US and Iran keep starting and stopping, and attacks on ships in the Gulf go on. But the world is expected to have more oil than it needs this quarter, which keeps a lid on prices.",
+     "standard": "Brent swung in a range of about $3 and ended near the previous day's level, with reports of afternoon settlements around $93. The IEA said last week the market should turn to surplus in Q4. Iran's restrictions around the Strait of Hormuz and tanker strikes remain the main upside risk. Exact settlement levels vary between sources.",
+     "pro": "The market is pricing a risk premium against a surplus. Escalation in the Strait would hit tanker insurance and freight before it hits physical supply, so watch war-risk premiums and UKMTO notices. A deal would remove the premium quickly, while a surplus means downside needs less help than upside."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: energy prices feed straight into European inflation and ECB policy"
+     }
+    ],
+    "sources": [
+     {
+      "l": "Rigzone: Oil prices swing as Gulf attacks continue",
+      "u": "https://www.rigzone.com/news/wire/oil_prices_swing_as_gulf_attacks_continue-17-nov-2026-185107-article/"
+     },
+     {
+      "l": "Today in Oil and Gas: oil stabilizes after Monday selloff",
+      "u": "https://www.todayinoilandgas.com/2026/11/17/oil-prices-stabilize-after-mondays-sharp-selloff-as-global-supply-surplus-offsets-middle-east-tanker-risks/"
+     }
+    ]
+   }
+  ],
+  "number": {
+   "value": "$130B",
+   "label": "Nvidia's guided revenue for next quarter",
+   "context": "Analysts expected about $125B. A bigger guide matters more than the quarter just finished, because it tells investors whether AI spending is still speeding up."
+  },
+  "word": {
+   "term": "Guidance",
+   "def": "A company's own forecast of its future sales or profit. Markets often react more to guidance than to the quarter just reported, because stock prices are about what comes next.",
+   "inToday": "Nvidia guided to about $130 billion of revenue for next quarter, above the roughly $125 billion analysts expected."
+  },
+  "threads": [
+   {
+    "id": "nvidia-ceo",
+    "name": "Nvidia leadership crisis",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "11 Nov",
+      "t": "Huang resigns as CEO and director; CFO Colette Kress named interim CEO, Harvey Jones board chair"
+     },
+     {
+      "d": "13 Nov",
+      "t": "Nasdaq −0.9%; Nvidia ends its worst week since April 2025"
+     },
+     {
+      "d": "16 Nov",
+      "t": "CNBC: board not considering a return; Asian chipmakers slide (SK Hynix −7.9%)"
+     },
+     {
+      "d": "17 Nov",
+      "t": "Nasdaq −2.5% on Monday; Nvidia −4.1% as Washington tightens AI chip export rules"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Q3 revenue $115.8B beats; Q4 guide about $130B; shares up after hours; board will not bring Huang back",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Q4 results done; watch whether gains hold Wednesday",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "fed-hikes",
+    "name": "Fed hiking again",
+    "status": "Building",
+    "events": [
+     {
+      "d": "Nov",
+      "t": "October CPI +0.4% m/m, above the 0.3% forecast"
+     },
+     {
+      "d": "13 Nov",
+      "t": "US 10-year yield closes around 5.15%"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Warsh speaks; December hike odds near 92%"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Warsh says Fed staff is studying AI-bubble risk; gives no hint on rates; December hike seen as near-certain"
+     },
+     {
+      "d": "17 Nov",
+      "t": "S&P 500 -1.0% to a four-month low; December hike odds around 92-96%",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Minutes Wed 18 Nov 2pm ET · Decision 8-9 Dec",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "hormuz",
+    "name": "Iran and the Strait of Hormuz",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "Earlier",
+      "t": "Iran restricts passage through Hormuz and attacks ships it says break its rules"
+     },
+     {
+      "d": "13 Nov",
+      "t": "Shipping risk lifts oil; Brent around $96"
+     },
+     {
+      "d": "15 Nov",
+      "t": "Tanker strikes begin; Iran says six hit since Sunday (one confirmed by UKMTO)"
+     },
+     {
+      "d": "16 Nov",
+      "t": "IRGC drones at a US radar site in Bahrain, all intercepted; Trump reportedly weighing restraint"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Brent −3.6% to $92.44 as Hormuz flows recover and IEA sees a Q4 surplus; IRGC says two more tankers hit mines (unverified); Vance: no 'forever war'"
+     },
+     {
+      "d": "17 Nov",
+      "t": "Oil steady after Monday selloff; US-Iran talks on and off, Gulf attacks continue",
+      "today": true
+     }
+    ]
+   },
+   {
+    "id": "ai-ipo",
+    "name": "Anthropic IPO",
+    "status": "This week",
+    "events": [
+     {
+      "d": "Summer",
+      "t": "Bullish investors talk of a ~$2T valuation"
+     },
+     {
+      "d": "10 Nov",
+      "t": "Price range set at $70–78, up to ~$1.4T fully diluted"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Reports say banks are weighing a higher price; demand reportedly strong"
+     },
+     {
+      "d": "17 Nov",
+      "t": "Order book reported ~6× covered; Nvidia to buy ~$10B of shares at the IPO price"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Pricing expected tonight, possibly above the $70-78 range",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Trades Thu 19 Nov as ANT",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "chip-curbs",
+    "name": "US AI-chip export curbs",
+    "status": "Building",
+    "events": [
+     {
+      "d": "11 Nov",
+      "t": "Huang resigns; probe linked to a suspected Chinese intelligence effort"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Commerce interim rule: licences needed to ship advanced AI chips to Brazil, Indonesia, Malaysia, Singapore, Thailand; remote access by Chinese firms also covered"
+     },
+     {
+      "d": "Next",
+      "t": "Operators have 90 days after the rule takes effect to get licences",
+      "next": true
+     }
+    ]
+   }
+  ],
+  "meter": {
+   "value": 60,
+   "label": "Leaking, but a strong print",
+   "summary": "Tuesday added to the selloff, but Nvidia's results show AI demand is still growing fast.",
+   "deflating": [
+    "S&P 500 at its lowest close since late July after four losing days",
+    "Software stocks hit hard: Salesforce -9.45%",
+    "Nvidia still about 16% below where it was before its scandal",
+    "Rates stay high, with a December hike priced in"
+   ],
+   "inflating": [
+    "Nvidia revenue doubled and guidance beat by about $5B",
+    "Anthropic IPO orders reported at about 6x the shares on offer",
+    "The Nasdaq recovered from a 2.1% intraday drop"
+   ]
+  },
+  "calendar": [
+   {
+    "day": "Wed 18",
+    "date": "2026-11-18",
+    "items": [
+     {
+      "what": "Fed minutes (October meeting), 2pm ET",
+      "why": "Shows how many officials favour a December hike"
+     },
+     {
+      "what": "UK inflation (Oct)",
+      "why": "Sets the tone for the Bank of England"
+     },
+     {
+      "what": "Anthropic prices its IPO",
+      "why": "Above $78 would signal very strong demand"
+     }
+    ]
+   },
+   {
+    "day": "Thu 19",
+    "date": "2026-11-19",
+    "items": [
+     {
+      "what": "Anthropic starts trading (ANT)",
+      "why": "Day-one move is a vote on AI valuations"
+     },
+     {
+      "what": "US jobless claims · Philly Fed",
+      "why": "Is the labour market still tight?"
+     }
+    ]
+   },
+   {
+    "day": "Fri 20",
+    "date": "2026-11-20",
+    "items": [
+     {
+      "what": "UMich consumer sentiment (final)",
+      "why": "Inflation expectations feed into Fed thinking"
+     }
+    ]
+   },
+   {
+    "day": "All week",
+    "date": "",
+    "items": [
+     {
+      "what": "Walmart, Home Depot, TJX earnings",
+      "why": "Read-through on US consumer spending"
+     }
+    ]
+   }
+  ],
+  "call": {
+   "id": "2026-11-18-sp-thu",
+   "question": "Will the S&P 500 close higher on Thursday 19 Nov than on Wednesday 18 Nov?",
+   "options": [
+    "Higher on Thursday",
+    "Lower or flat on Thursday"
+   ],
+   "resolvesLabel": "Friday's brief"
+  },
+  "resolutions": [],
+  "quiz": [
+   {
+    "q": "What is \"guidance\" in an earnings report?",
+    "o": [
+     "The company's own forecast for coming sales or profit",
+     "The analysts' average estimate",
+     "A rule from the stock exchange",
+     "The share price after hours"
+    ],
+    "a": 0,
+    "why": "Guidance is management's forecast. Stocks often move more on it than on the past quarter."
+   },
+   {
+    "q": "Why did the Dow's 848-point fall matter beyond the number itself?",
+    "o": [
+     "It was a broad fall, with every S&P 500 sector lower",
+     "Only chip stocks fell",
+     "It was caused by oil",
+     "It ended a rally"
+    ],
+    "a": 0,
+    "why": "All sectors fell, led by software and financials. That points to wider risk-off selling, not one story."
+   },
+   {
+    "q": "Why does a December Fed hike being \"priced in\" reduce its surprise?",
+    "o": [
+     "Traders have already adjusted prices for it",
+     "The Fed has promised it",
+     "It is illegal to surprise markets",
+     "Hikes never affect stocks"
+    ],
+    "a": 0,
+    "why": "If markets already expect a move, the news is the path of future rates, not the hike itself."
+   }
+  ],
+  "coffee": "The market is testing the AI trade from both sides: Nvidia just beat and guided up, yet stocks sit at four-month lows with a Fed hike coming, so everything now depends on whether growth can outrun higher rates.",
+  "sources": [
+   {
+    "l": "Yahoo Finance: Dow sinks 850 points",
+    "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+   },
+   {
+    "l": "Motley Fool: Stock Market Today, Nov. 17",
+    "u": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-stocks-slide-on-ai-chip-and-tech-pressures-salesforce-plummets-9/"
+   },
+   {
+    "l": "BBN Times: Dow Jones sinks to 50,759.42",
+    "u": "https://www.bbntimes.com/global-economy/dow-jones-sinks-to-50-759-42-as-home-depot-and-cyclicals-weigh-before-nvidia-s-earnings-beat-estimates"
+   },
+   {
+    "l": "NBC News: Nvidia enters the post-Jensen Huang era",
+    "u": "https://nbcnews.com/business/corporations/nvidia-post-jensen-huang-kress-earnings-rcna609782"
+   },
+   {
+    "l": "TipRanks: Nvidia up nearly 5% after strong Q3",
+    "u": "https://www.tipranks.com/news/the-fly/closing-bell-movers-nvidia-up-nearly-5-after-strong-q3-results-guidance-raise-thefly-news"
+   },
+   {
+    "l": "CNBC: live updates, Nvidia beat",
+    "u": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+   },
+   {
+    "l": "CNBC: Anthropic IPO guide",
+    "u": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
+   },
+   {
+    "l": "TechCrunch: price range $70-78",
+    "u": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+   },
+   {
+    "l": "TradingKey: orders six times the shares",
+    "u": "https://www.tradingkey.com/analysis/stocks/us-stocks/262304476-anthropic-ipo-ant-price-above-78-orders-six-times-november-14-2026-tradingkey"
+   },
+   {
+    "l": "Admiral Markets: FOMC minutes 18 Nov",
+    "u": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-november-2026"
+   },
+   {
+    "l": "Lovguiden: Lagarde, ECB hike possible in December",
+    "u": "https://www.lovguiden.dk/en/det-offentlige/den-europaeiske-centralbank/2026-11-07-lagarde-4-inflation-driven-by-energy-ecb-rate-hike-possible-in-december"
+   },
+   {
+    "l": "Rigzone: Oil prices swing as Gulf attacks continue",
+    "u": "https://www.rigzone.com/news/wire/oil_prices_swing_as_gulf_attacks_continue-17-nov-2026-185107-article/"
+   },
+   {
+    "l": "Today in Oil and Gas: oil stabilizes after Monday selloff",
+    "u": "https://www.todayinoilandgas.com/2026/11/17/oil-prices-stabilize-after-mondays-sharp-selloff-as-global-supply-surplus-offsets-middle-east-tanker-risks/"
+   }
+  ]
+ },
+ {
   "date": "2026-11-17",
   "dateLabel": "Tuesday 17 November 2026",
   "readMins": 6,
