@@ -1,5 +1,1113 @@
 [
  {
+  "date": "2026-11-20",
+  "dateLabel": "Friday 20 November 2026",
+  "readMins": 6,
+  "asOf": "US & Europe: Thursday 19 Nov close · Asia: Nikkei and Kospi Friday 20 Nov close, Hang Seng Thursday 19 Nov close · Bitcoin: Wednesday 18 Nov close",
+  "sixty": [
+   "Wall Street's AI sell-off deepened: the S&P 500 fell 2.02% to 7,175.83, its sixth straight loss, and the Dow dropped about 1,100 points.",
+   "Anthropic debuted on Nasdaq, opened near $111 but closed at $97.17, up 17% on its $83 IPO price, as the broad sell-off ate most of the early jump.",
+   "Asia followed overnight, with the Nikkei down 4.82% and the Kospi down 5.23%, while Europe fell less (IBEX 35 -0.97%), gold dropped 1.51% and Brent held near $92 despite Hormuz tension."
+  ],
+  "markets": [
+   {
+    "group": "United States",
+    "items": [
+     {
+      "name": "S&P 500",
+      "sym": "%5EGSPC",
+      "value": "7,175.83",
+      "hist": [
+       7623.6802,
+       7676.77,
+       7722.6001,
+       7743.98,
+       7720.3901,
+       7580.0698,
+       7541.3999,
+       7568.9199,
+       7688.6201,
+       7353.73,
+       7376.8599,
+       7549.9399,
+       7520.9302,
+       7619.3799,
+       7592.3999,
+       7561.6699,
+       7416.5898,
+       7340.5298,
+       7323.6299,
+       7175.8301
+      ],
+      "chg": -2.02,
+      "note": "Sixth straight loss, the longest streak since 2024, as AI worries spread; all 11 sectors fell"
+     },
+     {
+      "name": "Nasdaq Composite",
+      "sym": "%5EIXIC",
+      "value": "23,879.20",
+      "hist": [
+       25955.3398,
+       26169.3809,
+       26477.8105,
+       26549.8496,
+       26184.7207,
+       25437.0,
+       25164.3105,
+       25372.0098,
+       25736.5098,
+       24315.0,
+       24579.4297,
+       25253.1406,
+       25065.8691,
+       25466.1895,
+       25366.0898,
+       25136.2695,
+       24509.7598,
+       24328.3809,
+       24429.8809,
+       23879.1992
+      ],
+      "chg": -2.25,
+      "note": "Tech sold off hard even as Anthropic's debut was strong"
+     },
+     {
+      "name": "Dow Jones",
+      "sym": "%5EDJI",
+      "value": "49,097.06",
+      "hist": [
+       52215.1602,
+       52361.5781,
+       52377.5703,
+       52475.1016,
+       52342.5586,
+       51770.3086,
+       51983.9805,
+       51786.7188,
+       53356.1211,
+       51523.0586,
+       51285.7305,
+       52389.75,
+       52231.8906,
+       52486.4883,
+       52297.0898,
+       52347.5508,
+       51608.1719,
+       50759.4219,
+       50198.1719,
+       49097.0586
+      ],
+      "chg": -2.19,
+      "note": "Lost about 1,100 points; more than 90% of S&P 500 stocks fell"
+     }
+    ]
+   },
+   {
+    "group": "Europe",
+    "items": [
+     {
+      "name": "Stoxx Europe 600",
+      "sym": "%5ESTOXX",
+      "value": "638.41",
+      "hist": [
+       635.77,
+       640.66,
+       643.68,
+       644.14,
+       649.11,
+       646.75,
+       649.44,
+       645.66,
+       657.4,
+       654.87,
+       648.33,
+       656.52,
+       658.32,
+       663.05,
+       664.01,
+       664.14,
+       662.31,
+       650.72,
+       644.05,
+       638.41
+      ],
+      "chg": -0.88,
+      "note": "Extended its losing run, the longest since August, on AI worries"
+     },
+     {
+      "name": "IBEX 35",
+      "sym": "%5EIBEX",
+      "value": "19,186.20",
+      "hist": [
+       18989.8008,
+       19033.3008,
+       19160.5996,
+       18883.5,
+       18857.5996,
+       18652.9004,
+       18957.8008,
+       18807.1992,
+       19370.9004,
+       19486.0,
+       19369.5,
+       19742.5,
+       19936.4004,
+       20027.9004,
+       19965.5,
+       20020.0996,
+       19946.5996,
+       19625.3008,
+       19373.3008,
+       19186.1992
+      ],
+      "chg": -0.97,
+      "note": "Followed Europe lower in a broad, AI-driven sell-off"
+     },
+     {
+      "name": "DAX",
+      "sym": "%5EGDAXI",
+      "value": "25,463.81",
+      "hist": [
+       25181.6504,
+       25410.8398,
+       25590.7695,
+       25704.0195,
+       26039.6797,
+       25818.2109,
+       25981.0898,
+       25864.6191,
+       26437.6699,
+       26325.0098,
+       25820.3594,
+       26267.1895,
+       26347.4492,
+       26662.7695,
+       26771.8809,
+       26749.9492,
+       26598.6406,
+       26045.3691,
+       25736.2402,
+       25463.8105
+      ],
+      "chg": -1.06,
+      "note": "Down with the rest of Europe on AI and tech worries"
+     },
+     {
+      "name": "Euro Stoxx 50",
+      "sym": "%5ESTOXX50E",
+      "value": "6,113.86",
+      "hist": [
+       6068.2202,
+       6116.23,
+       6164.6899,
+       6167.8101,
+       6207.0698,
+       6131.3101,
+       6176.0601,
+       6144.5601,
+       6265.71,
+       6231.54,
+       6170.4902,
+       6290.4502,
+       6327.8701,
+       6393.3901,
+       6398.98,
+       6386.8599,
+       6348.3501,
+       6212.1099,
+       6154.3901,
+       6113.8599
+      ],
+      "chg": -0.66,
+      "note": "Slipped in line with the wider European market"
+     }
+    ]
+   },
+   {
+    "group": "Asia",
+    "items": [
+     {
+      "name": "Nikkei 225",
+      "sym": "%5EN225",
+      "value": "56,576.41",
+      "hist": [
+       62693.1602,
+       62189.6484,
+       63268.3711,
+       63954.1914,
+       64659.4688,
+       63290.1094,
+       63081.8594,
+       62188.6289,
+       61077.8984,
+       57434.7695,
+       58775.5,
+       60459.5781,
+       61248.5898,
+       60819.3594,
+       61142.3516,
+       59662.0195,
+       58860.4297,
+       59024.2812,
+       59444.2109,
+       56576.4102
+      ],
+      "chg": -4.82,
+      "note": "Worst day in months as Wall Street's AI reversal hit chip and tech names, SoftBank among them"
+     },
+     {
+      "name": "Kospi",
+      "sym": "%5EKS11",
+      "value": "4,869.00",
+      "hist": [
+       5469.4702,
+       5638.3398,
+       6012.4399,
+       5937.6602,
+       5730.7402,
+       5859.0801,
+       5648.79,
+       5683.7998,
+       5383.7998,
+       5059.6899,
+       5018.8501,
+       5239.1299,
+       5375.3599,
+       5342.73,
+       5290.5298,
+       5100.5,
+       4968.48,
+       5067.4399,
+       5137.8901,
+       4869.0
+      ],
+      "chg": -5.23,
+      "note": "Chip heavyweights Samsung and SK Hynix, nearly half the index, led the fall"
+     },
+     {
+      "name": "Hang Seng",
+      "sym": "%5EHSI",
+      "value": "22,841.62",
+      "hist": [
+       23093.3691,
+       23211.8105,
+       23041.3203,
+       23094.8301,
+       22958.6504,
+       23294.4199,
+       23393.3203,
+       23525.9707,
+       23919.5,
+       24796.9805,
+       24481.8594,
+       24448.9492,
+       24557.0391,
+       24315.9199,
+       24008.5508,
+       23637.5996,
+       23753.8398,
+       23508.1699,
+       23294.75,
+       22841.6191
+      ],
+      "chg": -1.95,
+      "note": "Fell on Thursday as Asian investors turned cautious on tech"
+     }
+    ]
+   },
+   {
+    "group": "Rates & currencies",
+    "items": [
+     {
+      "name": "US 10-year yield",
+      "sym": "%5ETNX",
+      "value": "5.05%",
+      "hist": [
+       4.988,
+       4.986,
+       4.993,
+       5.045,
+       4.989,
+       4.929,
+       4.894,
+       4.952,
+       4.894,
+       4.837,
+       4.859,
+       4.864,
+       4.983,
+       4.998,
+       5.103,
+       5.154,
+       5.121,
+       5.103,
+       5.066,
+       5.052
+      ],
+      "chgText": "−1bp",
+      "dir": -1,
+      "note": "Barely moved even as stocks sank, so the sell-off is about AI valuations more than bonds"
+     },
+     {
+      "name": "EUR/USD",
+      "sym": "EURUSD%3DX",
+      "value": "1.0972",
+      "hist": [
+       1.1221,
+       1.1218,
+       1.1174,
+       1.113,
+       1.1156,
+       1.1183,
+       1.1157,
+       1.1192,
+       1.1207,
+       1.1235,
+       1.1228,
+       1.1147,
+       1.1222,
+       1.1169,
+       1.1095,
+       1.105,
+       1.1025,
+       1.0998,
+       1.0993,
+       1.0972
+      ],
+      "chg": -0.19,
+      "note": "Euro weaker as the dollar held near a 19-month high on Fed hike bets"
+     },
+     {
+      "name": "Dollar index",
+      "sym": "DX-Y.NYB",
+      "value": "103.90",
+      "hist": [
+       101.81,
+       101.96,
+       102.32,
+       102.19,
+       102.04,
+       101.88,
+       101.75,
+       101.87,
+       101.51,
+       101.55,
+       102.3,
+       101.65,
+       102.23,
+       102.91,
+       103.17,
+       103.41,
+       103.55,
+       103.49,
+       103.86,
+       103.9
+      ],
+      "chg": 0.04,
+      "note": "Little changed after a strong run this week on Fed hike expectations"
+     }
+    ]
+   },
+   {
+    "group": "Commodities & crypto",
+    "items": [
+     {
+      "name": "Brent crude",
+      "sym": "BZ%3DF",
+      "value": "$91.98",
+      "hist": [
+       116.72,
+       115.81,
+       113.88,
+       115.32,
+       114.88,
+       117.64,
+       104.77,
+       103.6,
+       94.62,
+       98.29,
+       98.32,
+       92.57,
+       91.49,
+       92.76,
+       95.82,
+       95.84,
+       92.44,
+       93.14,
+       91.95,
+       91.98
+      ],
+      "chg": 0.03,
+      "note": "Flat: a forecast surplus and rising US stocks offset Hormuz tensions"
+     },
+     {
+      "name": "WTI crude",
+      "sym": "CL%3DF",
+      "value": "$83.21",
+      "hist": [
+       103.27,
+       101.76,
+       99.9,
+       102.78,
+       102.0,
+       104.12,
+       96.46,
+       96.09,
+       88.12,
+       90.52,
+       90.83,
+       86.85,
+       86.04,
+       86.53,
+       88.74,
+       88.56,
+       85.72,
+       86.01,
+       83.26,
+       83.21
+      ],
+      "chg": -0.06,
+      "note": "Edged lower as US inventories kept building"
+     },
+     {
+      "name": "Gold",
+      "sym": "GC%3DF",
+      "value": "$3,685.50",
+      "hist": [
+       4007.8999,
+       4038.3999,
+       4074.6001,
+       4051.6001,
+       4031.3999,
+       3898.8999,
+       3969.6001,
+       3940.3999,
+       4073.0,
+       4113.5,
+       4074.8999,
+       4114.5,
+       4030.2,
+       4000.5,
+       3885.3,
+       3886.3,
+       3853.0,
+       3864.2,
+       3741.8999,
+       3685.5
+      ],
+      "chg": -1.51,
+      "note": "Fell again as the firm dollar and higher rate-hike odds hurt gold, which pays no interest"
+     },
+     {
+      "name": "Bitcoin",
+      "sym": "BTC-USD",
+      "value": "$62,987",
+      "hist": [
+       77198.2109,
+       77434.75,
+       78248.4531,
+       76677.2969,
+       77345.0469,
+       80405.2891,
+       75942.125,
+       75746.9297,
+       75747.5781,
+       74584.6484,
+       75223.1484,
+       73720.1172,
+       73964.4688,
+       71342.9688,
+       68249.2734,
+       64128.0508,
+       65305.0625,
+       64855.8438,
+       64893.9453,
+       62987.2656
+      ],
+      "chg": -2.94,
+      "note": "Fell with risk assets; latest verified close is Wednesday's"
+     }
+    ]
+   }
+  ],
+  "stories": [
+   {
+    "id": "ai-selloff",
+    "kicker": "Markets",
+    "title": "Wall Street's AI sell-off deepens: S&P 500 down six days in a row",
+    "chain": [
+     "AI valuation worries and hike expectations kept weighing on tech",
+     "More than 90% of S&P 500 stocks fell, and all 11 sectors ended lower",
+     "The S&P 500 lost 2.02% to 7,175.83, the Nasdaq 2.25% and the Dow 2.19%",
+     "A sixth straight loss, the longest streak since 2024"
+    ],
+    "depth": {
+     "simple": "Share prices dropped sharply for the sixth day running. Investors are nervous that AI companies have been priced too high, and that interest rates will keep climbing. Almost every big US stock fell, not only tech. When nearly everything falls together, it usually means investors are selling to cut risk, not reacting to one piece of news.",
+     "standard": "The S&P 500 closed at 7,175.83, down 147.80 points or 2.02%. The Nasdaq Composite fell 2.25% to 23,879.20 and the Dow fell 2.19% to 49,097.06, about 1,100 points. Reports say more than 90% of S&P 500 members fell and every sector ended lower. Coverage links the drop to doubts over AI valuations, inflation and the Fed's rate path. The 10-year yield ended at 5.05%, down 1bp, and the dollar index was little changed at 103.90.",
+     "pro": "Breadth above 90% on the downside points to de-grossing and correlation going to one, not a single-name story. With the 10-year steady near 5.05%, the pressure is on equity risk premium and AI-linked multiples rather than a new rates shock. Watch whether quality and defensives hold, credit spreads, and whether the supply of new AI paper (the Anthropic IPO and its 30-day greenshoe) keeps competing with existing holders for cash."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "Motley Fool: Stock Market Today, Nov. 19",
+      "u": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-dow-plunges-1-100-points-as-the-s-and-p-500-suffers-its-6th-straight-day-of-losses/"
+     },
+     {
+      "l": "Yahoo Finance: Dow sinks 1,100 points as Anthropic IPO grabs spotlight",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+     },
+     {
+      "l": "Washington Post: How major US stock indexes fared Thursday",
+      "u": "https://www.washingtonpost.com/business/2026/11/19/wall-street-stocks-dow-nasdaq/6aaf39d0-e463-11f1-a99e-b3e3805c6b8b_story.html"
+     }
+    ]
+   },
+   {
+    "id": "anthropic",
+    "kicker": "AI IPO",
+    "title": "Anthropic's debut: opens near $111, closes at $97.17",
+    "chain": [
+     "ANT opened around $111 and touched about $115, a 34% pop",
+     "The wider market sold off and the gain faded through the day",
+     "It closed at $97.17, up about 17% on the $83 IPO price",
+     "Valuation at the close was roughly $1.27-1.28 trillion"
+    ],
+    "depth": {
+     "simple": "Anthropic's shares started trading and jumped more than 30% in the first minutes. Then the whole stock market fell, and most of that jump disappeared. By the close the shares were still about 17% above the $83 the company sold them for. So early buyers at the IPO price made money, but anyone who bought at the open lost some.",
+     "standard": "ANT opened around $111.50, hit a high near $115 and a low near $92.72, and closed at $97.17, about 17.1% above the $83 IPO price. That is roughly 13% below the opening level. Reported market value at the close was about $1.27-1.28 trillion. The IPO raised about $81 billion and the offering is due to close on Friday 20 November. A Morningstar analyst had put fair value at $92.",
+     "pro": "A 34% open followed by a 13% fade from the open is a classic sign of retail and momentum demand meeting a falling tape. The close above the offer price is a win for allocated holders, and the stock traded to $92.72, near the analyst fair value cited. Watch volume and whether the underwriters use the 30-day greenshoe to support the price, plus read-across to AI suppliers that also took part in the deal."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "FinanceFeeds: ANT closes at $97.17",
+      "u": "https://financefeeds.com/anthropic-ant-stock-closes-debut-97-17-price-prediction/"
+     },
+     {
+      "l": "Yahoo Finance: How to buy a company's stock when it IPOs",
+      "u": "https://finance.yahoo.com/personal-finance/investing/article/anthropic-ipo-how-to-buy-a-companys-stock-when-it-ipos-201237173.html"
+     },
+     {
+      "l": "Cryptoticker: Anthropic market cap after day one",
+      "u": "https://cryptoticker.io/en/anthropic-market-cap-first-day-close-ant-stock/"
+     }
+    ],
+    "disclosure": "This brief is written by Claude, which is made by Anthropic. It covers Anthropic like any other company and takes no view on buying the shares."
+   },
+   {
+    "id": "asia",
+    "kicker": "Asia",
+    "title": "Asia's AI trade unravels: Nikkei -4.8%, Kospi -5.2%",
+    "chain": [
+     "Wall Street's AI reversal hit US tech overnight",
+     "Asian chipmakers and AI-linked stocks were sold hard",
+     "Nikkei fell 4.82% to 56,576.41, Kospi 5.23% to 4,869.00",
+     "Samsung and SK Hynix, heavy in Korea's index, dragged it lower"
+    ],
+    "depth": {
+     "simple": "Asia opened after Wall Street's rough night and the selling continued. Japan and South Korea are full of companies that make chips and equipment for AI, so they feel every wobble in US tech. Korea's index depends heavily on just two companies, Samsung and SK Hynix, so when they drop the whole market drops.",
+     "standard": "The Nikkei 225 closed down 4.82% at 56,576.41 and the Kospi fell 5.23% to 4,869.00, below the 5,000 mark. The Hang Seng fell 1.95% to 22,841.62 on Thursday. Reports say Samsung Electronics and SK Hynix, nearly half the Kospi's value, each fell 4-6% or more, and SoftBank and Kioxia dropped sharply. Coverage says AI spending worries outweighed enthusiasm for Anthropic's IPO, and that rising Japanese inflation reinforced bets on a Bank of Japan rate hike.",
+     "pro": "Korea and Japan are the highest-beta way to hold the AI hardware cycle, and concentration (two names near half the Kospi) amplifies the move. A Nikkei fall of this size on a day with BOJ-hike repricing also raises yen-carry risk. Watch whether foreign investors keep selling Korean chips, memory pricing commentary, and whether the sell-off spreads to Taiwan and to Europe's semiconductor equipment names on Monday."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "investingLive: Nikkei slides and Kospi tumbles on Wall Street's AI reversal",
+      "u": "https://investinglive.com/stock-market-update/nikkei-slides-4-5-and-kospi-tumbles-as-wall-street-s-ai-reversal-hits-asian-chipmakers/"
+     },
+     {
+      "l": "FXStreet: Asian stocks tumble as AI spending fears outweigh Anthropic IPO",
+      "u": "https://www.fxstreet.com/news/asian-stocks-tumble-as-ai-spending-fears-outweigh-anthropic-record-ipo-202611200506"
+     },
+     {
+      "l": "24/7 Wall St: South Korea's stock market sinks as Samsung and SK Hynix fall",
+      "u": "https://247wallst.com/investing/2026/11/19/south-koreas-stock-market-sinks-4-6-as-kospi-heavyweights-sk-hynix-and-samsung-fall-6-after-wall-streets-ai-selloff/"
+     }
+    ]
+   },
+   {
+    "id": "gold",
+    "kicker": "Commodities",
+    "title": "Gold slides again to $3,685 as the dollar stays firm",
+    "chain": [
+     "Fed hike expectations keep the dollar near a 19-month high",
+     "Gold pays no interest, so it looks less attractive",
+     "Gold fell 1.51% to $3,685.50, a second drop after Wednesday's 3.16%",
+     "Bitcoin also fell, to $62,987 at Wednesday's close"
+    ],
+    "depth": {
+     "simple": "Gold does not pay interest. When interest rates are going up and the dollar is strong, holding gold looks worse. That is why it has dropped two days in a row, even in a nervous market where people sometimes buy gold for safety. Bitcoin, another asset that pays nothing, has also been weak.",
+     "standard": "Gold closed at $3,685.50, down 1.51% after Wednesday's 3.16% fall, taking it further below $4,000, where it traded earlier this month. The dollar index ended at 103.90 and EUR/USD at 1.0972. Reports describe the dollar at a 19-month high on Fed hike expectations. Bitcoin's latest verified close is $62,987 on Wednesday, down 2.94%.",
+     "pro": "Gold is trading as a real-yield and dollar instrument, not a safe haven, in this tape: the fall persists even with equities in a six-day losing run, which points to forced selling and positioning unwinds. Cross-asset correlation between gold, Bitcoin and equities has risen. Watch the dollar index, real yields after the 10-year at 5.05%, and ETF flows."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "CNBC: Gold slides to over one-year low",
+      "u": "https://www.cnbc.com/2026/11/18/gold-slides-to-over-one-year-low-on-firm-dollar-us-rate-outlook.html"
+     },
+     {
+      "l": "Kitco: Gold under pressure as Fed minutes show commitment to cooling inflation",
+      "u": "https://www.kitco.com/news/article/2026-11-18/gold-prices-remain-under-pressure-fed-minutes-show-central-bank-committed"
+     },
+     {
+      "l": "Fortune: Current price of Bitcoin, Nov. 19, 2026",
+      "u": "https://fortune.com/article/price-of-bitcoin-11-19-2026"
+     }
+    ]
+   },
+   {
+    "id": "europe",
+    "kicker": "Europe",
+    "title": "Europe falls for a longer streak; IBEX 35 down to 19,186",
+    "chain": [
+     "Wall Street and Asian tech weakness cast a shadow over Europe",
+     "Stoxx 600 fell 0.88% in its longest losing run since August",
+     "IBEX 35 lost 0.97% to 19,186.20 and the DAX 1.06%",
+     "Europe fell less than the US, with less AI exposure"
+    ],
+    "depth": {
+     "simple": "European shares fell again, but less than US ones, because Europe has fewer big AI companies. The Spanish IBEX 35 lost almost 1% and is now about 4% below its recent high of around 20,000. Europe still catches the mood when Wall Street is nervous.",
+     "standard": "The Stoxx Europe 600 closed at 638.41, down 0.88%, capping its longest losing streak since August. The IBEX 35 fell 0.97% to 19,186.20, the DAX 1.06% to 25,463.81 and the Euro Stoxx 50 0.66% to 6,113.86. Bloomberg tied the weakness to caution around Anthropic's debut and wider AI doubts. EUR/USD slipped 0.19% to 1.0972.",
+     "pro": "Europe's relative resilience reflects low AI-hardware weighting, but index-level correlation to the US is still high on risk-off days. A weaker euro helps exporters at the margin while higher US yields and the Fed path limit the ECB's room. Watch ASML and other chip-equipment names after Asia's sell-off, and Monday's flash PMIs for evidence the real economy is holding up."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: the IBEX 35 is about 4% below its recent high of near 20,000 and the euro is weaker at 1.0972"
+     }
+    ],
+    "sources": [
+     {
+      "l": "Bloomberg: European stocks decline in longest losing streak since August",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-19/european-stocks-rebound-as-anthropic-ipo-revives-the-ai-trade"
+     },
+     {
+      "l": "Longbridge: European stocks close down 1.03%",
+      "u": "https://longbridge.com/en/news/306005697"
+     }
+    ]
+   },
+   {
+    "id": "oil-iran",
+    "kicker": "Geopolitics",
+    "title": "Hormuz stays tense, yet Brent holds near $92",
+    "chain": [
+     "Iran says two more tankers hit mines; the US enforces a blockade of Iranian ports",
+     "A third US aircraft carrier arrived; the Senate failed to pass a war powers resolution 48-51",
+     "Trump reportedly will not rush a decision and may wait until the new year",
+     "Brent ended flat at $91.98 as a surplus outlook offset the risk"
+    ],
+    "depth": {
+     "simple": "The danger around the Strait of Hormuz, a narrow sea route for much of the world's oil, has not gone away. Ships have been hit and the US is blocking Iranian ports. But oil prices did not jump, because the world is expected to have more oil than it needs. Brent finished almost unchanged at about $92 a barrel.",
+     "standard": "Brent closed at $91.98 (+0.03%) and WTI at $83.21 (-0.06%). Iran said two more tankers hit sea mines on Thursday; those claims come mainly from Iranian sources and are not independently confirmed. The US says it is blockading Iran's Persian Gulf and Gulf of Oman ports, a third US carrier has arrived, and a Senate war powers resolution failed 48-51. Trump reportedly said he is not rushing a decision. An ADNOC vessel was attacked, with 11 crew injured and one missing.",
+     "pro": "The market is pricing physical balances (a Q4 surplus and US stock builds) over tail risk, so escalation would show first in war-risk insurance, freight and the Brent time spreads rather than spot. A slow political timeline (decision after the new year) reduces near-term event risk but leaves the strait exposed to incidents. For Europe, lower oil lessens energy-driven inflation and eases pressure on the ECB."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: steady oil near $92 limits energy-driven inflation, easing pressure on the ECB"
+     }
+    ],
+    "sources": [
+     {
+      "l": "Benzinga: Eyes on Hormuz",
+      "u": "https://www.benzinga.com/news/politics/26/11/63463938/eyes-on-hormuz-analyst-warns-iran-may-defy-us-blockade-with-oil-exports-flags-hormuz-vessel-strikes-as-trump-is-not-rushing-decisions"
+     },
+     {
+      "l": "CBS News: Iran war updates",
+      "u": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+     },
+     {
+      "l": "CNBC: Oil prices steady as supply surplus softens sentiment",
+      "u": "https://www.cnbc.com/2026/11/19/oil-brent-wti-price-hormuz.html"
+     }
+    ]
+   }
+  ],
+  "number": {
+   "value": "90%",
+   "label": "Share of S&P 500 stocks that fell on Thursday",
+   "context": "When almost every stock falls at once, investors are selling to cut risk across the board. It is not about one company's bad news."
+  },
+  "word": {
+   "term": "Market breadth",
+   "def": "How many stocks take part in a market move. If most stocks fall together, breadth is weak, and a sell-off is broad, not limited to a few names.",
+   "inToday": "More than 90% of S&P 500 stocks fell on Thursday, a sign the sell-off went far beyond AI shares."
+  },
+  "threads": [
+   {
+    "id": "nvidia-ceo",
+    "name": "Nvidia leadership crisis",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "13 Nov",
+      "t": "Nasdaq −0.9%; Nvidia ends its worst week since April 2025"
+     },
+     {
+      "d": "16 Nov",
+      "t": "CNBC: board not considering a return; Asian chipmakers slide (SK Hynix −7.9%)"
+     },
+     {
+      "d": "17 Nov",
+      "t": "Nasdaq −2.5% on Monday; Nvidia −4.1% as Washington tightens AI chip export rules"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Q3 revenue $115.8B beats; Q4 guide about $130B; shares up after hours; board will not bring Huang back"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Beat and guide to $130B, but shares reverse and fall about 2.9% as AI worries return"
+     },
+     {
+      "d": "Next",
+      "t": "Watch whether the stock stabilises; interim CEO Kress in charge",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "fed-hikes",
+    "name": "Fed hiking again",
+    "status": "Escalating",
+    "events": [
+     {
+      "d": "16 Nov",
+      "t": "Warsh speaks; December hike odds near 92%"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Warsh says Fed staff is studying AI-bubble risk; gives no hint on rates; December hike seen as near-certain"
+     },
+     {
+      "d": "17 Nov",
+      "t": "S&P 500 -1.0% to a four-month low; December hike odds around 92-96%"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Fed minutes: nearly all officials see more hikes as likely; December hike odds about 92%"
+     },
+     {
+      "d": "19 Nov",
+      "t": "10-year yield 5.05% and dollar index 103.90, near a 19-month high, as stocks sell off",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Decision 8-9 Dec; Hammack speaks Thu 19 Nov",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "hormuz",
+    "name": "Iran and the Strait of Hormuz",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "16 Nov",
+      "t": "IRGC drones at a US radar site in Bahrain, all intercepted; Trump reportedly weighing restraint"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Brent −3.6% to $92.44 as Hormuz flows recover and IEA sees a Q4 surplus; IRGC says two more tankers hit mines (unverified); Vance: no 'forever war'"
+     },
+     {
+      "d": "17 Nov",
+      "t": "Oil steady after Monday selloff; US-Iran talks on and off, Gulf attacks continue"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Brent -1.3% to $91.95 on a Q4 surplus despite tanker attacks and strike threats"
+     },
+     {
+      "d": "19 Nov",
+      "t": "Iran claims two more tankers hit mines; US blockade continues; Senate war powers vote fails 48-51; Brent flat at $91.98",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Watch Trump's decision on Iran and Hormuz traffic",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "ai-ipo",
+    "name": "Anthropic IPO",
+    "status": "This week",
+    "events": [
+     {
+      "d": "16 Nov",
+      "t": "Reports say banks are weighing a higher price; demand reportedly strong"
+     },
+     {
+      "d": "17 Nov",
+      "t": "Order book reported ~6× covered; Nvidia to buy ~$10B of shares at the IPO price"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Pricing expected tonight, possibly above the $70-78 range"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Priced at $83, above the $70-78 range; about $81B raised, valuation about $1.5T"
+     },
+     {
+      "d": "19 Nov",
+      "t": "ANT opens near $111, closes at $97.17, up 17% on the $83 IPO price",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Offering closes Fri 20 Nov; underwriters hold a 30-day option on extra shares",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "chip-curbs",
+    "name": "US AI-chip export curbs",
+    "status": "Building",
+    "events": [
+     {
+      "d": "11 Nov",
+      "t": "Huang resigns; probe linked to a suspected Chinese intelligence effort"
+     },
+     {
+      "d": "16 Nov",
+      "t": "Commerce interim rule: licences needed to ship advanced AI chips to Brazil, Indonesia, Malaysia, Singapore, Thailand; remote access by Chinese firms also covered"
+     },
+     {
+      "d": "Next",
+      "t": "Operators have 90 days after the rule takes effect to get licences",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "gold-slide",
+    "name": "Gold's slide",
+    "status": "Building",
+    "events": [
+     {
+      "d": "18 Nov",
+      "t": "Gold -3.16% to $3,741.90, a 14-month low, as the dollar and yields rise"
+     },
+     {
+      "d": "19 Nov",
+      "t": "Gold -1.51% to $3,685.50, a second straight fall",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Dollar and Fed path decide whether the slide continues",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "ai-selloff",
+    "name": "AI sell-off",
+    "status": "Escalating",
+    "events": [
+     {
+      "d": "17 Nov",
+      "t": "Nasdaq -2.5% as Washington tightens AI chip export rules"
+     },
+     {
+      "d": "18 Nov",
+      "t": "S&P 500 fifth straight loss; Nvidia reverses its post-earnings gain"
+     },
+     {
+      "d": "19 Nov",
+      "t": "S&P 500 -2.02%, Dow -1,100 points; sixth straight loss, longest streak since 2024"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Nikkei -4.82%, Kospi -5.23% as Asian chipmakers are sold",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Does Wall Street stabilise on Friday?",
+      "next": true
+     }
+    ]
+   }
+  ],
+  "meter": {
+   "value": 68,
+   "label": "Deflating faster",
+   "summary": "A six-day S&P losing streak and a 5% drop in Asia's chip-heavy markets outweigh a record IPO that still closed above its offer price.",
+   "deflating": [
+    "S&P 500 down six days in a row, the longest streak since 2024",
+    "Nikkei -4.82% and Kospi -5.23% as Asian chipmakers were sold",
+    "Anthropic faded from a $111 open to $97.17",
+    "More than 90% of S&P 500 stocks fell on Thursday"
+   ],
+   "inflating": [
+    "Anthropic still closed 17% above its $83 IPO price",
+    "Record IPO demand shows investors still want AI exposure",
+    "10-year yield steady at 5.05%, so no fresh rates shock"
+   ]
+  },
+  "calendar": [
+   {
+    "day": "Fri 20",
+    "date": "2026-11-20",
+    "items": [
+     {
+      "what": "Anthropic IPO offering closes",
+      "why": "Settlement of the record share sale; the 30-day extra-share option runs after this"
+     },
+     {
+      "what": "University of Michigan consumer sentiment (final November)",
+      "why": "Inflation expectations feed into Fed thinking",
+      "link": "https://www.sca.isr.umich.edu/"
+     }
+    ]
+   }
+  ],
+  "call": {
+   "id": "2026-11-20-sp-fri",
+   "question": "Will the S&P 500 close higher on Friday 20 Nov than Thursday's 7,175.83, ending its six-day losing streak?",
+   "options": [
+    "Higher on Friday",
+    "Lower or flat on Friday"
+   ],
+   "resolvesLabel": "Monday's brief"
+  },
+  "resolutions": [
+   {
+    "id": "2026-11-19-gold-thu",
+    "question": "Will gold futures close higher on Thursday 19 Nov than Wednesday's $3,741.90?",
+    "answer": "Lower or flat on Thursday",
+    "note": "Gold futures closed at $3,685.50, below Wednesday's $3,741.90."
+   },
+   {
+    "id": "2026-11-18-sp-thu",
+    "question": "Will the S&P 500 close higher on Thursday 19 Nov than on Wednesday 18 Nov?",
+    "answer": "Lower or flat on Thursday",
+    "note": "The S&P 500 fell 2.02% to 7,175.83, below Wednesday's 7,323.63."
+   },
+   {
+    "id": "2026-11-17-ant-debut",
+    "question": "Anthropic (ANT) starts trading Thursday. Will it close its first day above its IPO price?",
+    "answer": "Above the IPO price",
+    "note": "ANT closed at $97.17, about 17% above the $83 IPO price."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "What does it mean that more than 90% of S&P 500 stocks fell on Thursday?",
+    "o": [
+     "The sell-off was broad, not limited to a few AI names",
+     "Only tech shares were sold",
+     "Investors were buying the dip",
+     "The index was up on the day"
+    ],
+    "a": 0,
+    "why": "Weak breadth means most stocks fell together, which points to investors cutting risk across the whole market."
+   },
+   {
+    "q": "Why did Anthropic's shares end far below their opening level but still above the IPO price?",
+    "o": [
+     "A broad market sell-off erased most of the early pop, but not all of it",
+     "The IPO price was cancelled",
+     "The company bought back shares",
+     "Nasdaq changed the price"
+    ],
+    "a": 0,
+    "why": "ANT opened near $111, then fell with the market to close at $97.17, still above the $83 IPO price."
+   },
+   {
+    "q": "Why are the Kospi and Nikkei so sensitive to a US AI sell-off?",
+    "o": [
+     "They hold many chip and AI-hardware makers, such as Samsung and SK Hynix",
+     "They are priced in dollars",
+     "They ban foreign investors",
+     "They track gold"
+    ],
+    "a": 0,
+    "why": "Korea and Japan are home to big AI-hardware suppliers; Samsung and SK Hynix make up nearly half the Kospi."
+   }
+  ],
+  "coffee": "The market is no longer asking whether AI is real but how much to pay for it, and a record IPO that fades from $111 to $97 on the first day shows that price is being tested.",
+  "sources": [
+   {
+    "l": "Motley Fool: Stock Market Today, Nov. 19",
+    "u": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-dow-plunges-1-100-points-as-the-s-and-p-500-suffers-its-6th-straight-day-of-losses/"
+   },
+   {
+    "l": "Yahoo Finance: Dow sinks 1,100 points as Anthropic IPO grabs spotlight",
+    "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+   },
+   {
+    "l": "Washington Post: How major US stock indexes fared Thursday",
+    "u": "https://www.washingtonpost.com/business/2026/11/19/wall-street-stocks-dow-nasdaq/6aaf39d0-e463-11f1-a99e-b3e3805c6b8b_story.html"
+   },
+   {
+    "l": "FinanceFeeds: ANT closes at $97.17",
+    "u": "https://financefeeds.com/anthropic-ant-stock-closes-debut-97-17-price-prediction/"
+   },
+   {
+    "l": "Yahoo Finance: How to buy a company's stock when it IPOs",
+    "u": "https://finance.yahoo.com/personal-finance/investing/article/anthropic-ipo-how-to-buy-a-companys-stock-when-it-ipos-201237173.html"
+   },
+   {
+    "l": "Cryptoticker: Anthropic market cap after day one",
+    "u": "https://cryptoticker.io/en/anthropic-market-cap-first-day-close-ant-stock/"
+   },
+   {
+    "l": "investingLive: Nikkei slides and Kospi tumbles on Wall Street's AI reversal",
+    "u": "https://investinglive.com/stock-market-update/nikkei-slides-4-5-and-kospi-tumbles-as-wall-street-s-ai-reversal-hits-asian-chipmakers/"
+   },
+   {
+    "l": "FXStreet: Asian stocks tumble as AI spending fears outweigh Anthropic IPO",
+    "u": "https://www.fxstreet.com/news/asian-stocks-tumble-as-ai-spending-fears-outweigh-anthropic-record-ipo-202611200506"
+   },
+   {
+    "l": "24/7 Wall St: South Korea's stock market sinks as Samsung and SK Hynix fall",
+    "u": "https://247wallst.com/investing/2026/11/19/south-koreas-stock-market-sinks-4-6-as-kospi-heavyweights-sk-hynix-and-samsung-fall-6-after-wall-streets-ai-selloff/"
+   },
+   {
+    "l": "CNBC: Gold slides to over one-year low",
+    "u": "https://www.cnbc.com/2026/11/18/gold-slides-to-over-one-year-low-on-firm-dollar-us-rate-outlook.html"
+   },
+   {
+    "l": "Kitco: Gold under pressure as Fed minutes show commitment to cooling inflation",
+    "u": "https://www.kitco.com/news/article/2026-11-18/gold-prices-remain-under-pressure-fed-minutes-show-central-bank-committed"
+   },
+   {
+    "l": "Fortune: Current price of Bitcoin, Nov. 19, 2026",
+    "u": "https://fortune.com/article/price-of-bitcoin-11-19-2026"
+   },
+   {
+    "l": "Bloomberg: European stocks decline in longest losing streak since August",
+    "u": "https://www.bloomberg.com/news/articles/2026-11-19/european-stocks-rebound-as-anthropic-ipo-revives-the-ai-trade"
+   },
+   {
+    "l": "Longbridge: European stocks close down 1.03%",
+    "u": "https://longbridge.com/en/news/306005697"
+   },
+   {
+    "l": "Benzinga: Eyes on Hormuz",
+    "u": "https://www.benzinga.com/news/politics/26/11/63463938/eyes-on-hormuz-analyst-warns-iran-may-defy-us-blockade-with-oil-exports-flags-hormuz-vessel-strikes-as-trump-is-not-rushing-decisions"
+   },
+   {
+    "l": "CBS News: Iran war updates",
+    "u": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
+   },
+   {
+    "l": "CNBC: Oil prices steady as supply surplus softens sentiment",
+    "u": "https://www.cnbc.com/2026/11/19/oil-brent-wti-price-hormuz.html"
+   }
+  ]
+ },
+ {
   "date": "2026-11-19",
   "dateLabel": "Thursday 19 November 2026",
   "readMins": 6,
