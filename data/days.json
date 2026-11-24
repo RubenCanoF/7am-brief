@@ -1,5 +1,1181 @@
 [
  {
+  "date": "2026-11-24",
+  "dateLabel": "Tuesday 24 November 2026",
+  "readMins": 6,
+  "asOf": "US & Europe: Monday 23 Nov close · Asia: Nikkei and Kospi Tuesday 24 Nov close, Hang Seng Monday 23 Nov close · Bitcoin: Sunday 22 Nov",
+  "sixty": [
+   "Wall Street staged its biggest rebound since April 2025: the S&P 500 rose 4.73% to 7,237.17 and the Nasdaq 6.51%, after Nvidia's board brought back CEO Jensen Huang and the stock jumped about 31%.",
+   "Europe and Asia followed (IBEX 35 +1.63%, Kospi +6.19%), gold bounced 3.87% and Brent fell 3.46% to $89.37 as Iran talks got more time, though Anthropic's shares slipped about 1.4%.",
+   "The relief may not last: the SEC accounting probe at Nvidia is still open, Fed's Williams says rates will likely rise further, and Wednesday's PCE inflation data comes before the 8-9 Dec Fed decision."
+  ],
+  "markets": [
+   {
+    "group": "United States",
+    "items": [
+     {
+      "name": "S&P 500",
+      "sym": "%5EGSPC",
+      "value": "7,237.17",
+      "hist": [
+       7722.6001,
+       7743.98,
+       7720.3901,
+       7580.0698,
+       7541.3999,
+       7568.9199,
+       7688.6201,
+       7353.73,
+       7376.8599,
+       7549.9399,
+       7520.9302,
+       7619.3799,
+       7592.3999,
+       7561.6699,
+       7416.5898,
+       7340.5298,
+       7323.6299,
+       7175.8301,
+       6910.3901,
+       7237.1699
+      ],
+      "chg": 4.73,
+      "note": "Jumped 4.73%, its best day since April 2025, and back above 7,000 after Nvidia's CEO news"
+     },
+     {
+      "name": "Nasdaq Composite",
+      "sym": "%5EIXIC",
+      "value": "24,089.56",
+      "hist": [
+       26477.8105,
+       26549.8496,
+       26184.7207,
+       25437.0,
+       25164.3105,
+       25372.0098,
+       25736.5098,
+       24315.0,
+       24579.4297,
+       25253.1406,
+       25065.8691,
+       25466.1895,
+       25366.0898,
+       25136.2695,
+       24509.7598,
+       24328.3809,
+       24429.8809,
+       23879.1992,
+       22617.7305,
+       24089.5605
+      ],
+      "chg": 6.51,
+      "note": "Up 6.51% as chip and AI stocks bounced hard from last week's 10% fall"
+     },
+     {
+      "name": "Dow Jones",
+      "sym": "%5EDJI",
+      "value": "49,595.31",
+      "hist": [
+       52377.5703,
+       52475.1016,
+       52342.5586,
+       51770.3086,
+       51983.9805,
+       51786.7188,
+       53356.1211,
+       51523.0586,
+       51285.7305,
+       52389.75,
+       52231.8906,
+       52486.4883,
+       52297.0898,
+       52347.5508,
+       51608.1719,
+       50759.4219,
+       50198.1719,
+       49097.0586,
+       48147.3281,
+       49595.3086
+      ],
+      "chg": 3.01,
+      "note": "Gained about 1,450 points as the rebound spread beyond tech"
+     }
+    ]
+   },
+   {
+    "group": "Europe",
+    "items": [
+     {
+      "name": "Stoxx Europe 600",
+      "sym": "%5ESTOXX",
+      "value": "636.97",
+      "hist": [
+       643.68,
+       644.14,
+       649.11,
+       646.75,
+       649.44,
+       645.66,
+       657.4,
+       654.87,
+       648.33,
+       656.52,
+       658.32,
+       663.05,
+       664.01,
+       664.14,
+       662.31,
+       650.72,
+       644.05,
+       638.41,
+       625.65,
+       636.97
+      ],
+      "chg": 1.81,
+      "note": "Europe followed the Wall Street bounce, led by tech and chip names"
+     },
+     {
+      "name": "IBEX 35",
+      "sym": "%5EIBEX",
+      "value": "19,181.10",
+      "hist": [
+       19160.5996,
+       18883.5,
+       18857.5996,
+       18652.9004,
+       18957.8008,
+       18807.1992,
+       19370.9004,
+       19486.0,
+       19369.5,
+       19742.5,
+       19936.4004,
+       20027.9004,
+       19965.5,
+       20020.0996,
+       19946.5996,
+       19625.3008,
+       19373.3008,
+       19186.1992,
+       18873.0996,
+       19181.0996
+      ],
+      "chg": 1.63,
+      "note": "Spain rose 1.63%, less than Germany, with few tech names in the index"
+     },
+     {
+      "name": "DAX",
+      "sym": "%5EGDAXI",
+      "value": "25,337.27",
+      "hist": [
+       25590.7695,
+       25704.0195,
+       26039.6797,
+       25818.2109,
+       25981.0898,
+       25864.6191,
+       26437.6699,
+       26325.0098,
+       25820.3594,
+       26267.1895,
+       26347.4492,
+       26662.7695,
+       26771.8809,
+       26749.9492,
+       26598.6406,
+       26045.3691,
+       25736.2402,
+       25463.8105,
+       24802.7793,
+       25337.2695
+      ],
+      "chg": 2.15,
+      "note": "Germany rebounded the most in Europe after last week's heavy fall"
+     },
+     {
+      "name": "Euro Stoxx 50",
+      "sym": "%5ESTOXX50E",
+      "value": "6,074.47",
+      "hist": [
+       6164.6899,
+       6167.8101,
+       6207.0698,
+       6131.3101,
+       6176.0601,
+       6144.5601,
+       6265.71,
+       6231.54,
+       6170.4902,
+       6290.4502,
+       6327.8701,
+       6393.3901,
+       6398.98,
+       6386.8599,
+       6348.3501,
+       6212.1099,
+       6154.3901,
+       6113.8599,
+       5941.9502,
+       6074.4702
+      ],
+      "chg": 2.23,
+      "note": "Euro-area blue chips bounced as AI worries eased"
+     }
+    ]
+   },
+   {
+    "group": "Asia",
+    "items": [
+     {
+      "name": "Nikkei 225",
+      "sym": "%5EN225",
+      "value": "58,576.50",
+      "hist": [
+       62189.6484,
+       63268.3711,
+       63954.1914,
+       64659.4688,
+       63290.1094,
+       63081.8594,
+       62188.6289,
+       61077.8984,
+       57434.7695,
+       58775.5,
+       60459.5781,
+       61248.5898,
+       60819.3594,
+       61142.3516,
+       59662.0195,
+       58860.4297,
+       59024.2812,
+       59444.2109,
+       56436.6484,
+       58576.5
+      ],
+      "chg": 3.79,
+      "note": "Tokyo reopened after its holiday and caught up with Monday's global rally"
+     },
+     {
+      "name": "Kospi",
+      "sym": "%5EKS11",
+      "value": "5,000.08",
+      "hist": [
+       6012.4399,
+       5937.6602,
+       5730.7402,
+       5859.0801,
+       5648.79,
+       5683.7998,
+       5383.7998,
+       5059.6899,
+       5018.8501,
+       5239.1299,
+       5375.3599,
+       5342.73,
+       5290.5298,
+       5100.5,
+       4968.48,
+       5067.4399,
+       5137.8901,
+       4869.96,
+       4708.54,
+       5000.0801
+      ],
+      "chg": 6.19,
+      "note": "Korea surged as chipmakers rebounded after last week's near-6% intraday plunge"
+     },
+     {
+      "name": "Hang Seng",
+      "sym": "%5EHSI",
+      "value": "22,383.74",
+      "hist": [
+       23041.3203,
+       23094.8301,
+       22958.6504,
+       23294.4199,
+       23393.3203,
+       23525.9707,
+       23919.5,
+       24796.9805,
+       24481.8594,
+       24448.9492,
+       24557.0391,
+       24315.9199,
+       24008.5508,
+       23637.5996,
+       23753.8398,
+       23508.1699,
+       23294.75,
+       22841.6191,
+       22410.8008,
+       22383.7402
+      ],
+      "chg": -0.12,
+      "note": "Hong Kong was flat; it missed the tech-led bounce"
+     }
+    ]
+   },
+   {
+    "group": "Rates & currencies",
+    "items": [
+     {
+      "name": "US 10-year yield",
+      "sym": "%5ETNX",
+      "value": "4.92%",
+      "hist": [
+       4.993,
+       5.045,
+       4.989,
+       4.929,
+       4.894,
+       4.952,
+       4.894,
+       4.837,
+       4.859,
+       4.864,
+       4.983,
+       4.998,
+       5.103,
+       5.154,
+       5.121,
+       5.103,
+       5.066,
+       5.052,
+       4.912,
+       4.918
+      ],
+      "chgText": "+1bp",
+      "dir": 1,
+      "note": "Little changed: the stock rebound and Fed talk of more hikes kept yields up"
+     },
+     {
+      "name": "EUR/USD",
+      "sym": "EURUSD%3DX",
+      "value": "1.0972",
+      "hist": [
+       1.1174,
+       1.113,
+       1.1156,
+       1.1183,
+       1.1157,
+       1.1192,
+       1.1207,
+       1.1235,
+       1.1228,
+       1.1147,
+       1.1222,
+       1.1169,
+       1.1095,
+       1.105,
+       1.1025,
+       1.0998,
+       1.0993,
+       1.0972,
+       1.097,
+       1.0972
+      ],
+      "chg": 0.02,
+      "note": "Barely moved as a firmer dollar offset the risk-on mood"
+     },
+     {
+      "name": "Dollar index",
+      "sym": "DX-Y.NYB",
+      "value": "104.32",
+      "hist": [
+       102.32,
+       102.19,
+       102.04,
+       101.88,
+       101.75,
+       101.87,
+       101.51,
+       101.55,
+       102.3,
+       101.65,
+       102.23,
+       102.91,
+       103.17,
+       103.41,
+       103.55,
+       103.49,
+       103.86,
+       103.9,
+       103.81,
+       104.32
+      ],
+      "chg": 0.49,
+      "note": "Rose as traders bet on a December Fed hike"
+     }
+    ]
+   },
+   {
+    "group": "Commodities & crypto",
+    "items": [
+     {
+      "name": "Brent crude",
+      "sym": "BZ%3DF",
+      "value": "$89.37",
+      "hist": [
+       113.88,
+       115.32,
+       114.88,
+       117.64,
+       104.77,
+       103.6,
+       94.62,
+       98.29,
+       98.32,
+       92.57,
+       91.49,
+       92.76,
+       95.82,
+       95.84,
+       92.44,
+       93.14,
+       91.95,
+       91.98,
+       92.57,
+       89.37
+      ],
+      "chg": -3.46,
+      "note": "Fell to its lowest close since 31 Aug as supply grows and Trump gave Iran talks more time"
+     },
+     {
+      "name": "WTI crude",
+      "sym": "CL%3DF",
+      "value": "$80.17",
+      "hist": [
+       99.9,
+       102.78,
+       102.0,
+       104.12,
+       96.46,
+       96.09,
+       88.12,
+       90.52,
+       90.83,
+       86.85,
+       86.04,
+       86.53,
+       88.74,
+       88.56,
+       85.72,
+       86.01,
+       83.26,
+       83.21,
+       83.98,
+       80.17
+      ],
+      "chg": -4.54,
+      "note": "Followed Brent lower on the supply glut and diplomacy hopes"
+     },
+     {
+      "name": "Gold",
+      "sym": "GC%3DF",
+      "value": "$3,651.40",
+      "hist": [
+       4074.6001,
+       4051.6001,
+       4031.3999,
+       3898.8999,
+       3969.6001,
+       3940.3999,
+       4073.0,
+       4113.5,
+       4074.8999,
+       4114.5,
+       4030.2,
+       4000.5,
+       3885.3,
+       3886.3,
+       3853.0,
+       3864.2,
+       3741.8999,
+       3685.5,
+       3515.3999,
+       3651.3999
+      ],
+      "chg": 3.87,
+      "note": "Bounced from a 14-month low as stocks calmed and forced selling eased"
+     },
+     {
+      "name": "Bitcoin",
+      "sym": "BTC-USD",
+      "value": "$61,162",
+      "hist": [
+       77345.0469,
+       80405.2891,
+       75942.125,
+       75746.9297,
+       75747.5781,
+       74584.6484,
+       75223.1484,
+       73720.1172,
+       73964.4688,
+       71342.9688,
+       68249.2734,
+       64128.0508,
+       65305.0625,
+       64855.8438,
+       64893.9453,
+       62987.2656,
+       61901.8203,
+       58798.9805,
+       60094.0898,
+       61161.9102
+      ],
+      "chg": 1.78,
+      "note": "Rose with stocks, though it gave back most of an early jump toward $64,000"
+     }
+    ]
+   }
+  ],
+  "stories": [
+   {
+    "id": "relief",
+    "kicker": "Markets",
+    "title": "Wall Street rebounds: S&P 500 up 4.7%, Nasdaq up 6.5%",
+    "chain": [
+     "Nvidia's board brought Jensen Huang back as CEO, which removed one big source of fear",
+     "Chip and AI stocks bounced hard from last week's sell-off",
+     "The S&P 500 gained 4.73% to 7,237.17, the Nasdaq 6.51% and the Dow 3.01%",
+     "Both indexes had their best day since April 2025, but are still below last week's start"
+    ],
+    "depth": {
+     "simple": "After a brutal week, shares jumped on Monday. The S&P 500 rose almost 5% and the Nasdaq more than 6%. The main trigger was news that Nvidia, the chip giant at the centre of the AI boom, took back its former boss. A jump like this feels good, but it only wins back part of last week's losses, and the worries about AI spending have not gone away.",
+     "standard": "The S&P 500 closed at 7,237.17 (+4.73%), the Nasdaq Composite at 24,089.56 (+6.51%) and the Dow at 49,595.31 (+3.01%). It was the best day for the S&P 500 and Nasdaq since April 2025. The rally pulled the S&P 500 back above 7,000 after last week's 8.6% fall. Nvidia rose about 31%, adding roughly $950 billion in market value. Gold bounced 3.87% to $3,651.40 and Bitcoin rose 1.78% to $61,162. The 10-year yield stayed near 4.92%, so this was a fear-and-positioning move, not a rates move.",
+     "pro": "A one-day gain of this size after a forced-selling week looks like short covering and de-grossing in reverse, with Nvidia's 31% move doing much of the index work. The weak links are unchanged: the SEC accounting question, AI capex doubts and a Fed still leaning to hike. Professionals will watch whether the bounce keeps volume behind it on Tuesday, whether implied volatility falls back, and whether the gap between a rising index and flat Hong Kong and a stronger dollar closes or widens."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "Fox Business: US stocks rebound as AI and chip stocks rally",
+      "u": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+     },
+     {
+      "l": "Motley Fool: Markets rebound from correction on AI relief rally",
+      "u": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/"
+     },
+     {
+      "l": "NBC News: Stocks surge in best day since 2025",
+      "u": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
+     }
+    ]
+   },
+   {
+    "id": "huang",
+    "kicker": "Markets",
+    "title": "Nvidia soars 31% as Jensen Huang returns as CEO",
+    "chain": [
+     "Huang resigned on 12 Nov after reports about his private life and a China spy link",
+     "Nvidia's board voted unanimously to reinstate him, after input from the US government",
+     "Nvidia shares jumped about 31% in a day",
+     "The SEC accounting probe and the board's own investigation are still open"
+    ],
+    "depth": {
+     "simple": "Nvidia's boss, Jensen Huang, quit about two weeks ago after news stories about his private life. On Monday the board brought him back. Investors cheered: the share price rose almost a third in a day. But the questions have not gone away. Reuters reported that the US market regulator, the SEC, is looking at how Nvidia does its accounting, and the board says its own investigation will continue.",
+     "standard": "Nvidia's board voted unanimously to reinstate Huang as president, CEO and director. It said it received input from senior levels of the US government and is confident his return poses no national security risk; reports say President Trump urged the move. Nvidia closed up about 31%, a gain of roughly $950 billion in market value, and led the whole market higher. Reuters reported that SEC staff are examining the company's accounting, reportedly including how revenue is classified by region and customer-payment guarantees. It was not clear on Monday whether the probe changed, and the board's committee will finish its investigation.",
+     "pro": "The move prices out key-man and governance risk, not the accounting question. A 31% gain on a mega-cap implies the prior 14% drop was largely positioning and liquidity. What remains is event risk with long tails: SEC findings on revenue geography and customer guarantees, any DOJ follow-up, export-control politics and political dependence on Washington's goodwill. Watch Nvidia's weight in index funds, options positioning after a record move, and whether suppliers and AI-capex peers keep their share of the bounce."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "NBC News: Jensen Huang reinstated as Nvidia CEO",
+      "u": "https://www.nbcnews.com/tech/tech-news/nvidia-reinstates-jensen-huang-rcna610864"
+     },
+     {
+      "l": "CNBC: Tech stocks rally after Nvidia board approves Huang's return",
+      "u": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+     },
+     {
+      "l": "Bangkok Post: Nvidia still faces legal risks",
+      "u": "https://www.bangkokpost.com/business/general/3360390/nvidia-and-board-still-face-legal-risks-after-jensen-huangs-return"
+     },
+     {
+      "l": "Schwab: Huang reinstated, stocks rally",
+      "u": "https://www.schwab.com/learn/story/stock-market-update-open"
+     }
+    ]
+   },
+   {
+    "id": "anthropic",
+    "kicker": "IPO",
+    "title": "Anthropic slips 1.4% while the rest of AI soars",
+    "chain": [
+     "The AI rebound was led by Nvidia, not by newer listings",
+     "Anthropic (ANT) lagged and fell about 1.4% on Monday",
+     "It is still above its $83 IPO price after a $111 first trade and an 8.5% fall on Friday",
+     "Investors are testing how much of the AI premium newly listed companies can keep"
+    ],
+    "depth": {
+     "simple": "Most AI shares jumped on Monday, but Anthropic's did not. It slipped about 1.4%. Anthropic only started trading on the stock market last week, and its price has swung a lot: it opened near $111 and then fell back. The company sold shares to investors at $83, and the price is still above that.",
+     "standard": "ANT, which listed on Nasdaq after pricing at $83 and raising about $93.5 billion by one report, fell about 1.4% on Monday while Nvidia rose about 31%. On Friday it fell 8.5% to $88.91, after closing its first day at $97.17. It has stayed above the IPO price for all three sessions. The lag suggests buyers preferred the established AI hardware leader to a newly listed, high-valuation company.",
+     "pro": "Newly listed names often decouple from the group in the first weeks: lock-up expiries are far off, but index inclusion flows, stabilisation by underwriters and thin free float all drive the price. A weaker bounce than peers on a +5% day says investors still ask for a discount to the valuation set at pricing. The $83 IPO price is the level where the underwriters' support is most likely to be tested."
+    },
+    "tags": [],
+    "disclosure": "Disclosure: this brief is written by Claude, which is made by Anthropic. It takes no view on whether to buy Anthropic shares.",
+    "sources": [
+     {
+      "l": "CNBC: Anthropic and Nvidia shares",
+      "u": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+     },
+     {
+      "l": "GuruFocus: Nvidia and Anthropic shares rebound",
+      "u": "https://www.gurufocus.com/news/9214599/nvidia-and-anthropic-shares-rebound-as-ai-investors-return"
+     },
+     {
+      "l": "NBC News: Stocks surge in best day since 2025",
+      "u": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
+     }
+    ]
+   },
+   {
+    "id": "fed",
+    "kicker": "Central banks",
+    "title": "Williams: more Fed hikes likely; PCE inflation due Wednesday",
+    "chain": [
+     "New York Fed president John Williams said inflation is still too high",
+     "He said rates are likely to go higher over time, depending on the data",
+     "Traders see a quarter-point December hike as about 96-98% likely and the 2-year yield rose",
+     "Wednesday's October PCE inflation figure is the last big test before the 8-9 Dec meeting"
+    ],
+    "depth": {
+     "simple": "The Fed is the US central bank. One of its top officials, John Williams, said on Monday that inflation is still too high and that rates will probably need to go up more over time. He did not call for a big jump. Markets expect a small rise in December. Wednesday's inflation report, called PCE, could change that picture a little.",
+     "standard": "Williams said getting inflation to 2% is 'essential', expects inflation to end 2026 at 3.5% and sees growth near 2.75%. His remarks were the last major Fed speech before the decision on 8-9 December. Markets price a 0.25 point hike at roughly 96-98%. The 10-year yield ended at 4.92% and the dollar index rose 0.49% to 104.32. October core PCE is expected up about 0.3% on the month and 3.2% on the year; the release also includes the second estimate of third-quarter GDP.",
+     "pro": "With a December hike almost fully priced, the market reacts to the size and path, not the direction. Williams ruled out a jumbo hike on 17 Nov and stressed data dependence, so the core PCE print mostly moves the 2027 path and the terminal rate. A hot number would tighten financial conditions just as equities are fragile; a soft one would hand the bounce a second leg. Watch the 2-year yield, the dollar, and gold's sensitivity to real yields after Friday's decoupling."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "CNBC: Williams says higher rates likely over time",
+      "u": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+     },
+     {
+      "l": "CNBC: 2-year Treasury yield jumps as stocks rebound",
+      "u": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
+     },
+     {
+      "l": "Kitco: Williams says inflation still too high",
+      "u": "https://www.kitco.com/news/off-the-wire/2026-11-23/feds-williams-says-inflation-still-too-high-signals-more-rate-hikes"
+     }
+    ]
+   },
+   {
+    "id": "asia-europe",
+    "kicker": "Global markets",
+    "title": "Asia and Europe bounce: Kospi +6.2%, IBEX 35 +1.6%",
+    "chain": [
+     "Wall Street's rally spread to markets that closed before it",
+     "Europe rose on Monday and Asia rose on Tuesday",
+     "Kospi gained 6.19% and the Nikkei 3.79% after Japan's holiday",
+     "Hong Kong lagged, down 0.12%"
+    ],
+    "depth": {
+     "simple": "The rebound travelled around the world. European shares rose on Monday. Asian markets, which had been shut or had already closed, rose on Tuesday morning. South Korea's main index jumped more than 6% after last week's big fall. Spain's IBEX 35 rose a more modest 1.63%.",
+     "standard": "The IBEX 35 closed at 19,181.10 (+1.63%), the DAX at 25,337.27 (+2.15%), the Stoxx Europe 600 at 636.97 (+1.81%) and the Euro Stoxx 50 at 6,074.47 (+2.23%). On Tuesday the Nikkei 225 gained 3.79% to 58,576.50 and the Kospi 6.19% to 5,000.08. The Hang Seng was the exception, down 0.12% to 22,383.74. Spain rose less than Germany because tech and chip names weigh little in the IBEX.",
+     "pro": "The pattern shows a beta trade: the markets most exposed to chips, such as Korea and Taiwan, rebound most; Hong Kong, driven by domestic factors, does not. For Spain, the lower AI weight cut both ways, with a smaller drop last week and a smaller bounce. Watch whether the policy support steps announced in Korea, Taiwan and China last week stay in place and whether foreign flows return to Asian chip names."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: the IBEX 35 rose 1.63% to 19,181.10, less than the DAX (+2.15%)"
+     }
+    ],
+    "sources": [
+     {
+      "l": "Korea Times: Asian stocks rally as Huang returns",
+      "u": "https://www.koreatimes.co.kr/world/20261124/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo"
+     },
+     {
+      "l": "investingLive: Huang's return powers Asia's AI rebound",
+      "u": "https://investinglive.com/news/investinglive-asia-pacific-market-news-huang-s-return-powers-asia-s-ai-rebound/"
+     },
+     {
+      "l": "ABC News Australia: Wall St rally and ASX, 24 Nov",
+      "u": "https://abc.net.au/news/2026-11-24/asx-markets-business-news-live-updates-nov-24-2026/107419524"
+     }
+    ]
+   },
+   {
+    "id": "oil-iran",
+    "kicker": "Geopolitics",
+    "title": "Brent hits a 12-week low even as Iran reports tanker mines",
+    "chain": [
+     "Iran said three more tankers hit mines in the Strait of Hormuz",
+     "Trump signalled more time for diplomacy, with Qatar mediating",
+     "Supply is rising and the IEA expects a surplus this quarter",
+     "Brent fell 3.46% to $89.37, its lowest close since 31 Aug"
+    ],
+    "depth": {
+     "simple": "Oil got cheaper on Monday even though Iran said three more ships hit mines in the Strait of Hormuz, a key shipping route. Two things pulled the price down: the US seems willing to give talks more time, and there is more oil being produced than the world needs. That is good news for Europe, which pays a lot for energy.",
+     "standard": "Brent fell 3.46% to $89.37 and WTI 4.54% to $80.17. Iran's Revolutionary Guards said three tankers caught fire after hitting naval mines; the claim is not independently verified. Trump signalled more time for diplomacy while saying he could resume the war next year if talks fail, and the US naval blockade continues. The IEA expects a surplus this quarter, Libya's Sharara pipeline has reopened and October inventories rose by 52 million barrels, according to Deutsche Bank.",
+     "pro": "The market is treating Hormuz headlines as noise against a physical surplus: with the strait effectively closed, the glut is coming from elsewhere and demand destruction. Eurasia Group sees Brent in the lower half of $80-100. The tail risk is a diplomatic collapse or mine incidents that stop escorted traffic, which could move prices fast. For the ECB, lower oil eases the energy-inflation argument at the margin."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: cheaper oil helps euro-area inflation and the ECB, and eases energy costs for Spain"
+     }
+    ],
+    "sources": [
+     {
+      "l": "Rigzone: Oil falls as Trump signals Iran talks",
+      "u": "https://www.rigzone.com/news/wire/oil_falls_as_trump_signals_iran_talks-23-nov-2026-185152-article/"
+     },
+     {
+      "l": "CNBC: Iran says three tankers hit mines in Hormuz",
+      "u": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+     },
+     {
+      "l": "Business Recorder: Oil near three-month lows",
+      "u": "https://www.brecorder.com/news/40450477/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat"
+     }
+    ]
+   }
+  ],
+  "number": {
+   "value": "+31%",
+   "label": "Nvidia's one-day gain after Jensen Huang's return, about $950 billion of value",
+   "context": "Moves this large in the world's biggest companies show how much of the market depends on a few stocks, and how fast sentiment can flip."
+  },
+  "word": {
+   "term": "Relief rally",
+   "def": "A sharp rise in prices after a fall, driven by fear easing rather than by good new fundamentals. It can fade quickly if the original worries return.",
+   "inToday": "Monday's 4.73% S&P 500 jump was a relief rally after last week's correction."
+  },
+  "threads": [
+   {
+    "id": "ai-selloff",
+    "name": "AI sell-off",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "18 Nov",
+      "t": "S&P 500 fifth straight loss; Nvidia reverses its post-earnings gain"
+     },
+     {
+      "d": "19 Nov",
+      "t": "S&P 500 -2.02%, Dow -1,100 points; sixth straight loss, longest streak since 2024"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Nikkei -4.82%, Kospi -5.23% as Asian chipmakers are sold"
+     },
+     {
+      "d": "20 Nov",
+      "t": "S&P 500 -3.70% into a correction; Nasdaq -5.28%, down 10.0% on the week"
+     },
+     {
+      "d": "23 Nov",
+      "t": "S&P 500 +4.73%, Nasdaq +6.51%: best day since April 2025",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Does the bounce hold? Dell reports Tue after the close",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "nvidia-ceo",
+    "name": "Nvidia under pressure",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "17 Nov",
+      "t": "Nasdaq −2.5% on Monday; Nvidia −4.1% as Washington tightens AI chip export rules"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Q3 revenue $115.8B beats; Q4 guide about $130B; shares up after hours; board will not bring Huang back"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Beat and guide to $130B, but shares reverse and fall about 2.9% as AI worries return"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Nvidia -14% after Reuters says SEC staff examine its accounting; AMD -13%"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Huang reinstated as CEO; Nvidia +31%; SEC accounting probe still open",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Board investigation and SEC probe continue",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "fed-hikes",
+    "name": "Fed hiking again",
+    "status": "Building",
+    "events": [
+     {
+      "d": "17 Nov",
+      "t": "S&P 500 -1.0% to a four-month low; December hike odds around 92-96%"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Fed minutes: nearly all officials see more hikes as likely; December hike odds about 92%"
+     },
+     {
+      "d": "19 Nov",
+      "t": "10-year yield 5.05% and dollar index 103.90, near a 19-month high, as stocks sell off"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Paulson says rates need to rise again; 10-year yield falls 14bp to 4.91%"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Williams: rates likely higher over time; December hike about 96-98% priced; 10-year yield 4.92%",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "October PCE Wed 25 Nov, 13:30 Dublin; decision 8-9 Dec",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "hormuz",
+    "name": "Iran and the Strait of Hormuz",
+    "status": "Building",
+    "events": [
+     {
+      "d": "17 Nov",
+      "t": "Oil steady after Monday selloff; US-Iran talks on and off, Gulf attacks continue"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Brent -1.3% to $91.95 on a Q4 surplus despite tanker attacks and strike threats"
+     },
+     {
+      "d": "19 Nov",
+      "t": "Iran claims two more tankers hit mines; US blockade continues; Senate war powers vote fails 48-51; Brent flat at $91.98"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Two more tankers hit; Iran says strait stays shut; Qatar mediating; Brent $92.57"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Iran says three tankers hit mines; Trump gives talks more time; Brent -3.46% to $89.37",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Watch Qatar mediation and Hormuz traffic",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "ai-ipo",
+    "name": "Anthropic IPO",
+    "status": "This week",
+    "events": [
+     {
+      "d": "18 Nov",
+      "t": "Pricing expected tonight, possibly above the $70-78 range"
+     },
+     {
+      "d": "18 Nov",
+      "t": "Priced at $83, above the $70-78 range; about $81B raised, valuation about $1.5T"
+     },
+     {
+      "d": "19 Nov",
+      "t": "ANT opens near $111, closes at $97.17, up 17% on the $83 IPO price"
+     },
+     {
+      "d": "20 Nov",
+      "t": "ANT falls about 8.5% to $88.91, still above the $83 IPO price"
+     },
+     {
+      "d": "23 Nov",
+      "t": "ANT slips about 1.4% while Nvidia soars",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Watch whether ANT holds above $83",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "gold-slide",
+    "name": "Gold's slide",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "18 Nov",
+      "t": "Gold -3.16% to $3,741.90, a 14-month low, as the dollar and yields rise"
+     },
+     {
+      "d": "19 Nov",
+      "t": "Gold -1.51% to $3,685.50, a second straight fall"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Gold -4.62% to $3,515.40, a third straight fall, despite lower yields"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Gold +3.87% to $3,651.40 after Friday's 14-month low",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "PCE on Wed: does gold hold the bounce?",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "asia-stress",
+    "name": "Asia market stress",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "17 Nov",
+      "t": "SK Hynix and other chipmakers sell off as export rules tighten"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Nikkei -5.06%; Taiwan shares -17% on the week, the biggest weekly fall since 1990"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Kospi falls almost 6% at its low, closes -3.16%; Taiwan, China and Korea announce support steps"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Tue 24 Nov: Kospi +6.19%, Nikkei +3.79% as Asia rebounds",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Does the rebound hold after last week's heavy falls?",
+      "next": true
+     }
+    ]
+   }
+  ],
+  "meter": {
+   "value": 62,
+   "label": "Wobbling, not healed",
+   "summary": "A record rebound and a calm bond market help, but the SEC question, a Fed leaning to hike and a weak ANT debut mean the AI trade is still fragile.",
+   "deflating": [
+    "Anthropic lagged on a day Nvidia rose 31%",
+    "Nvidia's accounting is still under SEC examination",
+    "Fed's Williams says rates likely go higher, with a December hike priced at 96-98%",
+    "Last week's 10% Nasdaq fall is only partly recovered"
+   ],
+   "inflating": [
+    "S&P 500 +4.73% and Nasdaq +6.51%, best day since April 2025",
+    "Nvidia's board and the US government backed Huang's return",
+    "The 10-year yield held near 4.92%, so no new rates shock",
+    "Asian chip markets rebounded strongly (Kospi +6.19%)"
+   ]
+  },
+  "calendar": [
+   {
+    "day": "Tue 24",
+    "date": "2026-11-24",
+    "items": [
+     {
+      "what": "US Conference Board consumer confidence (November)",
+      "why": "Shows whether the sell-off hurt household mood",
+      "time": "15:00 Dublin",
+      "link": "https://www.conference-board.org/topics/consumer-confidence"
+     },
+     {
+      "what": "Dell Technologies results (after the US close)",
+      "why": "A read on AI server demand after the chip rebound"
+     }
+    ]
+   },
+   {
+    "day": "Wed 25",
+    "date": "2026-11-25",
+    "items": [
+     {
+      "what": "US October PCE inflation and second estimate of Q3 GDP",
+      "why": "The Fed's preferred inflation gauge, the last big test before the December decision",
+      "time": "13:30 Dublin",
+      "link": "https://www.bea.gov/news/schedule"
+     }
+    ]
+   },
+   {
+    "day": "Thu 26",
+    "date": "2026-11-26",
+    "items": [
+     {
+      "what": "US markets closed for Thanksgiving",
+      "why": "No US stock or bond trading",
+      "link": "https://www.nyse.com/markets/hours-calendars"
+     },
+     {
+      "what": "ECB account of its last policy meeting",
+      "why": "Shows how divided the ECB was about rates and energy inflation",
+      "link": "https://www.ecb.europa.eu/press/accounts/html/index.en.html"
+     }
+    ]
+   },
+   {
+    "day": "Fri 27",
+    "date": "2026-11-27",
+    "items": [
+     {
+      "what": "US markets close early after Thanksgiving",
+      "why": "Thin trading can exaggerate moves",
+      "time": "18:00 Dublin",
+      "link": "https://www.nyse.com/markets/hours-calendars"
+     }
+    ]
+   }
+  ],
+  "call": {
+   "id": "2026-11-24-sp-tue",
+   "question": "Will the S&P 500 close higher on Tuesday 24 Nov than Monday's 7,237.17?",
+   "options": [
+    "Higher on Tuesday",
+    "Lower or flat on Tuesday"
+   ],
+   "resolvesLabel": "Wednesday's brief"
+  },
+  "resolutions": [
+   {
+    "id": "2026-11-23-sp-mon",
+    "question": "Will the S&P 500 close higher on Monday 23 Nov than Friday's 6,910.39?",
+    "answer": "Higher on Monday",
+    "note": "The S&P 500 rose 4.73% to 7,237.17, its best day since April 2025."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "What is a 'relief rally'?",
+    "o": [
+     "A rise in prices as fear eases after a fall",
+     "A rise caused by a company's record profits",
+     "A government-ordered price floor",
+     "A fall followed by a ban on selling"
+    ],
+    "a": 0,
+    "why": "A relief rally is a bounce after fear eases. It does not by itself mean the underlying problems are solved."
+   },
+   {
+    "q": "Why did Brent fall 3.46% even though Iran reported tanker mines in Hormuz?",
+    "o": [
+     "Supply is growing and the US gave talks more time",
+     "The strait reopened fully",
+     "OPEC cut output",
+     "Demand surged"
+    ],
+    "a": 0,
+    "why": "The market focused on a growing surplus and diplomacy hopes, which outweighed the unverified mine reports."
+   },
+   {
+    "q": "Why does Wednesday's PCE inflation figure matter so much?",
+    "o": [
+     "It is the Fed's preferred inflation gauge ahead of the December decision",
+     "It sets the price of oil",
+     "It measures company profits",
+     "It decides who leads Nvidia"
+    ],
+    "a": 0,
+    "why": "PCE is the Fed's preferred inflation measure, and it is the last big data point before the 8-9 Dec meeting."
+   }
+  ],
+  "coffee": "A 31% one-day jump in the biggest AI company tells you the market is crowded into one theme, so the real question is whether the bounce came from new facts or from fear simply easing.",
+  "sources": [
+   {
+    "l": "Fox Business: US stocks rebound as AI and chip stocks rally",
+    "u": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+   },
+   {
+    "l": "Motley Fool: Markets rebound from correction on AI relief rally",
+    "u": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/"
+   },
+   {
+    "l": "NBC News: Stocks surge in best day since 2025",
+    "u": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
+   },
+   {
+    "l": "NBC News: Jensen Huang reinstated as Nvidia CEO",
+    "u": "https://www.nbcnews.com/tech/tech-news/nvidia-reinstates-jensen-huang-rcna610864"
+   },
+   {
+    "l": "CNBC: Tech stocks rally after Nvidia board approves Huang's return",
+    "u": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+   },
+   {
+    "l": "Bangkok Post: Nvidia still faces legal risks",
+    "u": "https://www.bangkokpost.com/business/general/3360390/nvidia-and-board-still-face-legal-risks-after-jensen-huangs-return"
+   },
+   {
+    "l": "Schwab: Huang reinstated, stocks rally",
+    "u": "https://www.schwab.com/learn/story/stock-market-update-open"
+   },
+   {
+    "l": "CNBC: Anthropic and Nvidia shares",
+    "u": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+   },
+   {
+    "l": "GuruFocus: Nvidia and Anthropic shares rebound",
+    "u": "https://www.gurufocus.com/news/9214599/nvidia-and-anthropic-shares-rebound-as-ai-investors-return"
+   },
+   {
+    "l": "NBC News: Stocks surge in best day since 2025",
+    "u": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
+   },
+   {
+    "l": "CNBC: Williams says higher rates likely over time",
+    "u": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+   },
+   {
+    "l": "CNBC: 2-year Treasury yield jumps as stocks rebound",
+    "u": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
+   },
+   {
+    "l": "Kitco: Williams says inflation still too high",
+    "u": "https://www.kitco.com/news/off-the-wire/2026-11-23/feds-williams-says-inflation-still-too-high-signals-more-rate-hikes"
+   },
+   {
+    "l": "Korea Times: Asian stocks rally as Huang returns",
+    "u": "https://www.koreatimes.co.kr/world/20261124/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo"
+   },
+   {
+    "l": "investingLive: Huang's return powers Asia's AI rebound",
+    "u": "https://investinglive.com/news/investinglive-asia-pacific-market-news-huang-s-return-powers-asia-s-ai-rebound/"
+   },
+   {
+    "l": "ABC News Australia: Wall St rally and ASX, 24 Nov",
+    "u": "https://abc.net.au/news/2026-11-24/asx-markets-business-news-live-updates-nov-24-2026/107419524"
+   },
+   {
+    "l": "Rigzone: Oil falls as Trump signals Iran talks",
+    "u": "https://www.rigzone.com/news/wire/oil_falls_as_trump_signals_iran_talks-23-nov-2026-185152-article/"
+   },
+   {
+    "l": "CNBC: Iran says three tankers hit mines in Hormuz",
+    "u": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+   },
+   {
+    "l": "Business Recorder: Oil near three-month lows",
+    "u": "https://www.brecorder.com/news/40450477/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat"
+   }
+  ]
+ },
+ {
   "date": "2026-11-23",
   "dateLabel": "Monday 23 November 2026",
   "readMins": 6,
@@ -739,12 +1915,8 @@
    {
     "id": "ai-selloff",
     "name": "AI sell-off",
-    "status": "Escalating",
+    "status": "Cooling",
     "events": [
-     {
-      "d": "17 Nov",
-      "t": "Nasdaq -2.5% as Washington tightens AI chip export rules"
-     },
      {
       "d": "18 Nov",
       "t": "S&P 500 fifth straight loss; Nvidia reverses its post-earnings gain"
@@ -759,12 +1931,16 @@
      },
      {
       "d": "20 Nov",
-      "t": "S&P 500 -3.70% into a correction; Nasdaq -5.28%, down 10.0% on the week",
+      "t": "S&P 500 -3.70% into a correction; Nasdaq -5.28%, down 10.0% on the week"
+     },
+     {
+      "d": "23 Nov",
+      "t": "S&P 500 +4.73%, Nasdaq +6.51%: best day since April 2025",
       "today": true
      },
      {
       "d": "Next",
-      "t": "Futures +2% early Monday: does the bounce hold?",
+      "t": "Does the bounce hold? Dell reports Tue after the close",
       "next": true
      }
     ]
@@ -772,12 +1948,8 @@
    {
     "id": "nvidia-ceo",
     "name": "Nvidia under pressure",
-    "status": "Escalating",
+    "status": "Cooling",
     "events": [
-     {
-      "d": "16 Nov",
-      "t": "CNBC: board not considering a return; Asian chipmakers slide (SK Hynix −7.9%)"
-     },
      {
       "d": "17 Nov",
       "t": "Nasdaq −2.5% on Monday; Nvidia −4.1% as Washington tightens AI chip export rules"
@@ -792,12 +1964,16 @@
      },
      {
       "d": "20 Nov",
-      "t": "Nvidia -14% after Reuters says SEC staff examine its accounting; AMD -13%",
+      "t": "Nvidia -14% after Reuters says SEC staff examine its accounting; AMD -13%"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Huang reinstated as CEO; Nvidia +31%; SEC accounting probe still open",
       "today": true
      },
      {
       "d": "Next",
-      "t": "Watch whether the SEC report is confirmed",
+      "t": "Board investigation and SEC probe continue",
       "next": true
      }
     ]
@@ -807,10 +1983,6 @@
     "name": "Fed hiking again",
     "status": "Building",
     "events": [
-     {
-      "d": "16 Nov",
-      "t": "Warsh says Fed staff is studying AI-bubble risk; gives no hint on rates; December hike seen as near-certain"
-     },
      {
       "d": "17 Nov",
       "t": "S&P 500 -1.0% to a four-month low; December hike odds around 92-96%"
@@ -825,12 +1997,16 @@
      },
      {
       "d": "20 Nov",
-      "t": "Paulson says rates need to rise again; 10-year yield falls 14bp to 4.91%",
+      "t": "Paulson says rates need to rise again; 10-year yield falls 14bp to 4.91%"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Williams: rates likely higher over time; December hike about 96-98% priced; 10-year yield 4.92%",
       "today": true
      },
      {
       "d": "Next",
-      "t": "Decision 8-9 Dec; October PCE inflation Wed 25 Nov",
+      "t": "October PCE Wed 25 Nov, 13:30 Dublin; decision 8-9 Dec",
       "next": true
      }
     ]
@@ -840,10 +2016,6 @@
     "name": "Iran and the Strait of Hormuz",
     "status": "Building",
     "events": [
-     {
-      "d": "16 Nov",
-      "t": "Brent −3.6% to $92.44 as Hormuz flows recover and IEA sees a Q4 surplus; IRGC says two more tankers hit mines (unverified); Vance: no 'forever war'"
-     },
      {
       "d": "17 Nov",
       "t": "Oil steady after Monday selloff; US-Iran talks on and off, Gulf attacks continue"
@@ -858,7 +2030,11 @@
      },
      {
       "d": "20 Nov",
-      "t": "Two more tankers hit; Iran says strait stays shut; Qatar mediating; Brent $92.57",
+      "t": "Two more tankers hit; Iran says strait stays shut; Qatar mediating; Brent $92.57"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Iran says three tankers hit mines; Trump gives talks more time; Brent -3.46% to $89.37",
       "today": true
      },
      {
@@ -874,10 +2050,6 @@
     "status": "This week",
     "events": [
      {
-      "d": "17 Nov",
-      "t": "Order book reported ~6× covered; Nvidia to buy ~$10B of shares at the IPO price"
-     },
-     {
       "d": "18 Nov",
       "t": "Pricing expected tonight, possibly above the $70-78 range"
      },
@@ -891,7 +2063,11 @@
      },
      {
       "d": "20 Nov",
-      "t": "ANT falls about 8.5% to $88.91, still above the $83 IPO price",
+      "t": "ANT falls about 8.5% to $88.91, still above the $83 IPO price"
+     },
+     {
+      "d": "23 Nov",
+      "t": "ANT slips about 1.4% while Nvidia soars",
       "today": true
      },
      {
@@ -904,7 +2080,7 @@
    {
     "id": "gold-slide",
     "name": "Gold's slide",
-    "status": "Escalating",
+    "status": "Cooling",
     "events": [
      {
       "d": "18 Nov",
@@ -916,12 +2092,16 @@
      },
      {
       "d": "20 Nov",
-      "t": "Gold -4.62% to $3,515.40, a third straight fall, despite lower yields",
+      "t": "Gold -4.62% to $3,515.40, a third straight fall, despite lower yields"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Gold +3.87% to $3,651.40 after Friday's 14-month low",
       "today": true
      },
      {
       "d": "Next",
-      "t": "Does gold stabilise once stocks calm?",
+      "t": "PCE on Wed: does gold hold the bounce?",
       "next": true
      }
     ]
@@ -929,7 +2109,7 @@
    {
     "id": "asia-stress",
     "name": "Asia market stress",
-    "status": "Escalating",
+    "status": "Cooling",
     "events": [
      {
       "d": "17 Nov",
@@ -941,12 +2121,16 @@
      },
      {
       "d": "23 Nov",
-      "t": "Kospi falls almost 6% at its low, closes -3.16%; Taiwan, China and Korea announce support steps",
+      "t": "Kospi falls almost 6% at its low, closes -3.16%; Taiwan, China and Korea announce support steps"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Tue 24 Nov: Kospi +6.19%, Nikkei +3.79% as Asia rebounds",
       "today": true
      },
      {
       "d": "Next",
-      "t": "Japan reopens Tuesday after its holiday",
+      "t": "Does the rebound hold after last week's heavy falls?",
       "next": true
      }
     ]
