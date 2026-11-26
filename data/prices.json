@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T15:06:58Z",
+ "generatedAt": "2026-11-26T15:47:18Z",
  "assets": [
   {
    "group": "United States",
@@ -378,8 +378,8 @@
    "group": "Rates & currencies",
    "name": "Dollar index",
    "sym": "DX-Y.NYB",
-   "value": "103.71",
-   "close": 103.71,
+   "value": "103.77",
+   "close": 103.767,
    "closeDate": "2026-11-26",
    "hist": [
     101.88,
@@ -401,16 +401,16 @@
     104.32,
     103.81,
     103.67,
-    103.71
+    103.767
    ],
-   "chg": 0.04
+   "chg": 0.09
   },
   {
    "group": "Commodities & crypto",
    "name": "Brent crude",
    "sym": "BZ%3DF",
-   "value": "$91.42",
-   "close": 91.42,
+   "value": "$91.41",
+   "close": 91.41,
    "closeDate": "2026-11-26",
    "hist": [
     117.64,
@@ -432,16 +432,16 @@
     89.37,
     91.4,
     94.61,
-    91.42
+    91.41
    ],
-   "chg": -3.37
+   "chg": -3.38
   },
   {
    "group": "Commodities & crypto",
    "name": "WTI crude",
    "sym": "CL%3DF",
-   "value": "$84.61",
-   "close": 84.61,
+   "value": "$84.86",
+   "close": 84.86,
    "closeDate": "2026-11-26",
    "hist": [
     104.12,
@@ -463,16 +463,16 @@
     80.17,
     82.05,
     83.68,
-    84.61
+    84.86
    ],
-   "chg": 1.11
+   "chg": 1.41
   },
   {
    "group": "Commodities & crypto",
    "name": "Gold",
    "sym": "GC%3DF",
-   "value": "$3,607.40",
-   "close": 3607.3999,
+   "value": "$3,601.00",
+   "close": 3601.0,
    "closeDate": "2026-11-26",
    "hist": [
     3898.8999,
@@ -494,9 +494,9 @@
     3651.3999,
     3561.8999,
     3535.8,
-    3607.3999
+    3601.0
    ],
-   "chg": 2.02
+   "chg": 1.84
   },
   {
    "group": "Commodities & crypto",
