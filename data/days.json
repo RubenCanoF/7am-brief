@@ -1,5 +1,1082 @@
 [
  {
+  "date": "2026-11-26",
+  "dateLabel": "Thursday 26 November 2026",
+  "readMins": 6,
+  "asOf": "US & Europe: Wednesday 25 Nov close · Asia: Nikkei and Kospi Thursday 26 Nov close, Hang Seng Wednesday 25 Nov close · Brent, WTI, gold and dollar index: Thursday 26 Nov data · Bitcoin: Tuesday 24 Nov (latest in data file)",
+  "sixty": [
+   "Wall Street had a wild Wednesday: the S&P 500 fell as much as 3.2% before closing down only 0.25% at 7,182.78, after October core PCE came in at 3.3% against 3.2% expected.",
+   "The US also proposed new tariffs on 14 economies, and Europe sold off, with the IBEX 35 down 2.0%, while Asia steadied on Thursday after the Bank of Korea raised rates to 3.25%.",
+   "US markets are closed today for Thanksgiving, so the ECB's account at 12:30 Dublin and Friday's thin, early-closing session are the next tests, with a December Fed hike about 94% priced."
+  ],
+  "markets": [
+   {
+    "group": "United States",
+    "items": [
+     {
+      "name": "S&P 500",
+      "sym": "%5EGSPC",
+      "value": "7,182.78",
+      "hist": [
+       7720.3901,
+       7580.0698,
+       7541.3999,
+       7568.9199,
+       7688.6201,
+       7353.73,
+       7376.8599,
+       7549.9399,
+       7520.9302,
+       7619.3799,
+       7592.3999,
+       7561.6699,
+       7416.5898,
+       7340.5298,
+       7323.6299,
+       7175.8301,
+       6910.3901,
+       7237.1699,
+       7201.0898,
+       7182.7798
+      ],
+      "chg": -0.25,
+      "note": "Lost 0.25% after falling as much as 3.2% intraday; hot inflation data and chip weakness were offset by a late rebound"
+     },
+     {
+      "name": "Nasdaq Composite",
+      "sym": "%5EIXIC",
+      "value": "23,585.80",
+      "hist": [
+       26184.7207,
+       25437.0,
+       25164.3105,
+       25372.0098,
+       25736.5098,
+       24315.0,
+       24579.4297,
+       25253.1406,
+       25065.8691,
+       25466.1895,
+       25366.0898,
+       25136.2695,
+       24509.7598,
+       24328.3809,
+       24429.8809,
+       23879.1992,
+       22617.7305,
+       24089.5605,
+       23733.5391,
+       23585.8008
+      ],
+      "chg": -0.62,
+      "note": "Down 0.62% after an intraday drop of 4.6%, as chip shares were sold in the morning and bought back later"
+     },
+     {
+      "name": "Dow Jones",
+      "sym": "%5EDJI",
+      "value": "50,182.95",
+      "hist": [
+       52342.5586,
+       51770.3086,
+       51983.9805,
+       51786.7188,
+       53356.1211,
+       51523.0586,
+       51285.7305,
+       52389.75,
+       52231.8906,
+       52486.4883,
+       52297.0898,
+       52347.5508,
+       51608.1719,
+       50759.4219,
+       50198.1719,
+       49097.0586,
+       48147.3281,
+       49595.3086,
+       50018.6992,
+       50182.9492
+      ],
+      "chg": 0.33,
+      "note": "Rose 0.33% and held above 50,000 as small and mid-sized shares outperformed tech"
+     }
+    ]
+   },
+   {
+    "group": "Europe",
+    "items": [
+     {
+      "name": "Stoxx Europe 600",
+      "sym": "%5ESTOXX",
+      "value": "626.03",
+      "hist": [
+       649.11,
+       646.75,
+       649.44,
+       645.66,
+       657.4,
+       654.87,
+       648.33,
+       656.52,
+       658.32,
+       663.05,
+       664.01,
+       664.14,
+       662.31,
+       650.72,
+       644.05,
+       638.41,
+       625.65,
+       636.97,
+       632.74,
+       626.03
+      ],
+      "chg": -1.06,
+      "note": "Fell 1.06% as chip names dropped and new US tariff plans added worry"
+     },
+     {
+      "name": "IBEX 35",
+      "sym": "%5EIBEX",
+      "value": "18,635.80",
+      "hist": [
+       18857.5996,
+       18652.9004,
+       18957.8008,
+       18807.1992,
+       19370.9004,
+       19486.0,
+       19369.5,
+       19742.5,
+       19936.4004,
+       20027.9004,
+       19965.5,
+       20020.0996,
+       19946.5996,
+       19625.3008,
+       19373.3008,
+       19186.1992,
+       18873.0996,
+       19181.0996,
+       19015.8008,
+       18635.8008
+      ],
+      "chg": -2.0,
+      "note": "Spain lost 2.0% in a broad European sell-off"
+     },
+     {
+      "name": "DAX",
+      "sym": "%5EGDAXI",
+      "value": "24,702.13",
+      "hist": [
+       26039.6797,
+       25818.2109,
+       25981.0898,
+       25864.6191,
+       26437.6699,
+       26325.0098,
+       25820.3594,
+       26267.1895,
+       26347.4492,
+       26662.7695,
+       26771.8809,
+       26749.9492,
+       26598.6406,
+       26045.3691,
+       25736.2402,
+       25463.8105,
+       24802.7793,
+       25337.2695,
+       25017.8105,
+       24702.1309
+      ],
+      "chg": -1.26,
+      "note": "Germany fell 1.26% as exporters worried about the US tariff proposal"
+     },
+     {
+      "name": "Euro Stoxx 50",
+      "sym": "%5ESTOXX50E",
+      "value": "5,894.46",
+      "hist": [
+       6207.0698,
+       6131.3101,
+       6176.0601,
+       6144.5601,
+       6265.71,
+       6231.54,
+       6170.4902,
+       6290.4502,
+       6327.8701,
+       6393.3901,
+       6398.98,
+       6386.8599,
+       6348.3501,
+       6212.1099,
+       6154.3901,
+       6113.8599,
+       5941.9502,
+       6074.4702,
+       6003.7598,
+       5894.46
+      ],
+      "chg": -1.82,
+      "note": "Euro-area blue chips fell 1.82%, the weakest of the main European indexes"
+     }
+    ]
+   },
+   {
+    "group": "Asia",
+    "items": [
+     {
+      "name": "Nikkei 225",
+      "sym": "%5EN225",
+      "value": "57,440.36",
+      "hist": [
+       63954.1914,
+       64659.4688,
+       63290.1094,
+       63081.8594,
+       62188.6289,
+       61077.8984,
+       57434.7695,
+       58775.5,
+       60459.5781,
+       61248.5898,
+       60819.3594,
+       61142.3516,
+       59662.0195,
+       58860.4297,
+       59024.2812,
+       59444.2109,
+       56436.6484,
+       58644.6289,
+       57011.6211,
+       57440.3594
+      ],
+      "chg": 0.75,
+      "note": "Tokyo edged up 0.75% on Thursday after Wednesday's chip-led drop"
+     },
+     {
+      "name": "Kospi",
+      "sym": "%5EKS11",
+      "value": "4,710.65",
+      "hist": [
+       5730.7402,
+       5859.0801,
+       5648.79,
+       5683.7998,
+       5383.7998,
+       5059.6899,
+       5018.8501,
+       5239.1299,
+       5375.3599,
+       5342.73,
+       5290.5298,
+       5100.5,
+       4968.48,
+       5067.4399,
+       5137.8901,
+       4869.96,
+       4708.54,
+       5006.0298,
+       4697.5098,
+       4710.6499
+      ],
+      "chg": 0.28,
+      "note": "Korea steadied on Thursday (+0.28%) after Wednesday's 6% fall, as the Bank of Korea raised rates to 3.25%"
+     },
+     {
+      "name": "Hang Seng",
+      "sym": "%5EHSI",
+      "value": "21,966.01",
+      "hist": [
+       22958.6504,
+       23294.4199,
+       23393.3203,
+       23525.9707,
+       23919.5,
+       24796.9805,
+       24481.8594,
+       24448.9492,
+       24557.0391,
+       24315.9199,
+       24008.5508,
+       23637.5996,
+       23753.8398,
+       23508.1699,
+       23294.75,
+       22841.6191,
+       22410.8008,
+       22383.7402,
+       22219.6504,
+       21966.0098
+      ],
+      "chg": -1.14,
+      "note": "Hong Kong lost 1.14% on Wednesday as Asian tech stayed under pressure"
+     }
+    ]
+   },
+   {
+    "group": "Rates & currencies",
+    "items": [
+     {
+      "name": "US 10-year yield",
+      "sym": "%5ETNX",
+      "value": "4.85%",
+      "hist": [
+       4.989,
+       4.929,
+       4.894,
+       4.952,
+       4.894,
+       4.837,
+       4.859,
+       4.864,
+       4.983,
+       4.998,
+       5.103,
+       5.154,
+       5.121,
+       5.103,
+       5.066,
+       5.052,
+       4.912,
+       4.918,
+       4.904,
+       4.848
+      ],
+      "chgText": "−6bp",
+      "dir": -1,
+      "note": "Eased 6bp even though core inflation came in hotter than forecast"
+     },
+     {
+      "name": "EUR/USD",
+      "sym": "EURUSD%3DX",
+      "value": "1.0962",
+      "hist": [
+       1.1156,
+       1.1183,
+       1.1157,
+       1.1192,
+       1.1207,
+       1.1235,
+       1.1228,
+       1.1147,
+       1.1222,
+       1.1169,
+       1.1095,
+       1.105,
+       1.1025,
+       1.0998,
+       1.0993,
+       1.0972,
+       1.097,
+       1.0972,
+       1.0908,
+       1.0962
+      ],
+      "chg": 0.5,
+      "note": "The euro gained 0.5% against the dollar"
+     },
+     {
+      "name": "Dollar index",
+      "sym": "DX-Y.NYB",
+      "value": "103.79",
+      "hist": [
+       101.88,
+       101.75,
+       101.87,
+       101.51,
+       101.55,
+       102.3,
+       101.65,
+       102.23,
+       102.91,
+       103.17,
+       103.41,
+       103.55,
+       103.49,
+       103.86,
+       103.9,
+       103.81,
+       104.32,
+       103.81,
+       103.67,
+       103.793
+      ],
+      "chg": 0.12,
+      "note": "Little changed after Wednesday's inflation data"
+     }
+    ]
+   },
+   {
+    "group": "Commodities & crypto",
+    "items": [
+     {
+      "name": "Brent crude",
+      "sym": "BZ%3DF",
+      "value": "$90.88",
+      "hist": [
+       117.64,
+       104.77,
+       103.6,
+       94.62,
+       98.29,
+       98.32,
+       92.57,
+       91.49,
+       92.76,
+       95.82,
+       95.84,
+       92.44,
+       93.14,
+       91.95,
+       91.98,
+       92.57,
+       89.37,
+       91.4,
+       94.61,
+       90.88
+      ],
+      "chg": -3.94,
+      "note": "Rose on Wednesday after Iran reported two more tankers hit mines, then fell 3.94% on Thursday"
+     },
+     {
+      "name": "WTI crude",
+      "sym": "CL%3DF",
+      "value": "$84.12",
+      "hist": [
+       104.12,
+       96.46,
+       96.09,
+       88.12,
+       90.52,
+       90.83,
+       86.85,
+       86.04,
+       86.53,
+       88.74,
+       88.56,
+       85.72,
+       86.01,
+       83.26,
+       83.21,
+       83.98,
+       80.17,
+       82.05,
+       83.68,
+       84.12
+      ],
+      "chg": 0.53,
+      "note": "Edged up 0.53%, less than Brent"
+     },
+     {
+      "name": "Gold",
+      "sym": "GC%3DF",
+      "value": "$3,599.80",
+      "hist": [
+       3898.8999,
+       3969.6001,
+       3940.3999,
+       4073.0,
+       4113.5,
+       4074.8999,
+       4114.5,
+       4030.2,
+       4000.5,
+       3885.3,
+       3886.3,
+       3853.0,
+       3864.2,
+       3741.8999,
+       3685.5,
+       3515.3999,
+       3651.3999,
+       3561.8999,
+       3535.8,
+       3599.8
+      ],
+      "chg": 1.81,
+      "note": "Rebounded 1.81% on Thursday after falling on rate-hike worries earlier in the week"
+     },
+     {
+      "name": "Bitcoin",
+      "sym": "BTC-USD",
+      "value": "$59,748",
+      "hist": [
+       75942.125,
+       75746.9297,
+       75747.5781,
+       74584.6484,
+       75223.1484,
+       73720.1172,
+       73964.4688,
+       71342.9688,
+       68249.2734,
+       64128.0508,
+       65305.0625,
+       64855.8438,
+       64893.9453,
+       62987.2656,
+       61901.8203,
+       58798.9805,
+       60094.0898,
+       61161.9102,
+       61210.9844,
+       59747.7656
+      ],
+      "chg": -2.39,
+      "note": "Fell 2.39%; the file's latest close is Tuesday 24 Nov, so Wednesday's move is not included"
+     }
+    ]
+   }
+  ],
+  "stories": [
+   {
+    "id": "pce-hot",
+    "kicker": "Fed",
+    "title": "Core inflation hits 3.3%, a Fed hike looks certain",
+    "chain": [
+     "October core PCE rose 3.3% from a year earlier, above the 3.2% forecast",
+     "Headline PCE rose to 3.8% from 3.7%",
+     "A December Fed hike is now priced at roughly 92-98%, depending on the source",
+     "Higher rates for longer weigh most on expensive tech shares"
+    ],
+    "depth": {
+     "simple": "The Fed's favourite inflation measure came in a little hotter than expected. Prices excluding food and energy were 3.3% higher than a year ago, against a forecast of 3.2%. The Fed wants 2%, so it is expected to raise interest rates again on 9 December. Higher rates make borrowing dearer and make shares that promise profits far in the future less attractive.",
+     "standard": "October core PCE was 3.3% year on year, slightly above the 3.2% consensus and described by some outlets as a three-year high. Headline PCE rose to 3.8% from 3.7%, in line with forecasts. Odds of a December hike were about 94% on Polymarket and 92-93% on Kalshi, with CME FedWatch readings between about 94% and 98%. The Fed meets on 8-9 December, and the November jobs report on 4 December is the last big data point before then. The US 10-year yield still eased 6bp to 4.85%.",
+     "pro": "A hike was already almost fully priced, so the surprise was small and the market reaction was muted: the 10-year yield fell 6bp, which suggests investors had expected something worse or are leaning on growth risk. The key variable is no longer December but the terminal rate and how long the Fed holds it. With headline inflation at 3.8%, the Fed cannot easily look through energy. Watch real yields, the 4 December jobs report, and whether long-duration equities keep trading as a rate-sensitive factor."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "Yahoo Finance: Nov 25 stock market live",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+     },
+     {
+      "l": "Newscord: Core PCE hits 3.3%, lifting December hike odds",
+      "u": "https://newscord.org/article/us-core-pce-inflation-hits-33-in-october-lifting-odds-of-december-fed-rate-hike--Story_20261126_UScorePCEinflationhi683d1e81"
+     },
+     {
+      "l": "Crypto Briefing: Polymarket 94% odds of December hike",
+      "u": "https://cryptobriefing.com/polymarket-94-odds-december-fed-rate-hike"
+     }
+    ]
+   },
+   {
+    "id": "wild-wed",
+    "kicker": "Markets",
+    "title": "S&P 500 falls 3.2% then recovers to -0.25%",
+    "chain": [
+     "Futures fell sharply before the PCE data on tariff and AI-spending worries",
+     "The S&P 500 dropped as much as 3.2% and the Nasdaq 4.6% during the day",
+     "At the low the Nasdaq 100 was 20% below its October peak, a bear market",
+     "Buyers stepped in before the holiday and the S&P 500 closed down only 0.25% at 7,182.78"
+    ],
+    "depth": {
+     "simple": "On Wednesday the US market had a scary morning and an almost calm finish. The S&P 500 was down more than 3% at one point, then bought back nearly all of it. That does not mean the worry is gone. It means buyers are active at low prices while sellers are still nervous about AI spending, tariffs and interest rates.",
+     "standard": "The S&P 500 closed at 7,182.78 (-0.25%), the Nasdaq Composite at 23,585.80 (-0.62%) and the Dow at 50,182.95 (+0.33%), its second close above 50,000. Intraday the S&P 500 fell as much as 3.2% and the Nasdaq as much as 4.6%; the Nasdaq 100 briefly touched 20% below its October closing peak. Advancers beat decliners 370 to 128 in the S&P 500, and small and mid-sized shares did better. Nvidia fell about 3.9%, with Oracle and Micron also lower. The Philadelphia Semiconductor Index had already dropped 7.88% on Tuesday.",
+     "pro": "A 3% intraday drawdown with a near-full recovery looks like forced selling and a liquidity air pocket followed by dip-buying, helped by thin pre-holiday trading. Breadth of 370 to 128 on the close shows rotation out of mega-cap AI rather than a broad exit. The touch of a 20% Nasdaq 100 drawdown is a technical marker some systematic funds watch. Thursday's US closure and Friday's early close mean the next real test of this bounce comes with thin volume."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "Motley Fool: Nov 25 stock market today",
+      "u": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/"
+     },
+     {
+      "l": "Swingfolio: US close Nov 25",
+      "u": "https://swingfolio.com/daily/us/2026-11-25/afternoon"
+     },
+     {
+      "l": "Cappnotes: Closing look Nov 25",
+      "u": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+     }
+    ]
+   },
+   {
+    "id": "tariffs",
+    "kicker": "Trade",
+    "title": "US proposes new tariffs on 14 economies",
+    "chain": [
+     "The USTR proposed new Section 301 tariffs on 14 trading partners",
+     "Reports say rates of up to 15% for the EU and Japan and up to 20% for China, but details are unconfirmed",
+     "European exporters and shares sold off, with the Euro Stoxx 50 down 1.82%",
+     "Implementation may only start in January, so the final rates are still open"
+    ],
+    "depth": {
+     "simple": "The US government proposed new import taxes on goods from 14 countries and regions, including the EU. Nothing is final: reports disagree on the exact rates and the start date. Shares in Europe fell anyway, because investors worry that companies selling to the US will earn less.",
+     "standard": "The US Trade Representative proposed new Section 301 tariffs on 14 economies. Reports differ: one says up to 20% on China and 15% on the EU and Japan; another says the 15% cap covers the EU, Japan, South Korea and Taiwan, that Mexico is temporarily exempt, and that implementation is delayed until January. European shares fell: the Stoxx 600 lost 1.06%, the DAX 1.26%, the IBEX 35 2.0% and the Euro Stoxx 50 1.82%. The euro gained 0.5% against the dollar.",
+     "pro": "A proposal and a comment period leave room for negotiation, so markets are pricing a probability-weighted outcome rather than a rate. The hit lands on EU autos, machinery and chips, and adds to an inflation picture where core PCE is already 3.3%: tariffs push the Fed and the ECB toward tighter policy, not looser. The euro's rise despite weak equities suggests the market read the tariffs as hurting the US price level. Watch the comment deadlines, any exemptions, and whether the EU prepares a response."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: the IBEX 35 fell 2.0% and the EU is named among the targeted economies, with up to 15% reported"
+     }
+    ],
+    "sources": [
+     {
+      "l": "Invezz: US inflation rises, Trump proposes fresh tariffs on 14 economies",
+      "u": "https://invezz.com/news/2026/11/25/evening-digest-us-inflation-rises-trump-proposes-fresh-tariffs-on-14-economies/"
+     },
+     {
+      "l": "Alain Guillot: Stock market recap Nov 25",
+      "u": "https://www.alainguillot.com/stock-market-recap-november-25-2026/"
+     },
+     {
+      "l": "Market Scholars: S&P 500 rebounds amid tariff plans",
+      "u": "https://www.marketscholars.com/market-outlook-november-25-2026/"
+     }
+    ]
+   },
+   {
+    "id": "asia-boK",
+    "kicker": "Asia",
+    "title": "Kospi -6% on Wednesday, then Korea hikes rates",
+    "chain": [
+     "Asian chipmakers were sold hard on Wednesday after Nvidia's US drop",
+     "The Kospi fell about 6% to 4,697.51 and the Nikkei about 2.7%",
+     "On Thursday the Bank of Korea raised its rate to 3.25%, a 5-2 vote",
+     "Asian shares steadied, with Nikkei and Kospi up modestly in the data file"
+    ],
+    "depth": {
+     "simple": "South Korea's stock market fell about 6% on Wednesday because investors dumped chip makers such as Samsung and SK Hynix. On Thursday the country's central bank raised interest rates to fight inflation, and markets calmed a little. Korea's economy depends heavily on chips, so its market swings a lot when AI shares move.",
+     "standard": "The Kospi closed at 4,697.51 on Wednesday, down 308.52 points, and the Nikkei lost 2.7% as Nvidia's fall hit chip stocks. On Thursday the Bank of Korea raised its base rate 25bp to 3.25%, the highest since late 2024, in a 5-2 vote, with inflation at 2.8% against a 2% target. It raised its 2026 and 2027 growth forecasts to 3.9% and 4.1%. Thursday's data shows the Nikkei up 0.75% and the Kospi up 0.28%. Early reports had larger gains in Tokyo and Seoul and in Taiwan, but the data file is the figure used here.",
+     "pro": "The Kospi is effectively a leveraged proxy for two memory names, so it amplifies the AI-capex trade in both directions: -6% on Wednesday and a rebound the day after the BoK hike. A central bank tightening into a chip sell-off shows that inflation, not equity weakness, is driving policy across Asia. Watch the won, foreign flows into Samsung and SK Hynix, and whether the BoK's signal of more hikes spreads to Japan and Taiwan."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "Korea JoongAng Daily: Kospi plunges below 5,000",
+      "u": "https://koreajoongangdaily.com/business/kospi-plunges-back-below-5000-as-chip-selloff-returns/12990750"
+     },
+     {
+      "l": "Edge Consultancy: BoK raises base rate to 3.25% in a 5-2 vote",
+      "u": "https://edgeconsultancykw.com/bok-rate-decision-november-2026/"
+     },
+     {
+      "l": "Saxo: Chip stocks slump again in New York and Seoul",
+      "u": "https://home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-slump-again-in-new-york-and-seoul---25-november-2026-25112026"
+     }
+    ]
+   },
+   {
+    "id": "hormuz-mines",
+    "kicker": "Geopolitics",
+    "title": "Iran says two more tankers hit mines in Hormuz",
+    "chain": [
+     "Iran's Revolutionary Guards said two tankers hit mines and caught fire on Wednesday",
+     "Earlier this week it reported three more, a claim not independently confirmed",
+     "Brent rose on Wednesday, then fell 3.94% to $90.88 on Thursday",
+     "Oil stays caught between supply fears and a forecast surplus"
+    ],
+    "depth": {
+     "simple": "Iran says two more oil tankers hit sea mines in the Strait of Hormuz, the narrow waterway many oil shipments use. These claims come from Iran's own forces and are hard to check. Oil prices jumped on Wednesday and then fell back on Thursday, which shows traders are unsure how much oil is really being blocked.",
+     "standard": "The Revolutionary Guards Navy said two tankers hit naval mines and caught fire on 25 November, after three others earlier in the week. The account rests mainly on one report and has not been independently corroborated. Tanker tracker Kpler reportedly showed lower crude flows out of the Gulf, and Houthi forces reportedly targeted a Saudi refinery. Brent was about $94.61 on Wednesday and fell 3.94% to $90.88 in Thursday's data; WTI is at $84.12 (+0.53%).",
+     "pro": "The market is trading the gap between headline risk and physical flows: a forecast fourth-quarter surplus caps the rally while each mine report adds a risk premium that fades without confirmed outages. Brent falling 3.94% on a day of fresh attacks suggests traders fade unverified claims. The second-order link is inflation: with headline PCE at 3.8%, an oil spike would push the Fed further. Watch Kpler flow data, insurance rates for Gulf transits, and any US naval response."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "Oilprice: Iran reports fresh tanker explosions",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-Fresh-Tanker-Explosions-as-Hormuz-Attacks-Intensify.html"
+     },
+     {
+      "l": "Oilprice: Oil rallies as Hormuz mine strikes rattle markets",
+      "u": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rallies-as-Hormuz-Mine-Strikes-Rattle-Global-Markets.html"
+     },
+     {
+      "l": "PIQ Markets: Iran says two tankers hit mines",
+      "u": "https://piqmarkets.com/story/iran-says-two-tankers-hit-mines-in-hormuz-brent-trades-at-95-30"
+     }
+    ]
+   }
+  ],
+  "number": {
+   "value": "3.2%",
+   "label": "How far the S&P 500 fell at its Wednesday low before recovering to -0.25%",
+   "context": "A close almost unchanged hid a day of violent swings. The size of the intraday range shows how fragile and crowded the AI trade has become."
+  },
+  "word": {
+   "term": "Section 301",
+   "def": "A US trade law that lets the government investigate another country's trade practices and impose tariffs without a vote in Congress.",
+   "inToday": "The USTR proposed new Section 301 tariffs on 14 economies."
+  },
+  "threads": [
+   {
+    "id": "ai-selloff",
+    "name": "AI sell-off",
+    "status": "Building",
+    "events": [
+     {
+      "d": "20 Nov",
+      "t": "Nikkei -4.82%, Kospi -5.23% as Asian chipmakers are sold"
+     },
+     {
+      "d": "20 Nov",
+      "t": "S&P 500 -3.70% into a correction; Nasdaq -5.28%, down 10.0% on the week"
+     },
+     {
+      "d": "23 Nov",
+      "t": "S&P 500 +4.73%, Nasdaq +6.51%: best day since April 2025"
+     },
+     {
+      "d": "24 Nov",
+      "t": "S&P 500 -0.50%, Nasdaq -1.48%: Monday's rebound fades; Dell beats after the close"
+     },
+     {
+      "d": "25 Nov",
+      "t": "S&P 500 -0.25% after a 3.2% intraday drop; Nasdaq 100 touched 20% below its peak",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "US closed Thursday; early close Friday, thin trading",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "nvidia-ceo",
+    "name": "Nvidia under pressure",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "18 Nov",
+      "t": "Beat and guide to $130B, but shares reverse and fall about 2.9% as AI worries return"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Nvidia -14% after Reuters says SEC staff examine its accounting; AMD -13%"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Huang reinstated as CEO; Nvidia +31%; SEC accounting probe still open"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Nvidia -6.6% and AMD -9% (resale filing) as the Huang rally cools"
+     },
+     {
+      "d": "25 Nov",
+      "t": "Nvidia -3.9% as the chip sell-off continues",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Huang Senate Banking hearing 3 Dec, 15:00 Dublin",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "fed-hikes",
+    "name": "Fed hiking again",
+    "status": "Building",
+    "events": [
+     {
+      "d": "19 Nov",
+      "t": "10-year yield 5.05% and dollar index 103.90, near a 19-month high, as stocks sell off"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Paulson says rates need to rise again; 10-year yield falls 14bp to 4.91%"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Williams: rates likely higher over time; December hike about 96-98% priced; 10-year yield 4.92%"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Williams: inflation 'simply too high'; December hike about 95% priced; 10-year 4.90%"
+     },
+     {
+      "d": "25 Nov",
+      "t": "Core PCE 3.3% vs 3.2% expected; December hike about 94% priced; 10-year 4.85%",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "November jobs report 4 Dec; Fed decision 8-9 Dec",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "hormuz",
+    "name": "Iran and the Strait of Hormuz",
+    "status": "Building",
+    "events": [
+     {
+      "d": "19 Nov",
+      "t": "Iran claims two more tankers hit mines; US blockade continues; Senate war powers vote fails 48-51; Brent flat at $91.98"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Two more tankers hit; Iran says strait stays shut; Qatar mediating; Brent $92.57"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Iran says three tankers hit mines; Trump gives talks more time; Brent -3.46% to $89.37"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Iran says three more tankers hit mines; Treasury widens sanctions; Brent +2.27% to $91.40"
+     },
+     {
+      "d": "25 Nov",
+      "t": "Iran says two more tankers hit mines; Brent up Wednesday, -3.94% to $90.88 Thursday",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Watch Qatar mediation and Hormuz traffic",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "ai-ipo",
+    "name": "Anthropic IPO",
+    "status": "Escalating",
+    "events": [
+     {
+      "d": "19 Nov",
+      "t": "ANT opens near $111, closes at $97.17, up 17% on the $83 IPO price"
+     },
+     {
+      "d": "20 Nov",
+      "t": "ANT falls about 8.5% to $88.91, still above the $83 IPO price"
+     },
+     {
+      "d": "23 Nov",
+      "t": "ANT slips about 1.4% while Nvidia soars"
+     },
+     {
+      "d": "24 Nov",
+      "t": "ANT closes down 6.5% at $81.91, below the $83 IPO price for the first time"
+     },
+     {
+      "d": "25 Nov",
+      "t": "AI shares sold again; Anthropic traded near $77.58 in premarket, below its $83 IPO price",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Does ANT recover $83?",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "gold-slide",
+    "name": "Gold's slide",
+    "status": "Building",
+    "events": [
+     {
+      "d": "19 Nov",
+      "t": "Gold -1.51% to $3,685.50, a second straight fall"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Gold -4.62% to $3,515.40, a third straight fall, despite lower yields"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Gold +3.87% to $3,651.40 after Friday's 14-month low"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Gold -2.45% to $3,561.90, giving back Monday's bounce"
+     },
+     {
+      "d": "26 Nov",
+      "t": "Gold +1.81% to $3,599.80 after falling on rate-hike worries",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "PCE today: does gold hold near $3,500?",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "asia-stress",
+    "name": "Asia market stress",
+    "status": "Building",
+    "events": [
+     {
+      "d": "20 Nov",
+      "t": "Nikkei -5.06%; Taiwan shares -17% on the week, the biggest weekly fall since 1990"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Kospi falls almost 6% at its low, closes -3.16%; Taiwan, China and Korea announce support steps"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Tue 24 Nov: Kospi +6.19%, Nikkei +3.79% as Asia rebounds"
+     },
+     {
+      "d": "25 Nov",
+      "t": "Wed 25 Nov: Kospi -6.13%, Nikkei -2.6% as chip stocks are sold again"
+     },
+     {
+      "d": "26 Nov",
+      "t": "Bank of Korea hikes to 3.25%; Nikkei +0.75% and Kospi +0.28% after Wednesday's Kospi -6%",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Watch whether Korean chip stocks hold their rebound",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "tariffs",
+    "name": "US tariff proposal",
+    "status": "Building",
+    "events": [
+     {
+      "d": "25 Nov",
+      "t": "USTR proposes Section 301 tariffs on 14 economies; rates reported up to 15% for the EU and 20% for China, unconfirmed",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Final rates and start date (reportedly January) still unconfirmed",
+      "next": true
+     }
+    ]
+   }
+  ],
+  "meter": {
+   "value": 68,
+   "label": "Scare, then bounce",
+   "summary": "A 4.6% Nasdaq drop at the low and a touch of bear-market territory show how fragile the AI trade is, but the late recovery and broad buying show dip-buyers are still active.",
+   "deflating": [
+    "The Nasdaq fell as much as 4.6% and the Nasdaq 100 touched 20% below its peak before recovering",
+    "Nvidia fell about 3.9% and chip shares were sold again, after Tuesday's 7.88% semiconductor index drop",
+    "Anthropic traded near $77.58 premarket, below its $83 IPO price",
+    "Core PCE of 3.3% keeps a December Fed hike about 94% priced"
+   ],
+   "inflating": [
+    "The S&P 500 recovered from -3.2% to close down only 0.25%",
+    "Advancers beat decliners 370 to 128 and small caps outperformed",
+    "Asian shares steadied on Thursday and the 10-year yield eased to 4.85%"
+   ]
+  },
+  "calendar": [
+   {
+    "day": "Thu 26",
+    "date": "2026-11-26",
+    "items": [
+     {
+      "what": "US markets closed for Thanksgiving",
+      "why": "No US stock or bond trading",
+      "link": "https://www.nyse.com/markets/hours-calendars"
+     },
+     {
+      "what": "ECB account of its October policy meeting",
+      "why": "Shows how close the ECB was to hiking and how divided it was",
+      "time": "12:30 Dublin",
+      "link": "https://www.ecb.europa.eu/press/accounts/html/index.en.html"
+     }
+    ]
+   },
+   {
+    "day": "Fri 27",
+    "date": "2026-11-27",
+    "items": [
+     {
+      "what": "US markets close early after Thanksgiving",
+      "why": "Thin trading can exaggerate moves",
+      "time": "18:00 Dublin",
+      "link": "https://www.nyse.com/markets/hours-calendars"
+     },
+     {
+      "what": "Spain and France flash November inflation",
+      "why": "Shows whether euro-area price pressure is still rising before the ECB's December meeting",
+      "link": "https://www.ine.es/dyngs/INEbase/en/operacion.htm?c=Estadistica_C&cid=1254736176802"
+     }
+    ]
+   }
+  ],
+  "call": {
+   "id": "2026-11-26-sp-fri",
+   "question": "Will the S&P 500 close higher on Friday 27 Nov than Wednesday's 7,182.78?",
+   "options": [
+    "Higher on Friday",
+    "Lower or flat on Friday"
+   ],
+   "resolvesLabel": "Monday's brief"
+  },
+  "resolutions": [
+   {
+    "id": "2026-11-25-sp-wed",
+    "question": "Will the S&P 500 close higher on Wednesday 25 Nov than Tuesday's 7,201.09?",
+    "answer": "Lower or flat on Wednesday",
+    "note": "The S&P 500 fell 0.25% to 7,182.78 after being down as much as 3.2% earlier in the day."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "The S&P 500 fell as much as 3.2% on Wednesday yet closed down only 0.25%. What does that gap most plausibly show?",
+    "o": [
+     "Sellers were exhausted and the inflation data was better than feared",
+     "Dip buyers stepped in, but the doubts about AI spending and rates are not resolved",
+     "The index rose in the afternoon because Nvidia recovered all its losses",
+     "Thin holiday trading made the morning drop an error that changed nothing"
+    ],
+    "a": 1,
+    "why": "Breadth of 370 advancers to 128 decliners and a closed 20% drawdown in the Nasdaq 100 show active buying. But core PCE was hotter than forecast and Nvidia still fell about 3.9%, so the first option is wrong: the data was not better than feared."
+   },
+   {
+    "q": "October core PCE was 3.3% against a 3.2% forecast, yet the 10-year yield fell 6bp. Which explanation fits best?",
+    "o": [
+     "A December hike was already about 94% priced, so the surprise was small",
+     "The Fed signalled it would not raise rates in December",
+     "Investors expected oil to fall after the Hormuz reports",
+     "Headline PCE fell below expectations, offsetting the core reading"
+    ],
+    "a": 0,
+    "why": "Odds of a hike were already 92-98%, so a 0.1 point miss changed little. Headline PCE rose to 3.8% in line with forecasts, not below, and the Fed gave no such signal."
+   },
+   {
+    "q": "Why would new US tariffs hit the IBEX 35 (-2.0%) harder than the Dow (+0.33%) on Wednesday?",
+    "o": [
+     "Spanish shares are mainly oil producers that fell with Brent",
+     "European exporters would face the tariffs, while the Dow gained from rotation into domestic and value shares",
+     "The euro rose, which makes US companies' sales in Europe worth less",
+     "The ECB was expected to cut rates, which hurts banks"
+    ],
+    "a": 1,
+    "why": "The EU is among the 14 economies targeted, so exporters and chip-linked names sold off. The euro did rise 0.5%, but that hurts European exporters, not US firms' domestic sales, and nobody expects an ECB cut."
+   }
+  ],
+  "coffee": "The S&P 500 swung 3% in a day and ended flat, and core inflation at 3.3% with a December Fed hike nearly priced shows the market is now trading rates and AI doubts at the same time.",
+  "sources": [
+   {
+    "l": "Motley Fool: Nov 25 stock market today",
+    "u": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/"
+   },
+   {
+    "l": "Invezz: Evening digest, US inflation rises and tariffs",
+    "u": "https://invezz.com/news/2026/11/25/evening-digest-us-inflation-rises-trump-proposes-fresh-tariffs-on-14-economies/"
+   },
+   {
+    "l": "Edge Consultancy: Bank of Korea decision",
+    "u": "https://edgeconsultancykw.com/bok-rate-decision-november-2026/"
+   },
+   {
+    "l": "Oilprice: Iran reports fresh tanker explosions",
+    "u": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-Fresh-Tanker-Explosions-as-Hormuz-Attacks-Intensify.html"
+   }
+  ]
+ },
+ {
   "date": "2026-11-25",
   "dateLabel": "Wednesday 25 November 2026",
   "readMins": 6,
