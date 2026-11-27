@@ -1,5 +1,1071 @@
 [
  {
+  "date": "2026-11-27",
+  "dateLabel": "Friday 27 November 2026",
+  "readMins": 6,
+  "asOf": "US: Wednesday 25 Nov close (shut Thursday) · Europe: Thursday 26 Nov close · Asia: Nikkei and Kospi Friday 27 Nov close, Hang Seng Thursday 26 Nov close · Brent, WTI, gold and dollar index: Friday 27 Nov data · Bitcoin: Wednesday 25 Nov (latest in data file)",
+  "sixty": [
+   "Europe rallied on Thursday with the DAX up 2.08% and the IBEX 35 up 2.26%, and Asia rose again on Friday with the Kospi up 4.16% and the Nikkei up 2.10%, as chip shares rebounded while Wall Street was shut for Thanksgiving.",
+   "The ECB's account of its October meeting showed broad support for a hike, so a 25bp move on 17 December looks likely, while a Fed hike on 9 December is priced at roughly 93-98%.",
+   "Wall Street reopens for a half-day session that ends at 18:00 Dublin, with Iran's tanker-mine claims and a Houthi strike on Saudi Arabia keeping oil volatile."
+  ],
+  "markets": [
+   {
+    "group": "United States",
+    "items": [
+     {
+      "name": "S&P 500",
+      "sym": "%5EGSPC",
+      "value": "7,182.78",
+      "hist": [
+       7720.3901,
+       7580.0698,
+       7541.3999,
+       7568.9199,
+       7688.6201,
+       7353.73,
+       7376.8599,
+       7549.9399,
+       7520.9302,
+       7619.3799,
+       7592.3999,
+       7561.6699,
+       7416.5898,
+       7340.5298,
+       7323.6299,
+       7175.8301,
+       6910.3901,
+       7237.1699,
+       7201.0898,
+       7182.7798
+      ],
+      "chg": -0.25,
+      "note": "Last close is Wednesday's 7,182.78; Wall Street was shut Thursday for Thanksgiving and trades until 18:00 Dublin today"
+     },
+     {
+      "name": "Nasdaq Composite",
+      "sym": "%5EIXIC",
+      "value": "23,585.80",
+      "hist": [
+       26184.7207,
+       25437.0,
+       25164.3105,
+       25372.0098,
+       25736.5098,
+       24315.0,
+       24579.4297,
+       25253.1406,
+       25065.8691,
+       25466.1895,
+       25366.0898,
+       25136.2695,
+       24509.7598,
+       24328.3809,
+       24429.8809,
+       23879.1992,
+       22617.7305,
+       24089.5605,
+       23733.5391,
+       23585.8008
+      ],
+      "chg": -0.62,
+      "note": "Wednesday's close after chip shares were sold, then bought back late; Nasdaq 100 avoided a 20% bear-market close"
+     },
+     {
+      "name": "Dow Jones",
+      "sym": "%5EDJI",
+      "value": "50,182.95",
+      "hist": [
+       52342.5586,
+       51770.3086,
+       51983.9805,
+       51786.7188,
+       53356.1211,
+       51523.0586,
+       51285.7305,
+       52389.75,
+       52231.8906,
+       52486.4883,
+       52297.0898,
+       52347.5508,
+       51608.1719,
+       50759.4219,
+       50198.1719,
+       49097.0586,
+       48147.3281,
+       49595.3086,
+       50018.6992,
+       50182.9492
+      ],
+      "chg": 0.33,
+      "note": "Wednesday's close; the Dow held above 50,000 as shares outside tech outperformed"
+     }
+    ]
+   },
+   {
+    "group": "Europe",
+    "items": [
+     {
+      "name": "Stoxx Europe 600",
+      "sym": "%5ESTOXX",
+      "value": "636.98",
+      "hist": [
+       646.75,
+       649.44,
+       645.66,
+       657.4,
+       654.87,
+       648.33,
+       656.52,
+       658.32,
+       663.05,
+       664.01,
+       664.14,
+       662.31,
+       650.72,
+       644.05,
+       638.41,
+       625.65,
+       636.97,
+       632.74,
+       626.03,
+       636.98
+      ],
+      "chg": 1.75,
+      "note": "Rose on Thursday as tech and chip shares rebounded and Europe caught up with Wall Street's late Wednesday recovery"
+     },
+     {
+      "name": "IBEX 35",
+      "sym": "%5EIBEX",
+      "value": "19,057.90",
+      "hist": [
+       18652.9004,
+       18957.8008,
+       18807.1992,
+       19370.9004,
+       19486.0,
+       19369.5,
+       19742.5,
+       19936.4004,
+       20027.9004,
+       19965.5,
+       20020.0996,
+       19946.5996,
+       19625.3008,
+       19373.3008,
+       19186.1992,
+       18873.0996,
+       19181.0996,
+       19015.8008,
+       18635.8008,
+       19057.9004
+      ],
+      "chg": 2.26,
+      "note": "Jumped after Wednesday's 2.0% fall, helped by the broad tech-led rebound across Europe"
+     },
+     {
+      "name": "DAX",
+      "sym": "%5EGDAXI",
+      "value": "25,215.52",
+      "hist": [
+       25818.2109,
+       25981.0898,
+       25864.6191,
+       26437.6699,
+       26325.0098,
+       25820.3594,
+       26267.1895,
+       26347.4492,
+       26662.7695,
+       26771.8809,
+       26749.9492,
+       26598.6406,
+       26045.3691,
+       25736.2402,
+       25463.8105,
+       24802.7793,
+       25337.2695,
+       25017.8105,
+       24702.1309,
+       25215.5195
+      ],
+      "chg": 2.08,
+      "note": "Rallied as chip and tech shares bounced back from the week's sell-off"
+     },
+     {
+      "name": "Euro Stoxx 50",
+      "sym": "%5ESTOXX50E",
+      "value": "6,014.74",
+      "hist": [
+       6131.3101,
+       6176.0601,
+       6144.5601,
+       6265.71,
+       6231.54,
+       6170.4902,
+       6290.4502,
+       6327.8701,
+       6393.3901,
+       6398.98,
+       6386.8599,
+       6348.3501,
+       6212.1099,
+       6154.3901,
+       6113.8599,
+       5941.9502,
+       6074.4702,
+       6003.7598,
+       5894.46,
+       6014.7402
+      ],
+      "chg": 2.04,
+      "note": "Rose in line with the rest of Europe as fears about AI shares eased"
+     }
+    ]
+   },
+   {
+    "group": "Asia",
+    "items": [
+     {
+      "name": "Nikkei 225",
+      "sym": "%5EN225",
+      "value": "58,707.25",
+      "hist": [
+       64659.4688,
+       63290.1094,
+       63081.8594,
+       62188.6289,
+       61077.8984,
+       57434.7695,
+       58775.5,
+       60459.5781,
+       61248.5898,
+       60819.3594,
+       61142.3516,
+       59662.0195,
+       58860.4297,
+       59024.2812,
+       59444.2109,
+       56436.6484,
+       58644.6289,
+       57011.6211,
+       57499.1602,
+       58707.25
+      ],
+      "chg": 2.1,
+      "note": "Extended the rebound as Asian tech and chip shares recovered after the week's heavy losses"
+     },
+     {
+      "name": "Kospi",
+      "sym": "%5EKS11",
+      "value": "4,907.37",
+      "hist": [
+       5859.0801,
+       5648.79,
+       5683.7998,
+       5383.7998,
+       5059.6899,
+       5018.8501,
+       5239.1299,
+       5375.3599,
+       5342.73,
+       5290.5298,
+       5100.5,
+       4968.48,
+       5067.4399,
+       5137.8901,
+       4869.96,
+       4708.54,
+       5006.0298,
+       4697.5098,
+       4711.21,
+       4907.3701
+      ],
+      "chg": 4.16,
+      "note": "Bounced strongly after the Bank of Korea's rate hike and Wednesday's 6% fall, led by chipmakers"
+     },
+     {
+      "name": "Hang Seng",
+      "sym": "%5EHSI",
+      "value": "22,226.88",
+      "hist": [
+       23294.4199,
+       23393.3203,
+       23525.9707,
+       23919.5,
+       24796.9805,
+       24481.8594,
+       24448.9492,
+       24557.0391,
+       24315.9199,
+       24008.5508,
+       23637.5996,
+       23753.8398,
+       23508.1699,
+       23294.75,
+       22841.6191,
+       22410.8008,
+       22383.7402,
+       22219.6504,
+       21966.0098,
+       22226.8809
+      ],
+      "chg": 1.19,
+      "note": "Rose with the wider Asian rebound as tech shares recovered"
+     }
+    ]
+   },
+   {
+    "group": "Rates & currencies",
+    "items": [
+     {
+      "name": "US 10-year yield",
+      "sym": "%5ETNX",
+      "value": "4.85%",
+      "hist": [
+       4.989,
+       4.929,
+       4.894,
+       4.952,
+       4.894,
+       4.837,
+       4.859,
+       4.864,
+       4.983,
+       4.998,
+       5.103,
+       5.154,
+       5.121,
+       5.103,
+       5.066,
+       5.052,
+       4.912,
+       4.918,
+       4.904,
+       4.848
+      ],
+      "chgText": "−6bp",
+      "dir": -1,
+      "note": "Eased 6bp on Wednesday even though core inflation was hotter than forecast; US bonds were closed Thursday"
+     },
+     {
+      "name": "EUR/USD",
+      "sym": "EURUSD%3DX",
+      "value": "1.0970",
+      "hist": [
+       1.1183,
+       1.1157,
+       1.1192,
+       1.1207,
+       1.1235,
+       1.1228,
+       1.1147,
+       1.1222,
+       1.1169,
+       1.1095,
+       1.105,
+       1.1025,
+       1.0998,
+       1.0993,
+       1.0972,
+       1.097,
+       1.0972,
+       1.0908,
+       1.0962,
+       1.097
+      ],
+      "chg": 0.07,
+      "note": "Barely moved as the ECB account confirmed that a December rate hike is likely"
+     },
+     {
+      "name": "Dollar index",
+      "sym": "DX-Y.NYB",
+      "value": "103.68",
+      "hist": [
+       101.88,
+       101.75,
+       101.87,
+       101.51,
+       101.55,
+       102.3,
+       101.65,
+       102.23,
+       102.91,
+       103.17,
+       103.41,
+       103.55,
+       103.49,
+       103.86,
+       103.9,
+       103.81,
+       104.32,
+       103.81,
+       103.67,
+       103.681
+      ],
+      "chg": 0.01,
+      "note": "Flat as traders waited for the US to reopen after Thanksgiving"
+     }
+    ]
+   },
+   {
+    "group": "Commodities & crypto",
+    "items": [
+     {
+      "name": "Brent crude",
+      "sym": "BZ%3DF",
+      "value": "$92.58",
+      "hist": [
+       117.64,
+       104.77,
+       103.6,
+       94.62,
+       98.29,
+       98.32,
+       92.57,
+       91.49,
+       92.76,
+       95.82,
+       95.84,
+       92.44,
+       93.14,
+       91.95,
+       91.98,
+       92.57,
+       89.37,
+       91.4,
+       94.61,
+       92.58
+      ],
+      "chg": -2.15,
+      "note": "Oil stayed volatile on tanker attacks near Hormuz and Houthi strikes on Saudi energy sites; sources quote different contract months"
+     },
+     {
+      "name": "WTI crude",
+      "sym": "CL%3DF",
+      "value": "$86.13",
+      "hist": [
+       104.12,
+       96.46,
+       96.09,
+       88.12,
+       90.52,
+       90.83,
+       86.85,
+       86.04,
+       86.53,
+       88.74,
+       88.56,
+       85.72,
+       86.01,
+       83.26,
+       83.21,
+       83.98,
+       80.17,
+       82.05,
+       83.68,
+       86.13
+      ],
+      "chg": 2.93,
+      "note": "Rose on the same Middle East supply fears"
+     },
+     {
+      "name": "Gold",
+      "sym": "GC%3DF",
+      "value": "$3,678.20",
+      "hist": [
+       3898.8999,
+       3969.6001,
+       3940.3999,
+       4073.0,
+       4113.5,
+       4074.8999,
+       4114.5,
+       4030.2,
+       4000.5,
+       3885.3,
+       3886.3,
+       3853.0,
+       3864.2,
+       3741.8999,
+       3685.5,
+       3515.3999,
+       3651.3999,
+       3561.8999,
+       3535.8,
+       3678.2
+      ],
+      "chg": 4.03,
+      "note": "Rebounded sharply after a week of big swings; no single trigger is confirmed"
+     },
+     {
+      "name": "Bitcoin",
+      "sym": "BTC-USD",
+      "value": "$60,378",
+      "hist": [
+       75746.9297,
+       75747.5781,
+       74584.6484,
+       75223.1484,
+       73720.1172,
+       73964.4688,
+       71342.9688,
+       68249.2734,
+       64128.0508,
+       65305.0625,
+       64855.8438,
+       64893.9453,
+       62987.2656,
+       61901.8203,
+       58798.9805,
+       60094.0898,
+       61161.9102,
+       61210.9844,
+       59747.7656,
+       60378.1992
+      ],
+      "chg": 1.06,
+      "note": "Edged up 1.06% on Wednesday; the data file has no later close"
+     }
+    ]
+   }
+  ],
+  "stories": [
+   {
+    "id": "europe-rebound",
+    "kicker": "Markets",
+    "title": "Europe and Asia rebound while Wall Street is shut",
+    "chain": [
+     "US shares recovered late on Wednesday, after European markets had closed",
+     "On Thursday Europe caught up: the DAX rose 2.08% and the IBEX 35 rose 2.26%",
+     "On Friday Asia followed: the Kospi rose 4.16% and the Nikkei 225 rose 2.10%",
+     "Wall Street reopens for a short session today, so thin trading can exaggerate the next move"
+    ],
+    "depth": {
+     "simple": "On Wednesday, Wall Street fell hard in the morning and then recovered. Europe had already closed by then, so it missed the recovery. On Thursday, with the US shut for Thanksgiving, European shares rose about 2% to make up the gap. Asian shares rose again on Friday, helped by chip companies. Today the US opens for only a few hours, and fewer traders usually means bigger swings.",
+     "standard": "The DAX closed up 2.08% at 25,215.52, the IBEX 35 up 2.26% at 19,057.90 and the Stoxx Europe 600 up 1.75%. In Asia on Friday the Kospi rose 4.16% to 4,907.37 and the Nikkei 225 rose 2.10% to 58,707.25. The rally reversed part of a rough week driven by fears about AI spending and by Wednesday's hot inflation figure. Wall Street was closed on Thursday and closes at 1 p.m. New York time today (18:00 Dublin). The S&P 500's last close is 7,182.78.",
+     "pro": "Part of the European move is mechanical catch-up: Wall Street's Wednesday recovery from a 3.2% intraday drop happened after Europe's close, so Thursday repriced it. The rest is positioning. Chipmakers and Korean and Japanese tech names had been hit hardest, so a short-covering bounce is large when volatility is high. With US cash markets shut, liquidity was thin and index futures led price discovery. Professionals are watching whether the rebound survives a half-day US session and the jobs report on 4 December, since a 93-98% priced Fed hike leaves little room for a hot surprise."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: the IBEX 35 gained 2.26% after Wednesday's 2.0% fall, so it has recovered most of the loss"
+     }
+    ],
+    "sources": [
+     {
+      "l": "CNBC: Stock market today, live updates",
+      "u": "https://cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+     },
+     {
+      "l": "BNN Bloomberg: Global stocks rise and tech shares rebound as US closes for Thanksgiving",
+      "u": "https://bnnbloomberg.ca/markets/2026/11/26/global-stocks-rise-and-tech-shares-rebound-as-us-closes-for-thanksgiving"
+     },
+     {
+      "l": "ABC News Australia: Markets live, 27 Nov",
+      "u": "https://abc.net.au/news/2026-11-27/asx-markets-business-news-live-updates/107430390"
+     }
+    ]
+   },
+   {
+    "id": "ecb-account",
+    "kicker": "ECB",
+    "title": "ECB account: a December hike looks likely",
+    "chain": [
+     "The ECB held its deposit rate at 2.50% in October",
+     "Its account says many officials could have backed a hike then and that more tightening was 'only a question of timing'",
+     "Euro-area inflation is 4%, well above the ECB's 2% target",
+     "Markets now expect a 25bp hike on 17 December, which would raise borrowing costs in Spain and the euro area"
+    ],
+    "depth": {
+     "simple": "The ECB publishes a record of what its officials said at each meeting. In October it left its main interest rate at 2.50%. The record shows that many officials were ready to raise it anyway. Prices in the euro area are rising 4% a year, double the ECB's goal. So most people now expect the ECB to raise rates in December. For Spain, that would mean higher mortgage and loan costs.",
+     "standard": "The account of the 28-29 October meeting says there was broad support for a hike already, and that the move was 'only a question of timing' unless the inflation outlook improved a lot. Several members said they could have supported a rise. Euro-area inflation was 4% in October. Most coverage points to a 25bp hike at the 17 December meeting, which would be the third this year and lift the deposit rate above 2.50%. The account does not promise a series of further hikes. EUR/USD stayed near 1.0970. Spain's preliminary November inflation is out today; October was 4.9%.",
+     "pro": "The account shifts the debate from whether to hike to how far. With inflation at 4% and a 2.50% deposit rate, real policy rates are deeply negative, which is hard to defend, but the Governing Council has not committed beyond December. Watch the euro-area flash HICP on 1 December: a print at or above 4% would cement December, while a drop would revive the argument for pausing. Second-order effects are on Spanish variable-rate mortgages indexed to Euribor, on bank margins, and on the euro, which is held back by the Fed also hiking. Some analysts, including ING, doubt that hikes in 2027 would help."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: a December ECB hike would push up Euribor and costs for variable-rate mortgages; Spain's flash inflation is out today"
+     }
+    ],
+    "sources": [
+     {
+      "l": "ING Think: Minutes of ECB's October meeting confirm tightening bias",
+      "u": "https://think.ing.com/articles/minutes-of-ecbs-october-meeting-confirm-tightening-bias"
+     },
+     {
+      "l": "Global Banking & Finance: ECB already had large support for rate hike in Oct",
+      "u": "https://www.globalbankingandfinance.com/ecb-already-large-support-rate-hike-oct-accounts-show/"
+     },
+     {
+      "l": "INE: Consumer Price Index",
+      "u": "https://www.ine.es/dyngs/INEbase/en/operacion.htm?c=Estadistica_C&cid=1254736176802"
+     }
+    ]
+   },
+   {
+    "id": "hormuz-houthi",
+    "kicker": "Geopolitics",
+    "title": "Tanker attacks and Saudi strike keep oil on edge",
+    "chain": [
+     "Iran's Revolutionary Guards said two tankers hit sea mines near Oman's Khasab port; the claims are unconfirmed",
+     "The Houthis said they attacked Saudi Arabia's Ras Tanura refinery and export terminal",
+     "Hormuz traffic is reported at about half of normal levels",
+     "Oil stays volatile, and OPEC+ meets on 29 November to discuss 2027 output"
+    ],
+    "depth": {
+     "simple": "About a fifth of the world's oil normally passes through the Strait of Hormuz. Iran says two more tankers hit mines there. The UK maritime agency treated a separate incident nearby as an attack. The Houthis also say they hit a Saudi oil site. Even unconfirmed reports can push oil up, because shipping companies and insurers avoid risky routes. Brent crude in the price file is $92.58, with swings of 2-4% a day this week.",
+     "standard": "Iran's Revolutionary Guards said two tankers hit mines and caught fire near Khasab, one carrying more than 2 million barrels of crude. The UK maritime agency UKMTO classed a separate incident there as an attack. The Houthis said they hit Saudi Arabia's Ras Tanura. One analyst puts Hormuz flows at about 49% of normal. Outlets quote different Brent levels depending on the contract month, so use the file price of $92.58 (-2.15%) as the reference. ANZ says Brent could go above $100 without another major escalation. OPEC+ meets on 29 November to discuss 2027 quotas.",
+     "pro": "The market is pricing risk to flows more than lost barrels: war-risk insurance and rerouting cut effective throughput even when the Iranian mine claims are unverified. Ras Tanura matters because it combines refining and an export terminal, so damage hits both products and crude. The front of the curve and month-to-month spreads are where stress shows first, which is why quoted Brent levels differ by contract. OPEC+ spare capacity is concentrated in the Gulf, so it cannot offset a Hormuz disruption. Higher energy prices also feed the 3.8% US headline inflation and the euro-area 4%, which complicates the Fed and the ECB."
+    },
+    "tags": [
+     {
+      "k": "eu",
+      "t": "Spain/EU: Europe imports most of its energy, so higher oil and fuel prices add to euro-area inflation of 4%"
+     }
+    ],
+    "sources": [
+     {
+      "l": "Yahoo Finance: Brent settles higher as mine strikes, refinery attack stoke supply concerns",
+      "u": "https://finance.yahoo.com/energy/articles/oil-rises-supply-concerns-iran-030849858.html"
+     },
+     {
+      "l": "CNBC: Brent trades near month's high as Mideast conflict threatens supply",
+      "u": "https://www.cnbc.com/2026/11/27/brent-oil-wti-hormuz-middle-east.html"
+     },
+     {
+      "l": "Invezz: Oil price today, fresh tanker attacks near Hormuz",
+      "u": "https://invezz.com/news/2026/11/26/oil-price-today-hormuz-tanker-attacks-brent/"
+     }
+    ]
+   },
+   {
+    "id": "fed-half-day",
+    "kicker": "Fed",
+    "title": "Fed hike priced at 93-98% as Wall Street reopens",
+    "chain": [
+     "October core PCE inflation was 3.3% against 3.2% expected",
+     "Traders put a 25bp Fed hike on 9 December at about 93-98%, depending on the source",
+     "Today's US session is shorter and thinner, closing at 18:00 Dublin",
+     "The 4 December jobs report is the next big test before the Fed meets on 8-9 December"
+    ],
+    "depth": {
+     "simple": "A Fed rate hike in December is already expected by almost everyone. That is why Wednesday's slightly hot inflation number did not shock markets. Today is a half-day for US markets after Thanksgiving. With fewer traders around, prices can jump more than usual on small news. One analysis says that the S&P 500 only needs to avoid a fall of more than about 0.2% to finish its best Thanksgiving week since 2008.",
+     "standard": "The odds of a December hike range from about 93% to 98% depending on the source (CME FedWatch, Polymarket and Kalshi differ slightly). The 10-year yield was 4.85% at Wednesday's close, down 6bp. US stocks were shut on Thursday and trade until 1 p.m. New York time (18:00 Dublin) today. The Fed meets on 8-9 December, and the November jobs report on 4 December comes first. Huang's Senate Banking hearing on chip-export controls is on 3 December.",
+     "pro": "Because a hike is almost fully priced, the key question is the path after December. Markets are weighing a core PCE of 3.3% and a 3.8% headline against growth risks from the AI sell-off and from tariffs. Half-day sessions have low volume, so moves are poor signals and futures positioning matters. Watch real yields, the jobs report, and whether the dollar index near 103.7 keeps its 19-month-high bid. A hotter payrolls figure could push pricing toward a hike in January too."
+    },
+    "tags": [],
+    "sources": [
+     {
+      "l": "24/7 Wall St: Best Thanksgiving week since 2008",
+      "u": "https://247wallst.com/investing/2026/11/26/the-stock-market-is-still-on-track-for-its-best-thanksgiving-week-since-2008/"
+     },
+     {
+      "l": "TradingNews: Stock market today, S&P 500 erases 3.2% plunge",
+      "u": "https://www.tradingnews.com/news/stock-market-today-sp-500-spx-erases-3-2-plunge-nasdaq-ixic-dow-dji-recover-7420-target"
+     },
+     {
+      "l": "Upstox: Are US markets open or closed on Thanksgiving?",
+      "u": "https://upstox.com/news/market-news/us-stocks/are-us-markets-open-or-closed-on-thanksgiving-here-s-what-investors-should-know-about-global-markets-today/article-204036/"
+     }
+    ]
+   }
+  ],
+  "number": {
+   "value": "4%",
+   "label": "Euro-area inflation in October, double the ECB's 2% target",
+   "context": "With the deposit rate at 2.50%, inflation is well above it. That gap is why the ECB's account points to a December hike, and why Spanish borrowers face higher costs."
+  },
+  "word": {
+   "term": "Deposit rate",
+   "def": "The interest rate the ECB pays banks for leaving spare money with it overnight. It is the ECB's main policy rate and steers borrowing costs across the euro area.",
+   "inToday": "The ECB kept its deposit rate at 2.50% in October and may raise it on 17 December."
+  },
+  "threads": [
+   {
+    "id": "ai-selloff",
+    "name": "AI sell-off",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "20 Nov",
+      "t": "S&P 500 -3.70% into a correction; Nasdaq -5.28%, down 10.0% on the week"
+     },
+     {
+      "d": "23 Nov",
+      "t": "S&P 500 +4.73%, Nasdaq +6.51%: best day since April 2025"
+     },
+     {
+      "d": "24 Nov",
+      "t": "S&P 500 -0.50%, Nasdaq -1.48%: Monday's rebound fades; Dell beats after the close"
+     },
+     {
+      "d": "25 Nov",
+      "t": "S&P 500 -0.25% after a 3.2% intraday drop; Nasdaq 100 touched 20% below its peak"
+     },
+     {
+      "d": "26 Nov",
+      "t": "Europe +2%, Kospi +4.16% on Friday as chip shares rebound; US shut Thursday",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "US half-day session today, closing 18:00 Dublin",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "nvidia-ceo",
+    "name": "Nvidia under pressure",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "18 Nov",
+      "t": "Beat and guide to $130B, but shares reverse and fall about 2.9% as AI worries return"
+     },
+     {
+      "d": "20 Nov",
+      "t": "Nvidia -14% after Reuters says SEC staff examine its accounting; AMD -13%"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Huang reinstated as CEO; Nvidia +31%; SEC accounting probe still open"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Nvidia -6.6% and AMD -9% (resale filing) as the Huang rally cools"
+     },
+     {
+      "d": "25 Nov",
+      "t": "Nvidia -3.9% as the chip sell-off continues"
+     },
+     {
+      "d": "3 Dec",
+      "t": "Huang Senate Banking hearing, 15:00 Dublin",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "fed-hikes",
+    "name": "Fed hiking again",
+    "status": "Building",
+    "events": [
+     {
+      "d": "20 Nov",
+      "t": "Paulson says rates need to rise again; 10-year yield falls 14bp to 4.91%"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Williams: rates likely higher over time; December hike about 96-98% priced; 10-year yield 4.92%"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Williams: inflation 'simply too high'; December hike about 95% priced; 10-year 4.90%"
+     },
+     {
+      "d": "25 Nov",
+      "t": "Core PCE 3.3% vs 3.2% expected; December hike about 94% priced; 10-year 4.85%"
+     },
+     {
+      "d": "26 Nov",
+      "t": "Hike odds about 93-98% for 9 Dec; ECB account backs its own December hike",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Jobs report 4 Dec; Fed decision 8-9 Dec",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "hormuz",
+    "name": "Iran and the Strait of Hormuz",
+    "status": "Escalating",
+    "events": [
+     {
+      "d": "20 Nov",
+      "t": "Two more tankers hit; Iran says strait stays shut; Qatar mediating; Brent $92.57"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Iran says three tankers hit mines; Trump gives talks more time; Brent -3.46% to $89.37"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Iran says three more tankers hit mines; Treasury widens sanctions; Brent +2.27% to $91.40"
+     },
+     {
+      "d": "25 Nov",
+      "t": "Iran says two more tankers hit mines; Brent up Wednesday, -3.94% to $90.88 Thursday"
+     },
+     {
+      "d": "26 Nov",
+      "t": "Iran says two tankers hit mines near Khasab; Houthis claim Ras Tanura strike; Hormuz flows reported near 49% of normal",
+      "today": true
+     },
+     {
+      "d": "29 Nov",
+      "t": "OPEC+ meets on 2027 output quotas",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "ai-ipo",
+    "name": "Anthropic IPO",
+    "status": "Escalating",
+    "events": [
+     {
+      "d": "20 Nov",
+      "t": "ANT falls about 8.5% to $88.91, still above the $83 IPO price"
+     },
+     {
+      "d": "23 Nov",
+      "t": "ANT slips about 1.4% while Nvidia soars"
+     },
+     {
+      "d": "24 Nov",
+      "t": "ANT closes down 6.5% at $81.91, below the $83 IPO price for the first time"
+     },
+     {
+      "d": "25 Nov",
+      "t": "AI shares sold again; Anthropic traded near $77.58 in premarket, below its $83 IPO price"
+     },
+     {
+      "d": "25 Nov",
+      "t": "ANT reported at about $82.79 at Wednesday's close, still below the $83 IPO price (one source; others differ)",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Does ANT recover $83?",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "gold-slide",
+    "name": "Gold's slide",
+    "status": "Building",
+    "events": [
+     {
+      "d": "20 Nov",
+      "t": "Gold -4.62% to $3,515.40, a third straight fall, despite lower yields"
+     },
+     {
+      "d": "23 Nov",
+      "t": "Gold +3.87% to $3,651.40 after Friday's 14-month low"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Gold -2.45% to $3,561.90, giving back Monday's bounce"
+     },
+     {
+      "d": "26 Nov",
+      "t": "Gold +1.81% to $3,599.80 after falling on rate-hike worries"
+     },
+     {
+      "d": "27 Nov",
+      "t": "Gold +4.03% to $3,678.20 in the data file after a week of big swings",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Does gold hold above $3,500 as rate-hike bets stay high?",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "asia-stress",
+    "name": "Asia market stress",
+    "status": "Cooling",
+    "events": [
+     {
+      "d": "23 Nov",
+      "t": "Kospi falls almost 6% at its low, closes -3.16%; Taiwan, China and Korea announce support steps"
+     },
+     {
+      "d": "24 Nov",
+      "t": "Tue 24 Nov: Kospi +6.19%, Nikkei +3.79% as Asia rebounds"
+     },
+     {
+      "d": "25 Nov",
+      "t": "Wed 25 Nov: Kospi -6.13%, Nikkei -2.6% as chip stocks are sold again"
+     },
+     {
+      "d": "26 Nov",
+      "t": "Bank of Korea hikes to 3.25%; Nikkei +0.75% and Kospi +0.28% after Wednesday's Kospi -6%"
+     },
+     {
+      "d": "27 Nov",
+      "t": "Kospi +4.16% and Nikkei +2.10% on Friday after Wednesday's Kospi -6%",
+      "today": true
+     },
+     {
+      "d": "Next",
+      "t": "Watch whether Korean chip stocks hold their rebound",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "tariffs",
+    "name": "US tariff proposal",
+    "status": "Building",
+    "events": [
+     {
+      "d": "25 Nov",
+      "t": "USTR proposes Section 301 tariffs on 14 economies; rates reported up to 15% for the EU and 20% for China, unconfirmed"
+     },
+     {
+      "d": "Next",
+      "t": "Final rates and start date (reportedly January) still unconfirmed",
+      "next": true
+     }
+    ]
+   },
+   {
+    "id": "ecb-hike",
+    "name": "ECB tightening",
+    "status": "Building",
+    "events": [
+     {
+      "d": "29 Oct",
+      "t": "ECB holds the deposit rate at 2.50%; euro-area inflation 4%"
+     },
+     {
+      "d": "26 Nov",
+      "t": "Account of the October meeting: broad support for a hike, 'only a question of timing'",
+      "today": true
+     },
+     {
+      "d": "1 Dec",
+      "t": "Euro-area flash inflation for November",
+      "next": true
+     },
+     {
+      "d": "17 Dec",
+      "t": "ECB meeting: 25bp hike widely expected",
+      "next": true
+     }
+    ]
+   }
+  ],
+  "meter": {
+   "value": 62,
+   "label": "Bounce, still fragile",
+   "summary": "The Nasdaq 100 avoided a bear market and Europe and Asia rebounded strongly, but Anthropic is still near its IPO price and a rate hike is almost fully priced.",
+   "deflating": [
+    "The Nasdaq 100 touched about 20% below its peak on Wednesday before recovering",
+    "Nvidia fell about 3.9% on Wednesday and chip shares were sold again",
+    "Anthropic is reported around its $83 IPO price (about $82.79 at Wednesday's close in one source)",
+    "A December Fed hike is priced at about 93-98% and the ECB is likely to hike too"
+   ],
+   "inflating": [
+    "Kospi +4.16% and Nikkei +2.10% on Friday as chip shares bounced",
+    "Europe rose about 2% on Thursday as tech jitters eased",
+    "The S&P 500 is on track for its best Thanksgiving week since 2008, according to one analysis"
+   ]
+  },
+  "calendar": [
+   {
+    "day": "Fri 27",
+    "date": "2026-11-27",
+    "items": [
+     {
+      "what": "US markets close early after Thanksgiving",
+      "why": "Thin trading can exaggerate moves",
+      "time": "18:00 Dublin",
+      "link": "https://www.nyse.com/markets/hours-calendars"
+     },
+     {
+      "what": "Spain preliminary November inflation",
+      "why": "October was 4.9%; shows whether price pressure is easing before the ECB's December meeting",
+      "link": "https://www.ine.es/dyngs/INEbase/en/operacion.htm?c=Estadistica_C&cid=1254736176802"
+     }
+    ]
+   },
+   {
+    "day": "Sun 29",
+    "date": "2026-11-29",
+    "items": [
+     {
+      "what": "OPEC+ meeting on 2027 output quotas",
+      "why": "Matters for oil supply while Hormuz traffic is disrupted"
+     }
+    ]
+   }
+  ],
+  "call": {
+   "id": "2026-11-27-nikkei-mon",
+   "question": "Will the Nikkei 225 close higher on Monday 30 Nov than Friday's 58,707.25?",
+   "options": [
+    "Higher on Monday",
+    "Lower or flat on Monday"
+   ],
+   "resolvesLabel": "Monday's brief"
+  },
+  "resolutions": [],
+  "quiz": [
+   {
+    "q": "European shares rose about 2% on Thursday while the US was closed. Which explanation fits best?",
+    "o": [
+     "The ECB account ruled out a December hike, easing rate worries",
+     "Europe was catching up with Wall Street's late Wednesday recovery, which came after European markets had closed",
+     "The US tariff plan on 14 economies was dropped, lifting exporters",
+     "Spain's inflation data came in below forecast, lifting the IBEX 35"
+    ],
+    "a": 1,
+    "why": "Wednesday's US rebound from the 3.2% drop happened after Europe had shut, so Thursday repriced it. The ECB account did the opposite of ruling out a hike, and Spain's flash inflation is only out today."
+   },
+   {
+    "q": "Euro-area inflation is 4% and the ECB deposit rate is 2.50%. What does that gap most directly imply?",
+    "o": [
+     "Real policy rates are strongly negative, which supports the case for a December hike",
+     "The ECB has already over-tightened, so a cut is the next move",
+     "Inflation is mostly from the euro's strength, which rate hikes cannot affect",
+     "The ECB is waiting for the Fed to move first before it can act"
+    ],
+    "a": 0,
+    "why": "A policy rate far below inflation is loose in real terms, which is why the account points to a hike. A cut would deepen that gap, and the ECB sets its own path rather than waiting for the Fed."
+   },
+   {
+    "q": "Brent in the price file is $92.58, yet analysts warn it could pass $100. Why can unconfirmed mine and attack reports move oil?",
+    "o": [
+     "OPEC+ already agreed to cut 2027 output at its Sunday meeting",
+     "Shippers and insurers avoid risky routes, so Hormuz flows can fall even without confirmed losses",
+     "Houthi attacks have permanently closed Saudi oil exports",
+     "US demand for crude jumped after the Thanksgiving holiday"
+    ],
+    "a": 1,
+    "why": "Risk alone cuts traffic: Hormuz flows are reported near 49% of normal. OPEC+ has not met yet, and the Ras Tanura strike was claimed but is not reported as a permanent closure."
+   }
+  ],
+  "coffee": "Markets bounced about 2% in Europe and Asia while the US was closed, but with a Fed hike priced at 93-98% and the ECB likely to follow in December, the question is no longer whether rates rise but how long they stay high.",
+  "sources": [
+   {
+    "l": "CNBC: Stock market today",
+    "u": "https://cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+   },
+   {
+    "l": "ING Think: Minutes of ECB's October meeting",
+    "u": "https://think.ing.com/articles/minutes-of-ecbs-october-meeting-confirm-tightening-bias"
+   },
+   {
+    "l": "Yahoo Finance: Brent settles higher",
+    "u": "https://finance.yahoo.com/energy/articles/oil-rises-supply-concerns-iran-030849858.html"
+   },
+   {
+    "l": "24/7 Wall St: Best Thanksgiving week since 2008",
+    "u": "https://247wallst.com/investing/2026/11/26/the-stock-market-is-still-on-track-for-its-best-thanksgiving-week-since-2008/"
+   }
+  ]
+ },
+ {
   "date": "2026-11-26",
   "dateLabel": "Thursday 26 November 2026",
   "readMins": 6,
